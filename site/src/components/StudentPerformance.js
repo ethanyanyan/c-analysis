@@ -31,6 +31,8 @@ export default function StudentPerformance() {
   const [rows, setRows] = useState(null);
   const [numericStats, setNumericStats] = useState(null);
   const [categoricalCounts, setCategoricalCounts] = useState(null);
+  const [xKey, setXKey] = useState("Hours_Studied");
+  const [yKey, setYKey] = useState("Exam_Score");
 
   useEffect(() => {
     Papa.parse(`${process.env.PUBLIC_URL}/data/StudentPerformanceFactors.csv`, {
@@ -232,6 +234,8 @@ export default function StudentPerformance() {
     },
   };
 
+  // Prediction
+
   return (
     <div className="student-perf">
       <h2>Student Performance Factors</h2>
@@ -367,37 +371,86 @@ export default function StudentPerformance() {
       <section id="charts">
         <h3>4. Charts</h3>
         <div className="chart-container">
-          <h4>Exam Score Distribution</h4>
-          {examHist ? (
-            <Bar
-              data={{
-                labels: examHist.labels,
-                datasets: [
-                  {
-                    label: "Count",
-                    data: examHist.counts,
-                    backgroundColor: "rgba(75, 192, 192, 0.6)",
-                    borderColor: "rgba(75, 192, 192, 1)",
-                    borderWidth: 1,
-                  },
-                ],
-              }}
-              options={{
-                plugins: {
-                  legend: { display: false },
-                  title: {
-                    display: true,
-                    text: "Histogram of Exam Scores",
-                  },
-                },
-                scales: {
-                  x: { title: { display: true, text: "Score Range" } },
-                  y: { title: { display: true, text: "Frequency" } },
-                },
-              }}
-            />
+          {/* ─── Variable selectors for regression ─────────────────── */}
+          <div style={{ margin: "1rem 0" }}>
+            <label>
+              X variable:&nbsp;
+              <select value={xKey} onChange={(e) => setXKey(e.target.value)}>
+                {NUMERIC_COLS.map((col) => (
+                  <option key={col} value={col}>
+                    {col}
+                  </option>
+                ))}
+              </select>
+            </label>
+            &nbsp;&nbsp;
+            <label>
+              Y variable:&nbsp;
+              <select value={yKey} onChange={(e) => setYKey(e.target.value)}>
+                {NUMERIC_COLS.map((col) => (
+                  <option key={col} value={col}>
+                    {col}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+          <h4>
+            {yKey} vs. {xKey}
+          </h4>
+          {rows ? (
+            (() => {
+              // recompute regression & scatter on-the-fly
+              const reg = computeRegression(rows, xKey, yKey);
+              const scatter = rows.map((r) => ({ x: r[xKey], y: r[yKey] }));
+              // line endpoints at min/max x
+              const xs = scatter.map((p) => p.x);
+              const minX = Math.min(...xs),
+                maxX = Math.max(...xs);
+              const line = [
+                { x: minX, y: reg.intercept + reg.slope * minX },
+                { x: maxX, y: reg.intercept + reg.slope * maxX },
+              ];
+              return (
+                <Scatter
+                  data={{
+                    datasets: [
+                      {
+                        label: `${yKey} vs ${xKey}`,
+                        data: scatter,
+                        // light blue points
+                        backgroundColor: "rgba(173, 216, 230, 0.6)",
+                        borderColor: "rgba(173, 216, 230, 1)",
+                        pointBackgroundColor: "rgba(173, 216, 230, 0.6)",
+                        pointBorderColor: "rgba(173, 216, 230, 1)",
+                      },
+                      {
+                        label: "Fit line",
+                        data: line,
+                        showLine: true,
+                        fill: false,
+                        pointRadius: 0,
+                        borderWidth: 2,
+                        // distinct red line
+                        borderColor: "rgba(255, 0, 0, 1)",
+                        backgroundColor: "rgba(255, 0, 0, 0.1)",
+                      },
+                    ],
+                  }}
+                  options={{
+                    plugins: {
+                      title: { display: true, text: `${yKey} vs. ${xKey}` },
+                    },
+                    scales: {
+                      x: { title: { display: true, text: xKey } },
+                      y: { title: { display: true, text: yKey } },
+                    },
+                  }}
+                />
+              );
+            })()
           ) : (
-            <p className="loading">Preparing histogram…</p>
+            <p className="loading">Preparing scatter…</p>
           )}
         </div>
 

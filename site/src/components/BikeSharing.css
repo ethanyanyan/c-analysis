@@ -1,0 +1,56 @@
+/* site/src/components/BikeSharing.css */
+
+.bike-sharing {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+.bike-sharing h2,
+.bike-sharing h3,
+.bike-sharing h4 {
+  color: #20435c;
+}
+
+.bike-sharing table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.bike-sharing th,
+.bike-sharing td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.bike-sharing th {
+  background: #20435c;
+  color: #fff;
+}
+
+.bike-sharing .loading {
+  font-style: italic;
+  color: #888;
+}
+
+.bike-sharing .chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bike-sharing img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
