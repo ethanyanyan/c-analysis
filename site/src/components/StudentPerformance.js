@@ -119,7 +119,7 @@ export default function StudentPerformance() {
   }
 
   const examHist = rows ? buildHistogram(rows, "Exam_Score", 15) : null;
-  const parentCounts = categoricalCounts?.Parental_Involvement ?? null;
+  const parentCounts = categoricalCounts?.Parental_Involvement || {};
 
   // scatter: Hours_Studied vs Exam_Score
   const scatterData = rows
@@ -197,7 +197,7 @@ export default function StudentPerformance() {
     ? computeRegression(rows, "Hours_Studied", "Exam_Score")
     : null;
 
-  // Hard-coded t-test results from your Python script
+  // 4) Hard‐coded two‐sample t‐test results
   const tTest = {
     public: { M: 67.21, SD: 3.91, n: 4598 },
     private: { M: 67.29, SD: 3.85, n: 2009 },
@@ -205,6 +205,31 @@ export default function StudentPerformance() {
     df: 6605,
     p: 0.472,
     d: 0.02,
+  };
+
+  // 5) Hard‐coded multivariable regression results
+  const multiReg = {
+    intercept: 42.426,
+    hours: 0.294,
+    attendance: 0.198,
+    motivation: 0.523,
+    resources: 0.994,
+    r2: 0.582,
+    n: 6607,
+  };
+
+  // 6) Hard‐coded one‐way ANOVA results
+  const anovaTest = {
+    F: 84.49,
+    dfBetween: 2,
+    dfWithin: 6604,
+    p: 5.875479e-37,
+    eta2: 0.025,
+    groups: {
+      High: { mean: 68.09, sd: 3.95, n: 1908 },
+      Medium: { mean: 67.1, sd: 3.73, n: 3362 },
+      Low: { mean: 66.36, sd: 3.97, n: 1337 },
+    },
   };
 
   return (
@@ -366,37 +391,41 @@ export default function StudentPerformance() {
 
         <div className="chart-container">
           <h4>Parental Involvement Levels</h4>
-          <Bar
-            data={{
-              labels: Object.keys(parentCounts),
-              datasets: [
-                {
-                  label: "Students",
-                  data: Object.values(parentCounts),
-                  backgroundColor: [
-                    "rgba(255, 159, 64, 0.6)",
-                    "rgba(153, 102, 255, 0.6)",
-                    "rgba(255, 205, 86, 0.6)",
-                  ],
-                  borderColor: [
-                    "rgba(255, 159, 64, 1)",
-                    "rgba(153, 102, 255, 1)",
-                    "rgba(255, 205, 86, 1)",
-                  ],
-                  borderWidth: 1,
+          {Object.keys(parentCounts).length > 0 ? (
+            <Bar
+              data={{
+                labels: Object.keys(parentCounts),
+                datasets: [
+                  {
+                    label: "Students",
+                    data: Object.values(parentCounts),
+                    backgroundColor: [
+                      "rgba(255, 159, 64, 0.6)",
+                      "rgba(153, 102, 255, 0.6)",
+                      "rgba(255, 205, 86, 0.6)",
+                    ],
+                    borderColor: [
+                      "rgba(255, 159, 64, 1)",
+                      "rgba(153, 102, 255, 1)",
+                      "rgba(255, 205, 86, 1)",
+                    ],
+                    borderWidth: 1,
+                  },
+                ],
+              }}
+              options={{
+                plugins: {
+                  title: { display: true, text: "Parental Involvement" },
                 },
-              ],
-            }}
-            options={{
-              plugins: {
-                title: { display: true, text: "Parental Involvement" },
-              },
-              scales: {
-                x: { title: { display: true, text: "Level" } },
-                y: { title: { display: true, text: "Count" } },
-              },
-            }}
-          />
+                scales: {
+                  x: { title: { display: true, text: "Level" } },
+                  y: { title: { display: true, text: "Count" } },
+                },
+              }}
+            />
+          ) : (
+            <p className="loading">Preparing bar chart…</p>
+          )}
         </div>
 
         <div className="chart-container">
@@ -479,28 +508,100 @@ export default function StudentPerformance() {
           </p>
         </article>
 
-        {/* 5.2 Linear Regression */}
+        {/* 5.2 Simple Regression */}
         <article>
-          <h4>5.2 Linear Regression: Exam Score ~ Hours Studied</h4>
+          <h4>5.2 Simple Linear Regression</h4>
+          {reg ? (
+            <>
+              <img
+                src={`${process.env.PUBLIC_URL}/images/simple_regression.png`}
+                alt="Exam vs Hours"
+              />
+              <h5>Results</h5>
+              <p>
+                β₁ = {reg.slope.toFixed(2)}
+                <br />
+                Intercept = {reg.intercept.toFixed(2)}
+                <br />
+                R² = {(reg.r2 * 100).toFixed(1)}%<br />n = {reg.n}
+              </p>
+              <h5>Interpretation</h5>
+              <p>
+                Each additional hour of study per week is associated with a{" "}
+                {reg.slope.toFixed(2)}-point increase in exam score on average.
+                However, the model explains only {(reg.r2 * 100).toFixed(1)}% of
+                the variance, indicating that other factors also play a
+                substantial role.
+              </p>
+            </>
+          ) : (
+            <p className="loading">Computing regression…</p>
+          )}
+        </article>
+
+        {/* 5.3 Multi-variate regression */}
+        <article id="multiregression">
+          <h4>
+            5.3 Multiple Regression: Exam Score ~ Hours + Attendance +
+            Motivation + Resources
+          </h4>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/multi_regression_residuals.png`}
+            alt="Residuals vs Fitted"
+          />
           <h5>Results</h5>
           <p>
-            β₁ (slope) = {reg.slope.toFixed(2)}
+            Intercept = {multiReg.intercept.toFixed(3)}
             <br />
-            Intercept = {reg.intercept.toFixed(2)}
+            Hours Studied β = {multiReg.hours.toFixed(3)}
             <br />
-            R² = {(reg.r2 * 100).toFixed(1)}%<br />n = {reg.n}
+            Attendance β = {multiReg.attendance.toFixed(3)}
+            <br />
+            Motivation_Num β = {multiReg.motivation.toFixed(3)}
+            <br />
+            Resources_Num β = {multiReg.resources.toFixed(3)}
+            <br />
+            R² = {(multiReg.r2 * 100).toFixed(1)}%, n = {multiReg.n}
           </p>
           <h5>Interpretation</h5>
           <p>
-            Each additional hour of study per week is associated with a{" "}
-            {reg.slope.toFixed(2)}-point increase in exam score on average.
-            However, the model explains only {(reg.r2 * 100).toFixed(1)}% of the
-            variance, indicating that other factors also play a substantial
-            role.
+            All four predictors were significant (p &lt; .001). A one-hour
+            increase in study time corresponds to an additional ~0.29 points on
+            the exam, controlling for attendance, motivation, and resource
+            access. Together these explain ~58.2% of score variance.
           </p>
         </article>
 
-        {/* Placeholder for 5.3 ANOVA, 5.4 χ², etc. */}
+        {/* 5.4 One-way ANOVA */}
+        <article id="anova">
+          <h4>5.4 One-Way ANOVA: Exam Score ~ Parental Involvement</h4>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/anova_boxplot.png`}
+            alt="Exam Score by Parental Involvement"
+          />
+          <h5>Results</h5>
+          <p>
+            F({anovaTest.dfBetween}, {anovaTest.dfWithin}) ={" "}
+            {anovaTest.F.toFixed(2)}, p &lt; .001, η² ={" "}
+            {anovaTest.eta2.toFixed(3)}
+          </p>
+          <h5>Group Means ± SD (n)</h5>
+          <ul>
+            {Object.entries(anovaTest.groups).map(([lvl, g]) => (
+              <li key={lvl}>
+                {lvl}: {g.mean.toFixed(2)} ± {g.sd.toFixed(2)} (n = {g.n})
+              </li>
+            ))}
+          </ul>
+          <h5>Interpretation</h5>
+          <p>
+            There is a small but significant effect of parental involvement on
+            exam scores, F({anovaTest.dfBetween}, {anovaTest.dfWithin}) ={" "}
+            {anovaTest.F.toFixed(2)}, p &lt; .001, η² ={" "}
+            {anovaTest.eta2.toFixed(3)}. Higher involvement corresponds to
+            higher average scores.
+          </p>
+        </article>
       </section>
 
       {/* ─────────── 6. Discussion & Next Steps ─────────── */}
