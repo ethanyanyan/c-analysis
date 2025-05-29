@@ -4,7 +4,31 @@ import Papa from "papaparse";
 import { INSTRUMENTATION, NUMERIC_COLS } from "../constants";
 import "./StudentPerformance.css";
 
+// Chart imports
+import { Bar, Scatter } from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  PointElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  PointElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
 export default function StudentPerformance() {
+  const [rows, setRows] = useState(null);
   const [numericStats, setNumericStats] = useState(null);
   const [categoricalCounts, setCategoricalCounts] = useState(null);
 
@@ -15,7 +39,8 @@ export default function StudentPerformance() {
       dynamicTyping: true,
       complete: ({ data }) => {
         const clean = data.filter((r) => r.Exam_Score != null);
-        // console.log(clean);
+        console.log(clean);
+        setRows(clean);
         setNumericStats(computeNumericStats(clean));
         setCategoricalCounts(computeCategoricalCounts(clean));
       },
@@ -71,6 +96,71 @@ export default function StudentPerformance() {
     });
     return cats;
   }
+
+  // Build simple histogram data
+  function buildHistogram(rows, col, bins = 10) {
+    const values = rows.map((r) => r[col]).filter((v) => typeof v === "number");
+    if (!values.length) return null;
+    const min = Math.min(...values),
+      max = Math.max(...values);
+    const step = (max - min) / bins;
+    const counts = Array(bins).fill(0);
+    values.forEach((v) => {
+      const idx = Math.min(bins - 1, Math.floor((v - min) / step));
+      counts[idx]++;
+    });
+    const labels = counts.map(
+      (_, i) =>
+        `${(min + i * step).toFixed(1)}–${(min + (i + 1) * step).toFixed(1)}`
+    );
+    return { labels, counts };
+  }
+
+  const examHist = rows ? buildHistogram(rows, "Exam_Score", 15) : null;
+  const parentCounts = categoricalCounts?.Parental_Involvement ?? null;
+
+  // scatter: Hours_Studied vs Exam_Score
+  const scatterData = rows
+    ? {
+        datasets: [
+          {
+            label: "Hours vs Exam",
+            data: rows.map((r) => ({
+              x: r.Hours_Studied,
+              y: r.Exam_Score,
+            })),
+            backgroundColor: "rgba(255, 99, 132, 0.6)",
+          },
+        ],
+      }
+    : null;
+
+  // bar: avg Exam_Score by School_Type
+  const schoolData = rows
+    ? (() => {
+        const agg = rows.reduce((acc, r) => {
+          if (!acc[r.School_Type]) acc[r.School_Type] = { sum: 0, count: 0 };
+          acc[r.School_Type].sum += r.Exam_Score;
+          acc[r.School_Type].count++;
+          return acc;
+        }, {});
+        const labels = Object.keys(agg);
+        const avgs = labels.map((k) => agg[k].sum / agg[k].count);
+        return {
+          labels,
+          datasets: [
+            {
+              label: "Avg Exam Score",
+              data: avgs,
+              backgroundColor: [
+                "rgba(54, 162, 235, 0.6)",
+                "rgba(75, 192, 192, 0.6)",
+              ],
+            },
+          ],
+        };
+      })()
+    : null;
 
   return (
     <div className="student-perf">
@@ -168,6 +258,122 @@ export default function StudentPerformance() {
       ) : (
         <p className="loading">Loading categorical frequencies…</p>
       )}
+
+      {/* Charts */}
+      <div className="chart-container">
+        <h3>Exam Score Distribution</h3>
+        {examHist ? (
+          <Bar
+            data={{
+              labels: examHist.labels,
+              datasets: [
+                {
+                  label: "Count",
+                  data: examHist.counts,
+                  backgroundColor: "rgba(75, 192, 192, 0.6)",
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  borderWidth: 1,
+                },
+              ],
+            }}
+            options={{
+              plugins: {
+                legend: { display: false },
+                title: { display: true, text: "Histogram of Exam Scores" },
+              },
+              scales: {
+                x: { title: { display: true, text: "Score Range" } },
+                y: { title: { display: true, text: "Frequency" } },
+              },
+            }}
+          />
+        ) : (
+          <p className="loading">Preparing histogram…</p>
+        )}
+      </div>
+
+      <div className="chart-container">
+        <h3>Parental Involvement Levels</h3>
+        {parentCounts ? (
+          <Bar
+            data={{
+              labels: Object.keys(parentCounts),
+              datasets: [
+                {
+                  label: "Students",
+                  data: Object.values(parentCounts),
+                  backgroundColor: [
+                    "rgba(255, 159, 64, 0.6)",
+                    "rgba(153, 102, 255, 0.6)",
+                    "rgba(255, 205, 86, 0.6)",
+                  ],
+                  borderColor: [
+                    "rgba(255, 159, 64, 1)",
+                    "rgba(153, 102, 255, 1)",
+                    "rgba(255, 205, 86, 1)",
+                  ],
+                  borderWidth: 1,
+                },
+              ],
+            }}
+            options={{
+              plugins: {
+                title: { display: true, text: "Parental Involvement" },
+              },
+              scales: {
+                x: { title: { display: true, text: "Level" } },
+                y: { title: { display: true, text: "Count" } },
+              },
+            }}
+          />
+        ) : (
+          <p className="loading">Preparing bar chart…</p>
+        )}
+      </div>
+
+      <div className="chart-container">
+        <h3>Hours Studied vs. Exam Score</h3>
+        {scatterData ? (
+          <Scatter
+            data={scatterData}
+            options={{
+              plugins: {
+                title: { display: true, text: "Scatter: Hours vs Exam Score" },
+              },
+              scales: {
+                x: {
+                  type: "linear",
+                  position: "bottom",
+                  title: { display: true, text: "Hours Studied" },
+                },
+                y: { title: { display: true, text: "Exam Score" } },
+              },
+            }}
+          />
+        ) : (
+          <p className="loading">Preparing scatter…</p>
+        )}
+      </div>
+
+      <div className="chart-container">
+        <h3>Average Exam Score by School Type</h3>
+        {schoolData ? (
+          <Bar
+            data={schoolData}
+            options={{
+              plugins: {
+                title: { display: true, text: "Avg Score by School Type" },
+              },
+              scales: {
+                x: { title: { display: true, text: "School Type" } },
+                y: { title: { display: true, text: "Avg Exam Score" } },
+              },
+            }}
+          />
+        ) : (
+          <p className="loading">Preparing average‐by‐school chart…</p>
+        )}
+      </div>
     </div>
   );
 }
