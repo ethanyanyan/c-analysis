@@ -1,0 +1,136 @@
+{
+  "numeric": {
+    "Hours_Studied": {
+      "count": 6607.0,
+      "mean": 19.975329196306948,
+      "std": 5.9905943365787415,
+      "min": 1.0,
+      "25%": 16.0,
+      "50%": 20.0,
+      "75%": 24.0,
+      "max": 44.0
+    },
+    "Attendance": {
+      "count": 6607.0,
+      "mean": 79.97744816104132,
+      "std": 11.547474961482814,
+      "min": 60.0,
+      "25%": 70.0,
+      "50%": 80.0,
+      "75%": 90.0,
+      "max": 100.0
+    },
+    "Sleep_Hours": {
+      "count": 6607.0,
+      "mean": 7.029060087785682,
+      "std": 1.4681202267434879,
+      "min": 4.0,
+      "25%": 6.0,
+      "50%": 7.0,
+      "75%": 8.0,
+      "max": 10.0
+    },
+    "Previous_Scores": {
+      "count": 6607.0,
+      "mean": 75.07053125472983,
+      "std": 14.399784350759024,
+      "min": 50.0,
+      "25%": 63.0,
+      "50%": 75.0,
+      "75%": 88.0,
+      "max": 100.0
+    },
+    "Tutoring_Sessions": {
+      "count": 6607.0,
+      "mean": 1.4937187831088239,
+      "std": 1.2305704213240194,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 8.0
+    },
+    "Physical_Activity": {
+      "count": 6607.0,
+      "mean": 2.9676101104888755,
+      "std": 1.0312310926271286,
+      "min": 0.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 6.0
+    },
+    "Exam_Score": {
+      "count": 6607.0,
+      "mean": 67.23565914938702,
+      "std": 3.890455781261732,
+      "min": 55.0,
+      "25%": 65.0,
+      "50%": 67.0,
+      "75%": 69.0,
+      "max": 101.0
+    }
+  },
+  "categorical": {
+    "Parental_Involvement": {
+      "Medium": 3362,
+      "High": 1908,
+      "Low": 1337
+    },
+    "Access_to_Resources": {
+      "Medium": 3319,
+      "High": 1975,
+      "Low": 1313
+    },
+    "Extracurricular_Activities": {
+      "Yes": 3938,
+      "No": 2669
+    },
+    "Motivation_Level": {
+      "Medium": 3351,
+      "Low": 1937,
+      "High": 1319
+    },
+    "Internet_Access": {
+      "Yes": 6108,
+      "No": 499
+    },
+    "Family_Income": {
+      "Low": 2672,
+      "Medium": 2666,
+      "High": 1269
+    },
+    "Teacher_Quality": {
+      "Medium": 3925,
+      "High": 1947,
+      "Low": 657
+    },
+    "School_Type": {
+      "Public": 4598,
+      "Private": 2009
+    },
+    "Peer_Influence": {
+      "Positive": 2638,
+      "Neutral": 2592,
+      "Negative": 1377
+    },
+    "Learning_Disabilities": {
+      "No": 5912,
+      "Yes": 695
+    },
+    "Parental_Education_Level": {
+      "High School": 3223,
+      "College": 1989,
+      "Postgraduate": 1305
+    },
+    "Distance_from_Home": {
+      "Near": 3884,
+      "Moderate": 1998,
+      "Far": 658
+    },
+    "Gender": {
+      "Male": 3814,
+      "Female": 2793
+    }
+  }
+}
