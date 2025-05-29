@@ -50,6 +50,7 @@ export default function StudentPerformance() {
     });
   }, []);
 
+  // Numeric summaries
   function computeNumericStats(data) {
     const stats = {};
     NUMERIC_COLS.forEach((col) => {
@@ -83,6 +84,7 @@ export default function StudentPerformance() {
     return stats;
   }
 
+  // Categorical counts
   function computeCategoricalCounts(data) {
     const cats = {};
     INSTRUMENTATION.filter((c) => !NUMERIC_COLS.includes(c.name)).forEach(
@@ -162,139 +164,208 @@ export default function StudentPerformance() {
       })()
     : null;
 
+  // Linear regression helper
+  function computeRegression(data, xKey, yKey) {
+    const filtered = data.filter(
+      (r) =>
+        typeof r[xKey] === "number" &&
+        !isNaN(r[xKey]) &&
+        typeof r[yKey] === "number" &&
+        !isNaN(r[yKey])
+    );
+    const n = filtered.length;
+    const xbar = filtered.reduce((sum, r) => sum + r[xKey], 0) / n;
+    const ybar = filtered.reduce((sum, r) => sum + r[yKey], 0) / n;
+    let ssxx = 0,
+      ssxy = 0,
+      ssyy = 0;
+    filtered.forEach((r) => {
+      const dx = r[xKey] - xbar,
+        dy = r[yKey] - ybar;
+      ssxx += dx * dx;
+      ssxy += dx * dy;
+      ssyy += dy * dy;
+    });
+    const slope = ssxy / ssxx;
+    const intercept = ybar - slope * xbar;
+    const ssr = slope * ssxy;
+    const r2 = ssr / ssyy;
+    return { slope, intercept, r2, n };
+  }
+
+  const reg = rows
+    ? computeRegression(rows, "Hours_Studied", "Exam_Score")
+    : null;
+
+  // Hard-coded t-test results from your Python script
+  const tTest = {
+    public: { M: 67.21, SD: 3.91, n: 4598 },
+    private: { M: 67.29, SD: 3.85, n: 2009 },
+    t: -0.72,
+    df: 6605,
+    p: 0.472,
+    d: 0.02,
+  };
+
   return (
     <div className="student-perf">
-      <h2>Student Performance Factors</h2>
-      <p>
-        Dataset URL:&nbsp;
-        <a
-          href="https://www.kaggle.com/datasets/lainguyn123/student-performance-factors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Kaggle: Student Performance Factors
-        </a>
-      </p>
+      {/* ─── Table of Contents ───────────────────────────────────── */}
+      <nav className="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li>
+            <a href="#instrumentation">1. Instrumentation</a>
+          </li>
+          <li>
+            <a href="#numeric">2. Numeric Descriptives</a>
+          </li>
+          <li>
+            <a href="#categorical">3. Categorical Frequencies</a>
+          </li>
+          <li>
+            <a href="#charts">4. Charts</a>
+          </li>
+          <li>
+            <a href="#inferential">5. Inferential & Modeling</a>
+          </li>
+          <li>
+            <a href="#interpretation">6. Interpretation & Reporting</a>
+          </li>
+        </ul>
+      </nav>
 
-      <h3>1. Instrumentation</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Attribute</th>
-            <th>Description</th>
-            <th>Scale</th>
-          </tr>
-        </thead>
-        <tbody>
-          {INSTRUMENTATION.map((c) => (
-            <tr key={c.name}>
-              <td>{c.name}</td>
-              <td>{c.desc}</td>
-              <td>{c.scale}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-
-      <h3>2. Numeric Descriptives</h3>
-      {numericStats ? (
+      {/* ─── 1. Instrumentation ───────────────────────────────────── */}
+      <section id="instrumentation">
+        <h3>1. Instrumentation</h3>
         <table>
           <thead>
             <tr>
-              <th>Variable</th>
-              <th>n</th>
-              <th>Mean</th>
-              <th>Median</th>
-              <th>Min</th>
-              <th>Q1</th>
-              <th>Q3</th>
-              <th>Max</th>
-              <th>Std. Dev.</th>
+              <th>Attribute</th>
+              <th>Description</th>
+              <th>Scale</th>
             </tr>
           </thead>
           <tbody>
-            {Object.entries(numericStats).map(([col, s]) => (
-              <tr key={col}>
-                <td>{col}</td>
-                <td>{s.n}</td>
-                <td>{s.mean.toFixed(2)}</td>
-                <td>{s.median.toFixed(2)}</td>
-                <td>{s.min}</td>
-                <td>{s.q1.toFixed(2)}</td>
-                <td>{s.q3.toFixed(2)}</td>
-                <td>{s.max}</td>
-                <td>{s.sd.toFixed(2)}</td>
+            {INSTRUMENTATION.map((c) => (
+              <tr key={c.name}>
+                <td>{c.name}</td>
+                <td>{c.desc}</td>
+                <td>{c.scale}</td>
               </tr>
             ))}
           </tbody>
         </table>
-      ) : (
-        <p className="loading">Loading numeric summaries…</p>
-      )}
+      </section>
 
-      <h3>3. Categorical Frequencies</h3>
-      {categoricalCounts ? (
-        Object.entries(categoricalCounts).map(([col, counts]) => (
-          <div key={col}>
-            <h4>{col}</h4>
-            <table>
-              <thead>
-                <tr>
-                  <th>Category</th>
-                  <th>Count</th>
+      {/* ─── 2. Numeric Descriptives ─────────────────────────────── */}
+      <section id="numeric">
+        <h3>2. Numeric Descriptives</h3>
+        {numericStats ? (
+          <table>
+            <thead>
+              <tr>
+                <th>Variable</th>
+                <th>n</th>
+                <th>Mean</th>
+                <th>Median</th>
+                <th>Min</th>
+                <th>Q1</th>
+                <th>Q3</th>
+                <th>Max</th>
+                <th>SD</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Object.entries(numericStats).map(([col, s]) => (
+                <tr key={col}>
+                  <td>{col}</td>
+                  <td>{s.n}</td>
+                  <td>{s.mean.toFixed(2)}</td>
+                  <td>{s.median.toFixed(2)}</td>
+                  <td>{s.min}</td>
+                  <td>{s.q1.toFixed(2)}</td>
+                  <td>{s.q3.toFixed(2)}</td>
+                  <td>{s.max}</td>
+                  <td>{s.sd.toFixed(2)}</td>
                 </tr>
-              </thead>
-              <tbody>
-                {Object.entries(counts).map(([val, cnt]) => (
-                  <tr key={val}>
-                    <td>{val}</td>
-                    <td>{cnt}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        ))
-      ) : (
-        <p className="loading">Loading categorical frequencies…</p>
-      )}
-
-      {/* Charts */}
-      <div className="chart-container">
-        <h3>Exam Score Distribution</h3>
-        {examHist ? (
-          <Bar
-            data={{
-              labels: examHist.labels,
-              datasets: [
-                {
-                  label: "Count",
-                  data: examHist.counts,
-                  backgroundColor: "rgba(75, 192, 192, 0.6)",
-                  borderColor: "rgba(75, 192, 192, 1)",
-                  borderWidth: 1,
-                },
-              ],
-            }}
-            options={{
-              plugins: {
-                legend: { display: false },
-                title: { display: true, text: "Histogram of Exam Scores" },
-              },
-              scales: {
-                x: { title: { display: true, text: "Score Range" } },
-                y: { title: { display: true, text: "Frequency" } },
-              },
-            }}
-          />
+              ))}
+            </tbody>
+          </table>
         ) : (
-          <p className="loading">Preparing histogram…</p>
+          <p className="loading">Loading numeric summaries…</p>
         )}
-      </div>
+      </section>
 
-      <div className="chart-container">
-        <h3>Parental Involvement Levels</h3>
-        {parentCounts ? (
+      {/* ─── 3. Categorical Frequencies ───────────────────────────── */}
+      <section id="categorical">
+        <h3>3. Categorical Frequencies</h3>
+        {categoricalCounts ? (
+          Object.entries(categoricalCounts).map(([col, counts]) => (
+            <div key={col}>
+              <h4>{col}</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Category</th>
+                    <th>Count</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(counts).map(([val, cnt]) => (
+                    <tr key={val}>
+                      <td>{val}</td>
+                      <td>{cnt}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ))
+        ) : (
+          <p className="loading">Loading categorical frequencies…</p>
+        )}
+      </section>
+
+      {/* ─── 4. Charts ────────────────────────────────────────────── */}
+      <section id="charts">
+        <h3>4. Charts</h3>
+        <div className="chart-container">
+          <h4>Exam Score Distribution</h4>
+          {examHist ? (
+            <Bar
+              data={{
+                labels: examHist.labels,
+                datasets: [
+                  {
+                    label: "Count",
+                    data: examHist.counts,
+                    backgroundColor: "rgba(75, 192, 192, 0.6)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                    borderWidth: 1,
+                  },
+                ],
+              }}
+              options={{
+                plugins: {
+                  legend: { display: false },
+                  title: {
+                    display: true,
+                    text: "Histogram of Exam Scores",
+                  },
+                },
+                scales: {
+                  x: { title: { display: true, text: "Score Range" } },
+                  y: { title: { display: true, text: "Frequency" } },
+                },
+              }}
+            />
+          ) : (
+            <p className="loading">Preparing histogram…</p>
+          )}
+        </div>
+
+        <div className="chart-container">
+          <h4>Parental Involvement Levels</h4>
           <Bar
             data={{
               labels: Object.keys(parentCounts),
@@ -326,54 +397,134 @@ export default function StudentPerformance() {
               },
             }}
           />
-        ) : (
-          <p className="loading">Preparing bar chart…</p>
-        )}
-      </div>
+        </div>
 
-      <div className="chart-container">
-        <h3>Hours Studied vs. Exam Score</h3>
-        {scatterData ? (
-          <Scatter
-            data={scatterData}
-            options={{
-              plugins: {
-                title: { display: true, text: "Scatter: Hours vs Exam Score" },
-              },
-              scales: {
-                x: {
-                  type: "linear",
-                  position: "bottom",
-                  title: { display: true, text: "Hours Studied" },
+        <div className="chart-container">
+          <h4>Hours Studied vs. Exam Score</h4>
+          {scatterData ? (
+            <Scatter
+              data={scatterData}
+              options={{
+                plugins: {
+                  title: {
+                    display: true,
+                    text: "Scatter: Hours Studied vs. Exam Score",
+                  },
                 },
-                y: { title: { display: true, text: "Exam Score" } },
-              },
-            }}
-          />
-        ) : (
-          <p className="loading">Preparing scatter…</p>
-        )}
-      </div>
+                scales: {
+                  x: {
+                    type: "linear",
+                    position: "bottom",
+                    title: { display: true, text: "Hours Studied" },
+                  },
+                  y: { title: { display: true, text: "Exam Score" } },
+                },
+              }}
+            />
+          ) : (
+            <p className="loading">Preparing scatter…</p>
+          )}
+        </div>
 
-      <div className="chart-container">
-        <h3>Average Exam Score by School Type</h3>
-        {schoolData ? (
-          <Bar
-            data={schoolData}
-            options={{
-              plugins: {
-                title: { display: true, text: "Avg Score by School Type" },
-              },
-              scales: {
-                x: { title: { display: true, text: "School Type" } },
-                y: { title: { display: true, text: "Avg Exam Score" } },
-              },
-            }}
-          />
-        ) : (
-          <p className="loading">Preparing average‐by‐school chart…</p>
-        )}
-      </div>
+        <div className="chart-container">
+          <h4>Avg. Exam Score by School Type</h4>
+          {schoolData ? (
+            <Bar
+              data={schoolData}
+              options={{
+                plugins: {
+                  title: {
+                    display: true,
+                    text: "Average Exam Score by School Type",
+                  },
+                },
+                scales: {
+                  x: { title: { display: true, text: "School Type" } },
+                  y: {
+                    title: { display: true, text: "Avg Exam Score" },
+                  },
+                },
+              }}
+            />
+          ) : (
+            <p className="loading">Preparing school‐type chart…</p>
+          )}
+        </div>
+      </section>
+
+      {/* ─────────── 5. Inferential & Modeling ─────────── */}
+      <section id="inferential">
+        <h3>5. Inferential & Modeling Techniques</h3>
+
+        {/* 5.1 Two-Sample t-Test */}
+        <article>
+          <h4>5.1 Two-Sample t-Test: Public vs. Private School</h4>
+          <h5>Results</h5>
+          <p>
+            Public: M = {tTest.public.M.toFixed(2)}, SD ={" "}
+            {tTest.public.SD.toFixed(2)}, n = {tTest.public.n}
+            <br />
+            Private: M = {tTest.private.M.toFixed(2)}, SD ={" "}
+            {tTest.private.SD.toFixed(2)}, n = {tTest.private.n}
+            <br />
+            t({tTest.df}) = {tTest.t.toFixed(2)}, p = {tTest.p.toFixed(3)},
+            Cohen’s d = {tTest.d.toFixed(2)}
+          </p>
+          <h5>Interpretation</h5>
+          <p>
+            There was <strong>no significant difference</strong> in exam scores
+            between public and private school students, t({tTest.df}) ={" "}
+            {tTest.t.toFixed(2)}, p = {tTest.p.toFixed(3)}. The effect size was
+            negligible (d = {tTest.d.toFixed(2)}).
+          </p>
+        </article>
+
+        {/* 5.2 Linear Regression */}
+        <article>
+          <h4>5.2 Linear Regression: Exam Score ~ Hours Studied</h4>
+          <h5>Results</h5>
+          <p>
+            β₁ (slope) = {reg.slope.toFixed(2)}
+            <br />
+            Intercept = {reg.intercept.toFixed(2)}
+            <br />
+            R² = {(reg.r2 * 100).toFixed(1)}%<br />n = {reg.n}
+          </p>
+          <h5>Interpretation</h5>
+          <p>
+            Each additional hour of study per week is associated with a{" "}
+            {reg.slope.toFixed(2)}-point increase in exam score on average.
+            However, the model explains only {(reg.r2 * 100).toFixed(1)}% of the
+            variance, indicating that other factors also play a substantial
+            role.
+          </p>
+        </article>
+
+        {/* Placeholder for 5.3 ANOVA, 5.4 χ², etc. */}
+      </section>
+
+      {/* ─────────── 6. Discussion & Next Steps ─────────── */}
+      <section id="discussion">
+        <h3>6. Discussion & Next Steps</h3>
+        <p>
+          <strong>Summary:</strong> No meaningful difference by school type, and
+          a small positive association between study hours and exam performance.
+        </p>
+        <p>
+          <strong>Limitations:</strong> Observational data, untested assumptions
+          (normality, homoscedasticity), and omitted variable bias.
+        </p>
+        <p>
+          <strong>Next steps:</strong>
+          <ul>
+            <li>
+              Multivariable regression adding attendance, motivation, resources
+            </li>
+            <li>One‐way ANOVA across parental involvement levels</li>
+            <li>χ² test for extracurricular participation vs. pass/fail</li>
+          </ul>
+        </p>
+      </section>
     </div>
   );
 }
