@@ -39,7 +39,7 @@ plt.figure(figsize=(6,4))
 plt.scatter(df["Hours_Studied"], df["Exam_Score"], s=10, alpha=0.6)
 xs = np.linspace(df["Hours_Studied"].min(), df["Hours_Studied"].max(), 100)
 ys = simple_mod.params.Intercept + simple_mod.params.Hours_Studied * xs
-plt.plot(xs, ys, linewidth=2)
+plt.plot(xs, ys, color="red", linewidth=2)
 plt.xlabel("Hours Studied per Week")
 plt.ylabel("Exam Score")
 plt.title("Simple Regression: Exam Score vs. Hours Studied")

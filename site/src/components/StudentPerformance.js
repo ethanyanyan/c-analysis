@@ -234,6 +234,18 @@ export default function StudentPerformance() {
 
   return (
     <div className="student-perf">
+      <h2>Student Performance Factors</h2>
+      <p>
+        Dataset URL:&nbsp;
+        <a
+          href="https://www.kaggle.com/datasets/lainguyn123/student-performance-factors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kaggle: Student Performance Factors
+        </a>
+      </p>
+
       {/* ─── Table of Contents ───────────────────────────────────── */}
       <nav className="toc">
         <h2>Table of Contents</h2>
@@ -604,27 +616,87 @@ export default function StudentPerformance() {
         </article>
       </section>
 
-      {/* ─────────── 6. Discussion & Next Steps ─────────── */}
-      <section id="discussion">
-        <h3>6. Discussion & Next Steps</h3>
+      {/* ─── 6. Interpretation & Reporting ───────────────────────── */}
+      <section id="interpretation">
+        <h3>6. Interpretation & Reporting</h3>
+
+        <article>
+          <h4>6.1 Two-Sample t-Test</h4>
+          <p>
+            Public-school students (M = 67.21 ± 3.91, n = 4598) versus
+            private-school students (M = 67.29 ± 3.85, n = 2009) did{" "}
+            <strong>not</strong> differ significantly on exam score, t(6605) =
+            –0.72, p = .472, d = .02.
+          </p>
+        </article>
+
+        <article>
+          <h4>6.2 Simple Linear Regression</h4>
+          <p>
+            Exam_Score ~ Hours_Studied: β₁ = .29, intercept = 61.46, R² = 19.8%,
+            n = 6607. Each extra hour of study is associated with a .29-point
+            increase on the exam, but the model explains only ≈ 20% of score
+            variance.
+          </p>
+        </article>
+
+        <article>
+          <h4>6.3 Multiple Regression</h4>
+          <p>
+            Exam_Score ~ Hours_Studied + Attendance + Motivation_Num +
+            Resources_Num: intercept = 42.43; βhours = .294; βattendance = .198;
+            βmotivation = .523; βresources = .994; R² = 58.2%, n = 6607. All
+            predictors are highly significant (p &lt; .001). Together they
+            explain a majority of score variance.
+          </p>
+        </article>
+
+        <article>
+          <h4>6.4 One-Way ANOVA</h4>
+          <p>
+            Exam_Score ~ Parental_Involvement: F(2, 6604) = 84.49, p &lt; .001,
+            η² = .025. Group means (± SD): High 68.09 ± 3.95, Medium 67.10 ±
+            3.73, Low 66.36 ± 3.97. There is a small but significant effect:
+            higher parental involvement corresponds to higher exam performance.
+          </p>
+        </article>
+
+        <h4>6.5 Overall Discussion</h4>
         <p>
-          <strong>Summary:</strong> No meaningful difference by school type, and
-          a small positive association between study hours and exam performance.
+          Across all analyses: no detectable advantage by school type, but clear
+          positive associations of study habits, attendance, personal
+          motivation, and resource access with exam performance. Parental
+          involvement also showed a modest but significant effect.
         </p>
-        <p>
-          <strong>Limitations:</strong> Observational data, untested assumptions
-          (normality, homoscedasticity), and omitted variable bias.
-        </p>
-        <p>
-          <strong>Next steps:</strong>
-          <ul>
-            <li>
-              Multivariable regression adding attendance, motivation, resources
-            </li>
-            <li>One‐way ANOVA across parental involvement levels</li>
-            <li>χ² test for extracurricular participation vs. pass/fail</li>
-          </ul>
-        </p>
+
+        <h4>6.6 Limitations</h4>
+        <ul>
+          <li>
+            Observational data subject to confounding (income,
+            extracurriculars).
+          </li>
+          <li>
+            Assumptions of normality, linearity, and homoscedasticity may be
+            violated.
+          </li>
+          <li>No corrections for multiple comparisons.</li>
+        </ul>
+
+        <h4>6.7 Recommendations & Future Work</h4>
+        <ul>
+          <li>
+            Extend to hierarchical/mixed models to account for school
+            clustering.
+          </li>
+          <li>
+            Include additional covariates (socioeconomic status, extracurricular
+            participation).
+          </li>
+          <li>
+            Explore nonlinear effects and interaction terms (e.g. Hours ×
+            Resources).
+          </li>
+        </ul>
       </section>
     </div>
   );
