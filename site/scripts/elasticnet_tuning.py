@@ -110,7 +110,7 @@ best_model = gs.best_estimator_
 cv_r2      = gs.best_score_
 test_r2    = r2_score(y_test, best_model.predict(X_test))
 
-print("\n🏆 ElasticNet Tuning Results 🏆")
+print("\nElasticNet Tuning Results")
 print(f"  Best α        = {gs.best_params_['en__alpha']}")
 print(f"  Best l1_ratio = {gs.best_params_['en__l1_ratio']}")
 print(f"  CV (5-fold)   R² = {cv_r2:.4f}")

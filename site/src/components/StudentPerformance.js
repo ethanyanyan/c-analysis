@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Papa from "papaparse";
 import { INSTRUMENTATION, NUMERIC_COLS } from "../constants";
 import "./StudentPerformance.css";
+import PredictModal from "./PredictModal";
 
 // Chart imports
 import { Bar, Scatter } from "react-chartjs-2";
@@ -33,6 +34,7 @@ export default function StudentPerformance() {
   const [categoricalCounts, setCategoricalCounts] = useState(null);
   const [xKey, setXKey] = useState("Hours_Studied");
   const [yKey, setYKey] = useState("Exam_Score");
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     Papa.parse(`${process.env.PUBLIC_URL}/data/StudentPerformanceFactors.csv`, {
@@ -238,6 +240,15 @@ export default function StudentPerformance() {
 
   return (
     <div className="student-perf">
+      <button onClick={() => setModalOpen(true)}>
+        Predict with ElasticNet Model
+      </button>
+
+      <PredictModal
+        isOpen={modalOpen}
+        onRequestClose={() => setModalOpen(false)}
+      />
+
       <h2>Student Performance Factors</h2>
       <p>
         Dataset URL:&nbsp;
