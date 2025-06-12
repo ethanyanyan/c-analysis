@@ -1,0 +1,6458 @@
+Feature,Importance
+Crossing,0.037603345
+Traffic_Signal,0.022311823
+Stop,0.018646374
+State_IL,0.017079547
+State_GA,0.016336149
+Wind_Chill(F),0.016090808
+City_Charlotte,0.014641671
+State_WA,0.014454487
+State_MN,0.014281563
+WeatherClass_Unknown,0.014252283
+State_CA,0.013787358
+State_CO,0.01296904
+State_SC,0.012889424
+City_Fort Worth,0.011776515
+City_Miami,0.010935726
+City_Austin,0.010669938
+City_Saint Louis,0.01001512
+City_Louisville,0.0094603915
+State_LA,0.009433864
+State_PA,0.008702485
+Station,0.0076593077
+City_Chicago,0.0076093166
+State_TX,0.0075361454
+City_Tampa,0.0074718143
+State_WI,0.007433117
+State_OR,0.0073553664
+Start_Lng,0.006979954
+City_Baton Rouge,0.006547152
+City_Castaic,0.0063885725
+City_Buffalo,0.0062197414
+Start_Lat,0.006082994
+State_OK,0.006043765
+City_Columbus,0.0060250564
+City_Jacksonville,0.00601356
+City_Shreveport,0.005942532
+City_Providence,0.005896592
+Sin_Hour,0.0058396887
+State_MI,0.005814082
+State_UT,0.005629499
+State_NV,0.005628915
+City_North Miami,0.0056025637
+City_Orlando,0.0055146785
+State_MO,0.0054437704
+City_Fremont,0.005438369
+City_Lake Worth,0.0054368773
+City_Birmingham,0.00536407
+State_NC,0.005313325
+City_Charleston,0.0052116546
+City_Diamond Bar,0.0052086166
+City_Detroit,0.005174837
+State_NM,0.0051384824
+City_Andover,0.0051117036
+MonthOfYear,0.0051037204
+City_San Diego,0.005088511
+City_North Salt Lake,0.0050646234
+City_Bronx,0.005026898
+City_Dayton,0.005025426
+City_Santa Fe Springs,0.004976523
+State_RI,0.0049666204
+City_Oakland,0.0049359794
+City_Lafayette,0.004935714
+City_Anaheim,0.0048897564
+City_Mesquite,0.004874652
+City_Fairfield,0.0048409463
+City_Jackson,0.00478816
+City_Tulsa,0.004724065
+City_Sylmar,0.004651087
+City_Fort Lauderdale,0.004514218
+City_Colton,0.004503934
+City_Philadelphia,0.0044689937
+City_Monrovia,0.004457952
+City_Woodside,0.0044448166
+City_Lancaster,0.0044178055
+State_MA,0.0044047884
+City_Albany,0.004395344
+Cos_Hour,0.004365921
+City_Visalia,0.0043432796
+City_Baldwin Park,0.0043386365
+City_Downey,0.00426116
+City_Rowland Heights,0.0042333556
+City_Azusa,0.0042202272
+City_Cleveland,0.0042023063
+City_Livermore,0.0041978285
+City_Glendora,0.0041721947
+State_IA,0.004146312
+City_Spring,0.004122301
+State_WV,0.004118679
+City_Elgin,0.0040941015
+City_Flint,0.0040853024
+City_Rochester,0.004083145
+City_Woodburn,0.0040696394
+City_Madison Heights,0.0040619615
+City_Saint Petersburg,0.004039599
+City_Mobile,0.004004991
+State_NE,0.0039985157
+City_Long Beach,0.003973853
+City_Denton,0.0039712335
+City_Culver City,0.003952983
+City_Everett,0.0039507328
+City_Covington,0.00394212
+State_IN,0.0039401525
+City_Phoenix,0.0039053808
+DayOfWeek,0.0038594208
+City_Grand Rapids,0.0038572166
+City_Metairie,0.003842726
+Amenity,0.0038348015
+City_Lombard,0.0038075964
+City_Colfax,0.0038048867
+City_North Hollywood,0.0037505487
+City_Milwaukee,0.003750263
+City_Alhambra,0.00374033
+City_North Charleston,0.0037093787
+City_Lynwood,0.003703545
+City_Norristown,0.003697382
+City_Harrisburg,0.003692577
+City_Garden Grove,0.003665225
+City_Raleigh,0.0036536052
+City_Pleasanton,0.0036493754
+City_Shawnee,0.003637267
+City_Fullerton,0.0036360556
+City_Hacienda Heights,0.0036178154
+City_Winter Park,0.0035931198
+City_Irving,0.0035907256
+City_Denver,0.0035889337
+City_Grand Prairie,0.0035859137
+City_Union City,0.0035673038
+City_Knoxville,0.0035646786
+City_Bossier City,0.0035083678
+City_Vacaville,0.0035059552
+City_Altamonte Springs,0.0034850028
+Pressure(in),0.003478617
+City_Pittsburgh,0.0034759091
+City_Foxboro,0.0034609993
+State_VA,0.0034156959
+City_Arlington,0.0033876223
+City_Somerset,0.0033818285
+City_Colorado Springs,0.0033787189
+City_Richmond,0.0033496728
+City_San Francisco,0.00334835
+City_Torrance,0.0033279802
+City_Emeryville,0.0033167873
+City_Pittsburg,0.0032987467
+City_Atlanta,0.0032257866
+City_Flushing,0.0032237468
+Wind_Speed(mph),0.0032153854
+City_Norfolk,0.003129003
+City_West Covina,0.003121603
+Junction,0.0030448888
+State_NJ,0.003023554
+City_Syracuse,0.0030048315
+City_San Antonio,0.002960716
+City_Dallas,0.0029321576
+State_AR,0.0029234793
+City_Hartford,0.0028703737
+City_Newberry,0.002844879
+State_MD,0.0028270897
+City_Hayward,0.0028263545
+Railway,0.0028259354
+City_Modesto,0.0028099907
+Bump,0.0027354877
+City_Tacoma,0.0027236235
+State_OH,0.002605245
+City_Hollywood,0.0025779398
+Traffic_Calming,0.0025394426
+City_Norcross,0.002480099
+City_Springfield,0.002450014
+City_Alpharetta,0.0024476761
+City_Minneapolis,0.0024238606
+Precipitation(in),0.0023996457
+Give_Way,0.0023993982
+City_Lawrenceville,0.0023803483
+City_Bowman,0.002331849
+City_Cowpens,0.0022979102
+City_Irmo,0.0022205028
+City_Saint Rose,0.0022080385
+City_West Palm Beach,0.0021400661
+City_Los Angeles,0.0021321792
+City_Brooklyn,0.0020801749
+City_Greenville,0.0020685943
+City_Yemassee,0.0020415173
+Temperature(F),0.0019985088
+State_AL,0.0019756733
+State_KY,0.0019474889
+City_Latta,0.0019434505
+City_Augusta,0.0019154744
+WeatherClass_Rain,0.001895696
+IsNight,0.0018914898
+City_Pasadena,0.0018378912
+City_Saint Augustine,0.0017531761
+City_Lake Charles,0.0015684082
+WeatherClass_Snow,0.0015168563
+City_Columbia,0.001496099
+WeatherClass_Clear,0.0014804685
+State_NH,0.0013996168
+City_Houston,0.0013546968
+City_Bellmawr,0.0012753255
+City_Indianapolis,0.0012579486
+City_Saint Paul,0.0012351662
+City_West Columbia,0.001226879
+City_Boston,0.0012217449
+State_NY,0.0012031109
+City_Libertyville,0.001161419
+City_Hialeah,0.0011146156
+Humidity(%),0.001075374
+WeatherClass_Other,0.0010593476
+Visibility(mi),0.0009424841
+City_Fair Play,0.0008837584
+City_Grovetown,0.00079695374
+City_Madison,0.0007741128
+City_Piedmont,0.00076932856
+City_Spokane,0.00075360714
+City_Spartanburg,0.0007327207
+City_Greer,0.0006430719
+City_Townville,0.00059316674
+City_Florence,0.00036003874
+City_Cutler Bay,0.0001393057
+City_Roseburg,8.07126e-05
+City_Oxford,0.0
+City_Oxon Hill,0.0
+City_Owings Mills,0.0
+City_Owings,0.0
+City_Owens Cross Roads,0.0
+City_Owatonna,0.0
+City_Oxnard,0.0
+City_Raritan,0.0
+City_Pacific Palisades,0.0
+City_Ozark,0.0
+City_Paeonian Springs,0.0
+City_Pala,0.0
+City_Riceboro,0.0
+City_Paisley,0.0
+City_Painter,0.0
+City_Painesville,0.0
+City_Pageland,0.0
+City_Pacolet,0.0
+City_Ozone Park,0.0
+City_Pacoima,0.0
+City_Pacifica,0.0
+City_Oviedo,0.0
+City_Pacific Grove,0.0
+City_Pacific,0.0
+City_Pacheco,0.0
+City_Owasso,0.0
+City_Otter,0.0
+City_Overton,0.0
+City_Overland Park,0.0
+City_Oshkosh,0.0
+City_Osgood,0.0
+City_Osceola Mills,0.0
+City_Richland,0.0
+City_Osceola,0.0
+City_Osakis,0.0
+City_Osage,0.0
+City_Orwigsburg,0.0
+City_Orting,0.0
+City_Orrum,0.0
+City_Orrtanna,0.0
+City_Orrstown,0.0
+City_Orr,0.0
+City_Oroville,0.0
+City_Orosi,0.0
+City_Oronoco,0.0
+City_Orondo,0.0
+City_Orofino,0.0
+City_Oro Valley,0.0
+City_Osprey,0.0
+City_Osseo,0.0
+City_Richfield,0.0
+City_Ottawa,0.0
+City_Overgaard,0.0
+City_Outing,0.0
+City_Riceville,0.0
+City_Richardson,0.0
+City_Ottumwa,0.0
+City_Ottertail,0.0
+City_Richburg,0.0
+City_Otter Rock,0.0
+City_Otsego,0.0
+City_Ossining,0.0
+City_Otisville,0.0
+City_Otis,0.0
+City_Osyka,0.0
+City_Ostrander,0.0
+City_Osterville,0.0
+City_Osterburg,0.0
+City_Osteen,0.0
+City_Ossipee,0.0
+City_Rice,0.0
+City_Palmdale,0.0
+City_Palatine,0.0
+City_Passaic,0.0
+City_Parsons,0.0
+City_Parsippany,0.0
+City_Parrott,0.0
+City_Parrish,0.0
+City_Parowan,0.0
+City_Parma,0.0
+City_Parlin,0.0
+City_Parlier,0.0
+City_Parkville,0.0
+City_Parkton,0.0
+City_Parksley,0.0
+City_Parkman,0.0
+City_Parkesburg,0.0
+City_Parkersburg,0.0
+City_Parkers Prairie,0.0
+City_Parker Dam,0.0
+City_Parker,0.0
+City_Park Ridge,0.0
+City_Park Rapids,0.0
+City_Paso Robles,0.0
+City_Pataskala,0.0
+City_Palatka,0.0
+City_Patchogue,0.0
+City_Paxton,0.0
+City_Paxinos,0.0
+City_Pawtucket,0.0
+City_Pawleys Island,0.0
+City_Pawcatuck,0.0
+City_Paw Paw,0.0
+City_Pavo,0.0
+City_Paupack,0.0
+City_Pauma Valley,0.0
+City_Pauline,0.0
+City_Paulden,0.0
+City_Paul Smiths,0.0
+City_Rex,0.0
+City_Patton,0.0
+City_Pattersonville,0.0
+City_Patterson,0.0
+City_Patrick AFB,0.0
+City_Patrick,0.0
+City_Paterson,0.0
+City_Park City,0.0
+City_Parish,0.0
+City_Rexburg,0.0
+City_Paris,0.0
+City_Rhinelander,0.0
+City_Palo Alto,0.0
+City_Rhododendron,0.0
+City_Rialto,0.0
+City_Palmyra,0.0
+City_Palmetto Bay,0.0
+City_Palmetto,0.0
+City_Palmer,0.0
+City_Ormsby,0.0
+City_Palm Harbor,0.0
+City_Palm Desert,0.0
+City_Palm Coast,0.0
+City_Palm City,0.0
+City_Palm Beach Gardens,0.0
+City_Palm Bay,0.0
+City_Pall Mall,0.0
+City_Palisades Park,0.0
+City_Ribera,0.0
+City_Palestine,0.0
+City_Palo Cedro,0.0
+City_Palos Hills,0.0
+City_Pamplico,0.0
+City_Papillion,0.0
+City_Pardeeville,0.0
+City_Paramus,0.0
+City_Paramount,0.0
+City_Paragould,0.0
+City_Paragonah,0.0
+City_Paradise Valley,0.0
+City_Paradise,0.0
+City_Parachute,0.0
+City_Paoli,0.0
+City_Rhinebeck,0.0
+City_Paola,0.0
+City_Panorama City,0.0
+City_Rexford,0.0
+City_Panguitch,0.0
+City_Reynoldsburg,0.0
+City_Reynoldsville,0.0
+City_Panama City Beach,0.0
+City_Panama City,0.0
+City_Oro Grande,0.0
+City_Ordway,0.0
+City_Ormond Beach,0.0
+City_Ochopee,0.0
+City_Oak View,0.0
+City_Oak Park,0.0
+City_Oak Lawn,0.0
+City_Oak Hills,0.0
+City_Oak Hill,0.0
+City_Oak Grove,0.0
+City_Oak Forest,0.0
+City_Oak Creek,0.0
+City_Oak Brook,0.0
+City_O Neals,0.0
+City_O Fallon,0.0
+City_O Brien,0.0
+City_Nyssa,0.0
+City_Nyack,0.0
+City_Nutley,0.0
+City_Nunica,0.0
+City_Nuevo,0.0
+City_Novi,0.0
+City_Novato,0.0
+City_Oakbrook Terrace,0.0
+City_Oakdale,0.0
+City_Oakfield,0.0
+City_Oakwood,0.0
+City_Ridgefield,0.0
+City_Oceano,0.0
+City_Ocean View,0.0
+City_Ocean Springs,0.0
+City_Ocean City,0.0
+City_Occidental,0.0
+City_Ocala,0.0
+City_Oark,0.0
+City_Oakville,0.0
+City_Oakhurst,0.0
+City_Oakton,0.0
+City_Oakridge,0.0
+City_Oakmont,0.0
+City_Oaklyn,0.0
+City_Oakley,0.0
+City_Oakland Mills,0.0
+City_Oakland Gardens,0.0
+City_Oakland City,0.0
+City_Nottingham,0.0
+City_Noti,0.0
+City_Ridgefield Park,0.0
+City_North Richland Hills,0.0
+City_North Tonawanda,0.0
+City_North Stonington,0.0
+City_North Smithfield,0.0
+City_North Scituate,0.0
+City_North San Juan,0.0
+City_North Salem,0.0
+City_North Rim,0.0
+City_North Ridgeville,0.0
+City_North Reading,0.0
+City_North Wales,0.0
+City_North Providence,0.0
+City_North Powder,0.0
+City_North Port,0.0
+City_North Plains,0.0
+City_North Plainfield,0.0
+City_North Palm Springs,0.0
+City_North Olmsted,0.0
+City_North Myrtle Beach,0.0
+City_North Versailles,0.0
+City_North Whidbey Island,0.0
+City_Ridgeland,0.0
+City_Northville,0.0
+City_Notasulga,0.0
+City_Norwood Young America,0.0
+City_Norwood,0.0
+City_Norwich,0.0
+City_Norwell,0.0
+City_Norwalk,0.0
+City_Norton,0.0
+City_Northwood,0.0
+City_Northumberland,0.0
+City_North Wilkesboro,0.0
+City_Northport,0.0
+City_Northglenn,0.0
+City_Northfield,0.0
+City_Northern Cambria,0.0
+City_Northeast Dallas,0.0
+City_Northbrook,0.0
+City_Northborough,0.0
+City_Northampton,0.0
+City_Oceanside,0.0
+City_Ridgecrest,0.0
+City_Richland Hills,0.0
+City_Ocklawaha,0.0
+City_Orange Park,0.0
+City_Orange Cove,0.0
+City_Orange City,0.0
+City_Richmond Hill,0.0
+City_Orange,0.0
+City_Richmondville,0.0
+City_Oracle,0.0
+City_Opelousas,0.0
+City_Opelika,0.0
+City_Opa-Locka,0.0
+City_Opa Locka,0.0
+City_Ooltewah,0.0
+City_Ontario,0.0
+City_Only,0.0
+City_Oneonta,0.0
+City_Oneida,0.0
+City_Onawa,0.0
+City_Rickreall,0.0
+City_Onamia,0.0
+City_Orange Springs,0.0
+City_Orangeburg,0.0
+City_Orangevale,0.0
+City_Oreland,0.0
+City_Orland Park,0.0
+City_Orland,0.0
+City_Oriskany,0.0
+City_Oriska,0.0
+City_Orinda,0.0
+City_Orient,0.0
+City_Orick,0.0
+City_Orem,0.0
+City_Oregon House,0.0
+City_Orangeville,0.0
+City_Oregon City,0.0
+City_Oregon,0.0
+City_Orefield,0.0
+City_Paynesville,0.0
+City_Richlands,0.0
+City_Orderville,0.0
+City_Orchard Park,0.0
+City_Orchard,0.0
+City_Onalaska,0.0
+City_Ona,0.0
+City_Omaha,0.0
+City_Ojai,0.0
+City_Olanta,0.0
+City_Olancha,0.0
+City_Okmulgee,0.0
+City_Oklahoma City,0.0
+City_Okeechobee,0.0
+City_Okawville,0.0
+City_Okatie,0.0
+City_Okahumpka,0.0
+City_Oilville,0.0
+City_Olathe,0.0
+City_Ohio City,0.0
+City_Ogilvie,0.0
+City_Ogden,0.0
+City_Ogallala,0.0
+City_Odessa,0.0
+City_Oconto,0.0
+City_Oconomowoc,0.0
+City_Ocoee,0.0
+City_Olar,0.0
+City_Old Bridge,0.0
+City_Olyphant,0.0
+City_Olean,0.0
+City_Olympic Valley,0.0
+City_Olympia,0.0
+City_Olton,0.0
+City_Olivet,0.0
+City_Oliver Springs,0.0
+City_Riddle,0.0
+City_Olivehurst,0.0
+City_Olive Hill,0.0
+City_Oldsmar,0.0
+City_Ridge Spring,0.0
+City_Old Westbury,0.0
+City_Old Station,0.0
+City_Old Saybrook,0.0
+City_Old Lyme,0.0
+City_Old Hickory,0.0
+City_Old Fort,0.0
+City_Old Chatham,0.0
+City_Ridge,0.0
+City_Payette,0.0
+City_Pebble Beach,0.0
+City_Payson,0.0
+City_Port Matilda,0.0
+City_Port Royal,0.0
+City_Port Richey,0.0
+City_Red Bank,0.0
+City_Port Republic,0.0
+City_Port Reading,0.0
+City_Port Orford,0.0
+City_Port Orchard,0.0
+City_Port Orange,0.0
+City_Port Murray,0.0
+City_Port Ludlow,0.0
+City_Pottsville,0.0
+City_Port Jervis,0.0
+City_Port Jefferson Station,0.0
+City_Port Huron,0.0
+City_Port Henry,0.0
+City_Port Deposit,0.0
+City_Red Bluff,0.0
+City_Port Chester,0.0
+City_Port Charlotte,0.0
+City_Port Byron,0.0
+City_Port Saint Lucie,0.0
+City_Port St Lucie,0.0
+City_Rebersburg,0.0
+City_Port Townsend,0.0
+City_Potts Camp,0.0
+City_Potrero,0.0
+City_Potosi,0.0
+City_Potomac,0.0
+City_Post Falls,0.0
+City_Posen,0.0
+City_Portsmouth,0.0
+City_Portola Valley,0.0
+City_Portola,0.0
+City_Portland,0.0
+City_Raynham,0.0
+City_Reading,0.0
+City_Porterville,0.0
+City_Portersville,0.0
+City_Porter Ranch,0.0
+City_Porter,0.0
+City_Portage,0.0
+City_Port Wentworth,0.0
+City_Port Washington,0.0
+City_Port Bolivar,0.0
+City_Red Hook,0.0
+City_Port Angeles,0.0
+City_Pompano Beach,0.0
+City_Pomfret Center,0.0
+City_Pomeroy,0.0
+City_Pomaria,0.0
+City_Polson,0.0
+City_Pollock Pines,0.0
+City_Redwood City,0.0
+City_Polkton,0.0
+City_Polk City,0.0
+City_Point of Rocks,0.0
+City_Point Reyes Station,0.0
+City_Point Of Rocks,0.0
+City_Point Mugu Nawc,0.0
+City_Pocono Summit,0.0
+City_Pocono Lake,0.0
+City_Pocomoke City,0.0
+City_Pocatello,0.0
+City_Pocasset,0.0
+City_Pocahontas,0.0
+City_Plympton,0.0
+City_Pomona,0.0
+City_Redondo Beach,0.0
+City_Red Lion,0.0
+City_Pompeys Pillar,0.0
+City_Port Allen,0.0
+City_Red Wing,0.0
+City_Poplarville,0.0
+City_Redcrest,0.0
+City_Pope Valley,0.0
+City_Poolesville,0.0
+City_Reddick,0.0
+City_Pooler,0.0
+City_Pontiac,0.0
+City_Ponte Vedra Beach,0.0
+City_Ponte Vedra,0.0
+City_Ponchatoula,0.0
+City_Redding,0.0
+City_Ponce de Leon,0.0
+City_Redfield,0.0
+City_Redford,0.0
+City_Pompton Lakes,0.0
+City_Redlands,0.0
+City_Redmond,0.0
+City_Pottstown,0.0
+City_Poughkeepsie,0.0
+City_Peabody,0.0
+City_Quincy,0.0
+City_Rainier,0.0
+City_Raiford,0.0
+City_Rahway,0.0
+City_Ragland,0.0
+City_Raeford,0.0
+City_Radnor,0.0
+City_Radford,0.0
+City_Racine,0.0
+City_Quinton,0.0
+City_Quilcene,0.0
+City_Poulsbo,0.0
+City_Ravenswood,0.0
+City_Rawlins,0.0
+City_Quicksburg,0.0
+City_Queenstown,0.0
+City_Queensbury,0.0
+City_Queens Village,0.0
+City_Queen Creek,0.0
+City_Queen Anne,0.0
+City_Quartzsite,0.0
+City_Raisin City,0.0
+City_Ravenna,0.0
+City_Ramer,0.0
+City_Ramona,0.0
+City_Rapidan,0.0
+City_Raphine,0.0
+City_Ranson,0.0
+City_Ransomville,0.0
+City_Ranger,0.0
+City_Randsburg,0.0
+City_Randolph,0.0
+City_Randleman,0.0
+City_Randallstown,0.0
+City_Randall,0.0
+City_Rancho Santa Margarita,0.0
+City_Raton,0.0
+City_Rancho Santa Fe,0.0
+City_Ravenden,0.0
+City_Rancho Cucamonga,0.0
+City_Rancho Cordova,0.0
+City_Ravenel,0.0
+City_Ranchita,0.0
+City_Ramsey,0.0
+City_Quarryville,0.0
+City_Quantico,0.0
+City_Quakertown,0.0
+City_Princeton,0.0
+City_Prince Frederick,0.0
+City_Pride,0.0
+City_Price,0.0
+City_Preston,0.0
+City_Prescott Valley,0.0
+City_Prescott,0.0
+City_Prattville,0.0
+City_Prattsville,0.0
+City_Prather,0.0
+City_Prairieville,0.0
+City_Prairie du Sac,0.0
+City_Prairie City,0.0
+City_Powhatan,0.0
+City_Power,0.0
+City_Powell Butte,0.0
+City_Powell,0.0
+City_Raynesford,0.0
+City_Powder Springs,0.0
+City_Pounding Mill,0.0
+City_Princess Anne,0.0
+City_Prineville,0.0
+City_Puyallup,0.0
+City_Prior Lake,0.0
+City_Putnam Valley,0.0
+City_Purvis,0.0
+City_Purdys,0.0
+City_Purchase,0.0
+City_Purcellville,0.0
+City_Raymond,0.0
+City_Punxsutawney,0.0
+City_Punta Gorda,0.0
+City_Pulaski,0.0
+City_Pueblo,0.0
+City_Provo,0.0
+City_Proviso,0.0
+City_Providence Forge,0.0
+City_Raymore,0.0
+City_Prosperity,0.0
+City_Prospect Park,0.0
+City_Prospect,0.0
+City_Rayne,0.0
+City_Proctor,0.0
+City_Plymouth Meeting,0.0
+City_Plymouth,0.0
+City_Plum Branch,0.0
+City_Perryopolis,0.0
+City_Petal,0.0
+City_Pesotum,0.0
+City_Peshastin,0.0
+City_Rensselaer,0.0
+City_Pescadero,0.0
+City_Peru,0.0
+City_Perth Amboy,0.0
+City_Perryville,0.0
+City_Perrysburg,0.0
+City_Perry Hall,0.0
+City_Pleasantville,0.0
+City_Perry,0.0
+City_Perris,0.0
+City_Perkiomenville,0.0
+City_Perkasie,0.0
+City_Peridot,0.0
+City_Perham,0.0
+City_Percival,0.0
+City_Pequot Lakes,0.0
+City_Pepperell,0.0
+City_Petaluma,0.0
+City_Petersburg,0.0
+City_Pevely,0.0
+City_Pewaukee,0.0
+City_Remer,0.0
+City_Pickerington,0.0
+City_Remington,0.0
+City_Pickens,0.0
+City_Picacho,0.0
+City_Phoenixville,0.0
+City_Remsen,0.0
+City_Reno,0.0
+City_Philomath,0.0
+City_Philo,0.0
+City_Phillipsburg,0.0
+City_Philipsburg,0.0
+City_Renovo,0.0
+City_Phenix City,0.0
+City_Phelps,0.0
+City_Phelan,0.0
+City_Pflugerville,0.0
+City_Pfafftown,0.0
+City_Peyton,0.0
+City_Peotone,0.0
+City_Peoria,0.0
+City_Peoa,0.0
+City_Pembroke,0.0
+City_Pelzer,0.0
+City_Pell City,0.0
+City_Pelion,0.0
+City_Pelham,0.0
+City_Pekin,0.0
+City_Pegram,0.0
+City_Peekskill,0.0
+City_Pedricktown,0.0
+City_Peculiar,0.0
+City_Revere,0.0
+City_Pecos,0.0
+City_Rappahannock Academy,0.0
+City_Pearsall,0.0
+City_Pearland,0.0
+City_Pearl River,0.0
+City_Pearl,0.0
+City_Pearblossom,0.0
+City_Peachtree City,0.0
+City_Peach Bottom,0.0
+City_Reston,0.0
+City_Pembroke Pines,0.0
+City_Pensacola,0.0
+City_Pendergrass,0.0
+City_Penryn,0.0
+City_Penrose,0.0
+City_Pennsville,0.0
+City_Pennsburg,0.0
+City_Pennsauken,0.0
+City_Renton,0.0
+City_Resaca,0.0
+City_Penns Grove,0.0
+City_Pennington,0.0
+City_Penngrove,0.0
+City_Penn Valley,0.0
+City_Rescue,0.0
+City_Penn Run,0.0
+City_Penn Laird,0.0
+City_Penhook,0.0
+City_Pengilly,0.0
+City_Penfield,0.0
+City_Pendleton,0.0
+City_Reseda,0.0
+City_Pico Rivera,0.0
+City_Pierson,0.0
+City_Pierz,0.0
+City_Plantersville,0.0
+City_Plant City,0.0
+City_Plano,0.0
+City_Reedsville,0.0
+City_Plaistow,0.0
+City_Plainwell,0.0
+City_Reelsville,0.0
+City_Plainville,0.0
+City_Plainview,0.0
+City_Register,0.0
+City_Plains,0.0
+City_Plainfield,0.0
+City_Plain City,0.0
+City_Rego Park,0.0
+City_Placida,0.0
+City_Placerville,0.0
+City_Placentia,0.0
+City_Pixley,0.0
+City_Pittsville,0.0
+City_Pittsview,0.0
+City_Plantation,0.0
+City_Plantsville,0.0
+City_Pittsford,0.0
+City_Reedsport,0.0
+City_Redwood Falls,0.0
+City_Pleasant View,0.0
+City_Pleasant Valley,0.0
+City_Pleasant Plain,0.0
+City_Pleasant Hill,0.0
+City_Pleasant Grove,0.0
+City_Redwood Valley,0.0
+City_Pleasant Gap,0.0
+City_Pleasant Dale,0.0
+City_Plattsmouth,0.0
+City_Plattsburgh,0.0
+City_Platteville,0.0
+City_Platte City,0.0
+City_Plato,0.0
+City_Platina,0.0
+City_Plaquemine,0.0
+City_Reed Point,0.0
+City_Reeder,0.0
+City_Reedley,0.0
+City_Pittston,0.0
+City_Pittsfield,0.0
+City_Pike Road,0.0
+City_Pinehurst,0.0
+City_Reliance,0.0
+City_Pine Valley,0.0
+City_Pine River,0.0
+City_Pine Plains,0.0
+City_Pine Mountain,0.0
+City_Rembert,0.0
+City_Pine Island,0.0
+City_Pine Hill,0.0
+City_Pine Grove,0.0
+City_Pine City,0.0
+City_Pine Brook,0.0
+City_Pinconning,0.0
+City_Pilot Rock,0.0
+City_Pilot Hill,0.0
+City_Pillager,0.0
+City_Pilesgrove,0.0
+City_Pikeville,0.0
+City_Pikesville,0.0
+City_Rembrandt,0.0
+City_Pinebluff,0.0
+City_Pineland,0.0
+City_Rehoboth Beach,0.0
+City_Pinellas Park,0.0
+City_Reidsville,0.0
+City_Pittsboro,0.0
+City_Pismo Beach,0.0
+City_Piscataway,0.0
+City_Piru,0.0
+City_Piqua,0.0
+City_Pioneer,0.0
+City_Pinson,0.0
+City_Pinon Hills,0.0
+City_Pinole,0.0
+City_Reinholds,0.0
+City_Pinnacle,0.0
+City_Reisterstown,0.0
+City_Pink Hill,0.0
+City_Piney Flats,0.0
+City_Pinewood,0.0
+City_Pineville,0.0
+City_Pinetta,0.0
+City_Pinetop,0.0
+City_North Miami Beach,0.0
+City_Nichols,0.0
+City_North Mankato,0.0
+City_Menomonie,0.0
+City_Menoken,0.0
+City_Menlo Park,0.0
+City_Menlo,0.0
+City_Menifee,0.0
+City_Mendota,0.0
+City_Mendon,0.0
+City_Mendocino,0.0
+City_Menasha,0.0
+City_Menands,0.0
+City_Menahga,0.0
+City_Memphis,0.0
+City_Melville,0.0
+City_Melrose Park,0.0
+City_Melrose,0.0
+City_Melfa,0.0
+City_Melbourne Beach,0.0
+City_Melbourne,0.0
+City_Meherrin,0.0
+City_Meeker,0.0
+City_Medley,0.0
+City_Medinah,0.0
+City_Menomonee Falls,0.0
+City_Mentone,0.0
+City_Mexico,0.0
+City_Mentor,0.0
+City_Metuchen,0.0
+City_Metter,0.0
+City_Metropolis,0.0
+City_Methuen,0.0
+City_Mesa,0.0
+City_Merritt Island,0.0
+City_Merrimack,0.0
+City_Merrillville,0.0
+City_Merrill,0.0
+City_Merrick,0.0
+City_Merom,0.0
+City_Merion Station,0.0
+City_Merino,0.0
+City_Meridianville,0.0
+City_Meridian,0.0
+City_Meriden,0.0
+City_Merchantville,0.0
+City_Mercer Island,0.0
+City_Mercer,0.0
+City_Merced,0.0
+City_Mequon,0.0
+City_Medina,0.0
+City_Medical Lake,0.0
+City_Media,0.0
+City_Medford,0.0
+City_McKees Rocks,0.0
+City_McIntyre,0.0
+City_McHenry,0.0
+City_McGaheysville,0.0
+City_McFarland,0.0
+City_McDowell,0.0
+City_McDonough,0.0
+City_McDonald,0.0
+City_McColl,0.0
+City_McCloud,0.0
+City_McClellan,0.0
+City_McCleary,0.0
+City_McCalla,0.0
+City_McArthur,0.0
+City_McAlpin,0.0
+City_McAllen,0.0
+City_McAdoo,0.0
+City_Mc Veytown,0.0
+City_Mc Leansville,0.0
+City_Mc Lean,0.0
+City_Mc Kittrick,0.0
+City_McKeesport,0.0
+City_McKenna,0.0
+City_McKinleyville,0.0
+City_Mcloud,0.0
+City_Mechanicville,0.0
+City_Mechanicsville,0.0
+City_Mechanicsburg,0.0
+City_Mebane,0.0
+City_Meansville,0.0
+City_Meadville,0.0
+City_Meadowview,0.0
+City_Meadow Vista,0.0
+City_Mcminnville,0.0
+City_Mclean,0.0
+City_McKinney,0.0
+City_Mckinleyville,0.0
+City_Mckenzie Bridge,0.0
+City_Mckeesport,0.0
+City_Mcdonough,0.0
+City_Mccall,0.0
+City_McVeytown,0.0
+City_McMinnville,0.0
+City_McLeansville,0.0
+City_McLean,0.0
+City_Mexican Hat,0.0
+City_Meyersdale,0.0
+City_Molino,0.0
+City_Miramar Beach,0.0
+City_Mira Loma,0.0
+City_Minturn,0.0
+City_Minter,0.0
+City_Mint Hill,0.0
+City_Minooka,0.0
+City_Minonk,0.0
+City_Minnetonka,0.0
+City_Mineral Wells,0.0
+City_Mineral Springs,0.0
+City_Mineral,0.0
+City_Minden,0.0
+City_Mims,0.0
+City_Milton Freewater,0.0
+City_Milton,0.0
+City_Milroy,0.0
+City_Milpitas,0.0
+City_Millville,0.0
+City_Millstone Twp,0.0
+City_Millstone Township,0.0
+City_Millsboro,0.0
+City_Mills River,0.0
+City_Miramar,0.0
+City_Miramonte,0.0
+City_Mi Wuk Village,0.0
+City_Mishawaka,0.0
+City_Molalla,0.0
+City_Mokena,0.0
+City_Mokelumne Hill,0.0
+City_Mojave,0.0
+City_Mohnton,0.0
+City_Mohegan Lake,0.0
+City_Mohawk,0.0
+City_Mohave Valley,0.0
+City_Mogadore,0.0
+City_Moffat,0.0
+City_Modoc,0.0
+City_Model,0.0
+City_Mocksville,0.0
+City_Moab,0.0
+City_Mitchellville,0.0
+City_Mitchell,0.0
+City_Missouri City,0.0
+City_Missoula,0.0
+City_Mission Viejo,0.0
+City_Mission Hills,0.0
+City_Mission,0.0
+City_Millington,0.0
+City_Milliken,0.0
+City_Millerton,0.0
+City_Millersville,0.0
+City_Midpines,0.0
+City_Midlothian,0.0
+City_Midland City,0.0
+City_Midland,0.0
+City_Middletown,0.0
+City_Middleton,0.0
+City_Middlesex,0.0
+City_Middlefield,0.0
+City_Middlebury Center,0.0
+City_Middlebury,0.0
+City_Middleburg,0.0
+City_Middleboro,0.0
+City_Middle Island,0.0
+City_Mickleton,0.0
+City_Michigan City,0.0
+City_Micanopy,0.0
+City_Miamisburg,0.0
+City_Miami Shores,0.0
+City_Miami Lakes,0.0
+City_Miami Gardens,0.0
+City_Miami Beach,0.0
+City_Midvale,0.0
+City_Midway,0.0
+City_Midway City,0.0
+City_Millbrae,0.0
+City_Millersburg,0.0
+City_Millers Falls,0.0
+City_Millers Creek,0.0
+City_Miller Place,0.0
+City_Millen,0.0
+City_Milledgeville,0.0
+City_Milldale,0.0
+City_Millbury,0.0
+City_Millbrook,0.0
+City_Mill Valley,0.0
+City_Mifflin,0.0
+City_Mill Hall,0.0
+City_Mill Creek,0.0
+City_Mill City,0.0
+City_Milford,0.0
+City_Milanville,0.0
+City_Milan,0.0
+City_Milaca,0.0
+City_Mifflintown,0.0
+City_Mifflinburg,0.0
+City_Mc Kenzie,0.0
+City_Mc Kenney,0.0
+City_Mc Gregor,0.0
+City_Manchester,0.0
+City_Manassas,0.0
+City_Manasquan,0.0
+City_Manakin Sabot,0.0
+City_Manahawkin,0.0
+City_Mammoth Lakes,0.0
+City_Mamaroneck,0.0
+City_Malverne,0.0
+City_Malvern,0.0
+City_Malone,0.0
+City_Malibu,0.0
+City_Malden Bridge,0.0
+City_Malden,0.0
+City_Malcom,0.0
+City_Malaga,0.0
+City_Malad City,0.0
+City_Malabar,0.0
+City_Maitland,0.0
+City_Maineville,0.0
+City_Mainesburg,0.0
+City_Maidens,0.0
+City_Mahwah,0.0
+City_Manchaca,0.0
+City_Manchester Township,0.0
+City_Mc Graw,0.0
+City_Mandaree,0.0
+City_Mantua,0.0
+City_Mantorville,0.0
+City_Manti,0.0
+City_Manteno,0.0
+City_Manteca,0.0
+City_Manson,0.0
+City_Mansfield Center,0.0
+City_Mansfield,0.0
+City_Manquin,0.0
+City_Manorville,0.0
+City_Manor,0.0
+City_Mannsville,0.0
+City_Manns Choice,0.0
+City_Manning,0.0
+City_Mankato,0.0
+City_Manitowoc,0.0
+City_Manila,0.0
+City_Manheim,0.0
+City_Manhattan,0.0
+City_Manhasset,0.0
+City_Mandeville,0.0
+City_Mahopac,0.0
+City_Mahnomen,0.0
+City_Mahaffey,0.0
+City_Magnolia,0.0
+City_Lyndon Station,0.0
+City_Lyndhurst,0.0
+City_Lynchburg,0.0
+City_Lynch Station,0.0
+City_Lynbrook,0.0
+City_Lyman,0.0
+City_Lutz,0.0
+City_Luttrell,0.0
+City_Lutherville Timonium,0.0
+City_Luthersburg,0.0
+City_Lusk,0.0
+City_Luray,0.0
+City_Lunenburg,0.0
+City_Lumpkin,0.0
+City_Lumberton,0.0
+City_Luling,0.0
+City_Lugoff,0.0
+City_Ludowici,0.0
+City_Ludlow,0.0
+City_Ludington,0.0
+City_Lucerne,0.0
+City_Lynn,0.0
+City_Lynn Haven,0.0
+City_Lynnfield,0.0
+City_Madbury,0.0
+City_Magna,0.0
+City_Magdalena,0.0
+City_Magazine,0.0
+City_Magalia,0.0
+City_Madras,0.0
+City_Madisonville,0.0
+City_Madisonburg,0.0
+City_Madera,0.0
+City_Madeira Beach,0.0
+City_Mad River,0.0
+City_Lynnwood,0.0
+City_Macon,0.0
+City_Mackinaw,0.0
+City_Macedonia,0.0
+City_Macdoel,0.0
+City_Macclenny,0.0
+City_Mableton,0.0
+City_MI Wuk Village,0.0
+City_Lytle,0.0
+City_Lyons,0.0
+City_Manvel,0.0
+City_Many Farms,0.0
+City_Maple Grove,0.0
+City_Mary Esther,0.0
+City_Maupin,0.0
+City_Maumelle,0.0
+City_Maumee,0.0
+City_Mauldin,0.0
+City_Matthews,0.0
+City_Matteson,0.0
+City_Mattawan,0.0
+City_Mattapan,0.0
+City_Mathews,0.0
+City_Mather,0.0
+City_Matawan,0.0
+City_Mastic Beach,0.0
+City_Mastic,0.0
+City_Massapequa,0.0
+City_Maspeth,0.0
+City_Masonville,0.0
+City_Mason,0.0
+City_Mashpee,0.0
+City_Mascoutah,0.0
+City_Maryville,0.0
+City_Marysville,0.0
+City_Max Meadows,0.0
+City_Maxton,0.0
+City_Maxwell,0.0
+City_Mc Bee,0.0
+City_Mc Farland,0.0
+City_Mc Donald,0.0
+City_Mc David,0.0
+City_Mc Cormick,0.0
+City_Mc Connellsburg,0.0
+City_Mc Connells,0.0
+City_Mc Coll,0.0
+City_Mc Clure,0.0
+City_Mc Calla,0.0
+City_Mc Alisterville,0.0
+City_Maybell,0.0
+City_Mc Adenville,0.0
+City_Maywood,0.0
+City_Mayville,0.0
+City_Maysville,0.0
+City_Mays Landing,0.0
+City_Mayo,0.0
+City_Mayflower,0.0
+City_Mayesville,0.0
+City_Mayer,0.0
+City_Maryland Heights,0.0
+City_Martville,0.0
+City_Maple Heights,0.0
+City_Martinsville,0.0
+City_Marina Del Rey,0.0
+City_Marina,0.0
+City_Marietta,0.0
+City_Maricopa,0.0
+City_Marianna,0.0
+City_Marengo,0.0
+City_Marcy,0.0
+City_Marcus Hook,0.0
+City_March Air Reserve Base,0.0
+City_Marcellus,0.0
+City_Marbury,0.0
+City_Marble Falls,0.0
+City_Marathon,0.0
+City_Marana,0.0
+City_Mapleton Depot,0.0
+City_Mapleton,0.0
+City_Maplesville,0.0
+City_Maple Valley,0.0
+City_Maple Shade,0.0
+City_Maple Plain,0.0
+City_Maple Park,0.0
+City_Marina del Rey,0.0
+City_Marine,0.0
+City_Maringouin,0.0
+City_Marrero,0.0
+City_Martinsburg,0.0
+City_Martinez,0.0
+City_Martin,0.0
+City_Marshville,0.0
+City_Marshfield,0.0
+City_Marshalltown,0.0
+City_Marshall,0.0
+City_Mars Hill,0.0
+City_Marriottsville,0.0
+City_Marne,0.0
+City_Marion,0.0
+City_Marmora,0.0
+City_Marlton,0.0
+City_Marlborough,0.0
+City_Marlboro,0.0
+City_Markleysburg,0.0
+City_Markleeville,0.0
+City_Markham,0.0
+City_Mariposa,0.0
+City_Marion Junction,0.0
+City_Moline,0.0
+City_Momence,0.0
+City_North Manchester,0.0
+City_New Lebanon,0.0
+City_New Kensington,0.0
+City_New Hyde Park,0.0
+City_New Hudson,0.0
+City_New Hope,0.0
+City_New Holland,0.0
+City_New Hill,0.0
+City_New Haven,0.0
+City_New Hartford,0.0
+City_New Harmony,0.0
+City_New Hampton,0.0
+City_New Gloucester,0.0
+City_New Germany,0.0
+City_New Freedom,0.0
+City_New Franken,0.0
+City_New Fairfield,0.0
+City_New Ellenton,0.0
+City_New Cuyama,0.0
+City_New Cumberland,0.0
+City_New Concord,0.0
+City_New Columbia,0.0
+City_New City,0.0
+City_New Kent,0.0
+City_New Lenox,0.0
+City_New York,0.0
+City_New London,0.0
+City_New Wilmington,0.0
+City_New Tripoli,0.0
+City_New Stanton,0.0
+City_New Springfield,0.0
+City_New Smyrna Beach,0.0
+City_New Salem,0.0
+City_New Rochelle,0.0
+City_New River,0.0
+City_New Richmond,0.0
+City_New Richland,0.0
+City_New Raymer,0.0
+City_New Prague,0.0
+City_New Port Richey,0.0
+City_New Plymouth,0.0
+City_New Pine Creek,0.0
+City_New Paris,0.0
+City_New Paltz,0.0
+City_New Oxford,0.0
+City_New Orleans,0.0
+City_New Milford,0.0
+City_New Market,0.0
+City_New Church,0.0
+City_New Castle,0.0
+City_New Carlisle,0.0
+City_New Canaan,0.0
+City_Nelson,0.0
+City_Neligh,0.0
+City_Nekoosa,0.0
+City_Nehalem,0.0
+City_Neeses,0.0
+City_Neenah,0.0
+City_Needles,0.0
+City_Needham Heights,0.0
+City_Needham,0.0
+City_Nebo,0.0
+City_Navasota,0.0
+City_Navarre,0.0
+City_Nauvoo,0.0
+City_Naugatuck,0.0
+City_Natural Bridge,0.0
+City_Natrona Heights,0.0
+City_National City,0.0
+City_Natick,0.0
+City_Nassau,0.0
+City_Nashville,0.0
+City_Nashua,0.0
+City_Nelsonville,0.0
+City_Neola,0.0
+City_Nephi,0.0
+City_New Baltimore,0.0
+City_New Buffalo,0.0
+City_New Brunswick,0.0
+City_New Britain,0.0
+City_New Brighton,0.0
+City_New Braunfels,0.0
+City_New Boston,0.0
+City_New Bethlehem,0.0
+City_New Berlin,0.0
+City_New Bedford,0.0
+City_New Alexandria,0.0
+City_Neptune,0.0
+City_New Albany,0.0
+City_Neville,0.0
+City_Nevada City,0.0
+City_Netcong,0.0
+City_Neskowin,0.0
+City_Nescopeck,0.0
+City_Nesconset,0.0
+City_Nesbit,0.0
+City_Neptune City,0.0
+City_New Windsor,0.0
+City_New York Mills,0.0
+City_Mona,0.0
+City_North Brunswick,0.0
+City_North Billerica,0.0
+City_North Bergen,0.0
+City_North Bend,0.0
+City_North Bellmore,0.0
+City_North Bayside,0.0
+City_North Barrington,0.0
+City_North Baldwin,0.0
+City_North Babylon,0.0
+City_North Aurora,0.0
+City_North Augusta,0.0
+City_North Attleboro,0.0
+City_North Arlington,0.0
+City_North Andover,0.0
+City_North,0.0
+City_Norman,0.0
+City_Normal,0.0
+City_Norlina,0.0
+City_Norden,0.0
+City_Norco,0.0
+City_Nokomis,0.0
+City_Nokesville,0.0
+City_North Branch,0.0
+City_North Canton,0.0
+City_Newalla,0.0
+City_North Chelmsford,0.0
+City_North Little Rock,0.0
+City_North Liberty,0.0
+City_North Las Vegas,0.0
+City_North Kingstown,0.0
+City_North Hills,0.0
+City_North Highlands,0.0
+City_North Haven,0.0
+City_North Hampton,0.0
+City_North Grosvenordale,0.0
+City_North Grafton,0.0
+City_North Garden,0.0
+City_North Franklin,0.0
+City_North Fort Myers,0.0
+City_North Fork,0.0
+City_North East,0.0
+City_North Dinwiddie,0.0
+City_North Dartmouth,0.0
+City_North Creek,0.0
+City_North Chili,0.0
+City_North Chicago,0.0
+City_North Chesterfield,0.0
+City_Noblesville,0.0
+City_Nitro,0.0
+City_Nipton,0.0
+City_Nipomo,0.0
+City_Newport Coast,0.0
+City_Newport Beach,0.0
+City_Newport,0.0
+City_Newnan,0.0
+City_Newman Lake,0.0
+City_Newman,0.0
+City_Newington,0.0
+City_Newhall,0.0
+City_Newfoundland,0.0
+City_Newfield,0.0
+City_Newfane,0.0
+City_Newcastle,0.0
+City_Newburyport,0.0
+City_Newbury Park,0.0
+City_Newburgh,0.0
+City_Newburg,0.0
+City_Newborn,0.0
+City_Newbern,0.0
+City_Newberg,0.0
+City_Newaygo,0.0
+City_Newark,0.0
+City_Newport News,0.0
+City_Newton,0.0
+City_Newton Center,0.0
+City_Nicasio,0.0
+City_Niota,0.0
+City_Ninety Six,0.0
+City_Niles,0.0
+City_Nicolaus,0.0
+City_Nicktown,0.0
+City_Nicholson,0.0
+City_Ridgeway,0.0
+City_Niceville,0.0
+City_Nice,0.0
+City_Niantic,0.0
+City_Newton Falls,0.0
+City_Niagara Falls,0.0
+City_Newville,0.0
+City_Newtown Square,0.0
+City_Newtown,0.0
+City_Newtonville,0.0
+City_Newton Upper Falls,0.0
+City_Newton Lower Falls,0.0
+City_Newton Highlands,0.0
+City_Newton Grove,0.0
+City_Naselle,0.0
+City_Narvon,0.0
+City_Narberth,0.0
+City_Morrow,0.0
+City_Morrisville,0.0
+City_Morristown,0.0
+City_Morrison,0.0
+City_Morrisdale,0.0
+City_Morris Plains,0.0
+City_Morris,0.0
+City_Morrilton,0.0
+City_Moro,0.0
+City_Morningside,0.0
+City_Moriarty,0.0
+City_Morgantown,0.0
+City_Morganton,0.0
+City_Morgan Hill,0.0
+City_Morgan City,0.0
+City_Morgan,0.0
+City_Moreno Valley,0.0
+City_Moreland,0.0
+City_Moravian Falls,0.0
+City_Moraine,0.0
+City_Mora,0.0
+City_Moosic,0.0
+City_Morro Bay,0.0
+City_Morton,0.0
+City_Napoleon,0.0
+City_Morton Grove,0.0
+City_Mount Dora,0.0
+City_Mount Croghan,0.0
+City_Mount Crawford,0.0
+City_Mount Clare,0.0
+City_Mount Carmel,0.0
+City_Mount Bethel,0.0
+City_Mount Airy,0.0
+City_Mound House,0.0
+City_Moultrie,0.0
+City_Moultonborough,0.0
+City_Motley,0.0
+City_Moss Point,0.0
+City_Moss Landing,0.0
+City_Moss Beach,0.0
+City_Mosinee,0.0
+City_Mosier,0.0
+City_Moshannon,0.0
+City_Moselle,0.0
+City_Moseley,0.0
+City_Moscow,0.0
+City_Morven,0.0
+City_Moose Lake,0.0
+City_Moorpark,0.0
+City_Moorhead,0.0
+City_Mooresville,0.0
+City_Montclair,0.0
+City_Montauk,0.0
+City_Montara,0.0
+City_Montague,0.0
+City_Mont Clare,0.0
+City_Monsey,0.0
+City_Monroeville,0.0
+City_Monroeton,0.0
+City_Monroe Township,0.0
+City_Monroe,0.0
+City_Monmouth Junction,0.0
+City_Monmouth,0.0
+City_Monkton,0.0
+City_Monetta,0.0
+City_Moneta,0.0
+City_Monessen,0.0
+City_Monee,0.0
+City_Mondamin,0.0
+City_Moncure,0.0
+City_Moncks Corner,0.0
+City_Monaca,0.0
+City_Monte Rio,0.0
+City_Monteagle,0.0
+City_Montebello,0.0
+City_Montoursville,0.0
+City_Moorestown,0.0
+City_Moore,0.0
+City_Moody,0.0
+City_Monument,0.0
+City_Montverde,0.0
+City_Montvale,0.0
+City_Montross,0.0
+City_Montrose,0.0
+City_Montpelier,0.0
+City_Monticello,0.0
+City_Montello,0.0
+City_Montgomeryville,0.0
+City_Montgomery Creek,0.0
+City_Montgomery City,0.0
+City_Montgomery,0.0
+City_Montevideo,0.0
+City_Montevallo,0.0
+City_Montesano,0.0
+City_Monterey Park,0.0
+City_Monterey,0.0
+City_Mount Ephraim,0.0
+City_Mount Gretna,0.0
+City_Mount Hamilton,0.0
+City_Mt Pocono,0.0
+City_Murphys,0.0
+City_Murphy,0.0
+City_Murfreesboro,0.0
+City_Murdock,0.0
+City_Munster,0.0
+City_Munfordville,0.0
+City_Munds Park,0.0
+City_Mundelein,0.0
+City_Muncy,0.0
+City_Muncie,0.0
+City_Mullins,0.0
+City_Mullica Hill,0.0
+City_Mullan,0.0
+City_Mulino,0.0
+City_Mulhall,0.0
+City_Mulberry,0.0
+City_Mukilteo,0.0
+City_Muir Beach,0.0
+City_Mt Wilson,0.0
+City_Mt Vernon,0.0
+City_Mt Sterling,0.0
+City_Murrells Inlet,0.0
+City_Murrieta,0.0
+City_Murrysville,0.0
+City_Naches,0.0
+City_Naples,0.0
+City_Naperville,0.0
+City_Napa,0.0
+City_Nanuet,0.0
+City_Nanty Glo,0.0
+City_Nanjemoy,0.0
+City_Nampa,0.0
+City_Nags Head,0.0
+City_Nacogdoches,0.0
+City_Myrtle Point,0.0
+City_Murtaugh,0.0
+City_Myrtle Creek,0.0
+City_Myrtle Beach,0.0
+City_Myersville,0.0
+City_Myerstown,0.0
+City_Myers Flat,0.0
+City_Myakka City,0.0
+City_Mustang,0.0
+City_Muskegon,0.0
+City_Muscle Shoals,0.0
+City_Mt Sidney,0.0
+City_Mt Pleasant,0.0
+City_Mount Holly,0.0
+City_Mt Laurel,0.0
+City_Mount Wolf,0.0
+City_Mount Vernon,0.0
+City_Mount Sinai,0.0
+City_Mount Sidney,0.0
+City_Mount Shasta,0.0
+City_Mount Royal,0.0
+City_Mount Rainier,0.0
+City_Mount Pocono,0.0
+City_Mount Pleasant Mills,0.0
+City_Mount Pleasant,0.0
+City_Mount Olive,0.0
+City_Mount Morris,0.0
+City_Mount Lemmon,0.0
+City_Mount Laurel,0.0
+City_Mount Kisco,0.0
+City_Mount Juliet,0.0
+City_Mount Joy,0.0
+City_Mount Jewett,0.0
+City_Mount Jackson,0.0
+City_Mount Hope,0.0
+City_Mount Hood Parkdale,0.0
+City_Mountain Brk,0.0
+City_Mountain Center,0.0
+City_Mountain City,0.0
+City_Mt Clare,0.0
+City_Mt Kisco,0.0
+City_Mt Juliet,0.0
+City_Mt Judea,0.0
+City_Mt Jackson,0.0
+City_Mt Holly,0.0
+City_Mt Gilead,0.0
+City_Mt Ephraim,0.0
+City_Mt Dora,0.0
+City_Mt Crawford,0.0
+City_Mt Baldy,0.0
+City_Mountain Home,0.0
+City_Mt Airy,0.0
+City_Mountville,0.0
+City_Mountlake Terrace,0.0
+City_Mountainside,0.0
+City_Mountain View,0.0
+City_Mountain Top,0.0
+City_Mountain Rest,0.0
+City_Mountain Ranch,0.0
+City_Mountain Lake,0.0
+City_Ridgeville,0.0
+City_Rodeo,0.0
+City_Ridgewood,0.0
+City_Van Nuys,0.0
+City_Van Buren,0.0
+City_Valyermo,0.0
+City_Valrico,0.0
+City_Valparaiso,0.0
+City_Valley Village,0.0
+City_Valley Stream,0.0
+City_Valley Springs,0.0
+City_Valley Park,0.0
+City_Valley Head,0.0
+City_Valley City,0.0
+City_Valley Center,0.0
+City_Valley,0.0
+City_Vallejo,0.0
+City_Vallecito,0.0
+City_Valhalla,0.0
+City_Valentines,0.0
+City_Valentine,0.0
+City_Valencia,0.0
+City_Vale,0.0
+City_Valdosta,0.0
+City_Valdese,0.0
+City_Van Horn,0.0
+City_Van Wert,0.0
+City_Vernon Hills,0.0
+City_Vance,0.0
+City_Verndale,0.0
+City_Vernalis,0.0
+City_Vernal,0.0
+City_Vermilion,0.0
+City_Verdi,0.0
+City_Verbena,0.0
+City_Veradale,0.0
+City_Venus,0.0
+City_Ventura,0.0
+City_Venice,0.0
+City_Venetia,0.0
+City_Veneta,0.0
+City_Vauxhall,0.0
+City_Vaughan,0.0
+City_Vass,0.0
+City_Vashon,0.0
+City_Varnville,0.0
+City_Vandergrift,0.0
+City_Vandalia,0.0
+City_Vancouver,0.0
+City_Vanceboro,0.0
+City_Valatie,0.0
+City_Vail,0.0
+City_Utica,0.0
+City_Usaf Academy,0.0
+City_Underwood,0.0
+City_Uncasville,0.0
+City_Unadilla,0.0
+City_Umatilla,0.0
+City_Ukiah,0.0
+City_Uhrichsville,0.0
+City_Tyrone,0.0
+City_Tyngsboro,0.0
+City_Tyler,0.0
+City_Tybee Island,0.0
+City_Twinsburg,0.0
+City_Twin Peaks,0.0
+City_Twin City,0.0
+City_Twin Bridges,0.0
+City_Twain Harte,0.0
+City_Twain,0.0
+City_Tuxedo Park,0.0
+City_Tustin,0.0
+City_Tuskegee,0.0
+City_Tuscumbia,0.0
+City_Tuscaloosa,0.0
+City_Union,0.0
+City_Union Bridge,0.0
+City_Union Grove,0.0
+City_Upper Chichester,0.0
+City_Urbandale,0.0
+City_Urbana,0.0
+City_Upton,0.0
+City_Upperville,0.0
+City_Upper Sandusky,0.0
+City_Upper Merion,0.0
+City_Upper Marlboro,0.0
+City_Upper Macungie,0.0
+City_Upper Lake,0.0
+City_Upland,0.0
+City_Union Mills,0.0
+City_Unknown,0.0
+City_University Park,0.0
+City_Universal City,0.0
+City_Unityville,0.0
+City_Unity,0.0
+City_United States Air Force Academy,0.0
+City_Unionville,0.0
+City_Uniontown,0.0
+City_Uniondale,0.0
+City_Vernon,0.0
+City_Vernon Rockville,0.0
+City_Warrenton,0.0
+City_Walpole,0.0
+City_Walnut Grove,0.0
+City_Walnut Creek,0.0
+City_Walnut Cove,0.0
+City_Walnut Bottom,0.0
+City_Walnut,0.0
+City_Wallsburg,0.0
+City_Wallowa,0.0
+City_Wallkill,0.0
+City_Wallingford,0.0
+City_Wallace,0.0
+City_Wall Township,0.0
+City_Walkertown,0.0
+City_Walkerton,0.0
+City_Walker,0.0
+City_Walhalla,0.0
+City_Waldwick,0.0
+City_Waldron,0.0
+City_Waldport,0.0
+City_Waldorf,0.0
+City_Waldo,0.0
+City_Walden,0.0
+City_Walnut Ridge,0.0
+City_Walsenburg,0.0
+City_Vernonia,0.0
+City_Walterboro,0.0
+City_Warrens,0.0
+City_Warren,0.0
+City_Warners,0.0
+City_Warner Robins,0.0
+City_Warner,0.0
+City_Warminster,0.0
+City_Warm Springs,0.0
+City_Warfordsburg,0.0
+City_Warfield,0.0
+City_Waretown,0.0
+City_Wareham,0.0
+City_Ward,0.0
+City_Warba,0.0
+City_Wapwallopen,0.0
+City_Wappingers Falls,0.0
+City_Wantagh,0.0
+City_Wamsutter,0.0
+City_Wampum,0.0
+City_Walton,0.0
+City_Waltham,0.0
+City_Walterville,0.0
+City_Walcott,0.0
+City_Wakefield,0.0
+City_Wake Forest,0.0
+City_Wagon Mound,0.0
+City_Vincent,0.0
+City_Villanova,0.0
+City_Villa Ridge,0.0
+City_Villa Rica,0.0
+City_Villa Park,0.0
+City_Villa Hills,0.0
+City_View Park,0.0
+City_Vienna,0.0
+City_Vidor,0.0
+City_Vidalia,0.0
+City_Vidal,0.0
+City_Vida,0.0
+City_Victorville,0.0
+City_Victoria,0.0
+City_Victor,0.0
+City_Vicksburg,0.0
+City_Vesuvius,0.0
+City_Vestavia,0.0
+City_Vestal,0.0
+City_Verona,0.0
+City_Vero Beach,0.0
+City_Vincentown,0.0
+City_Vineland,0.0
+City_Vinemont,0.0
+City_Voorhees,0.0
+City_Wagarville,0.0
+City_Wadsworth,0.0
+City_Wadesboro,0.0
+City_Wadena,0.0
+City_Wade,0.0
+City_Waddell,0.0
+City_Waconia,0.0
+City_Waco,0.0
+City_Wabasha,0.0
+City_Von Ormy,0.0
+City_Vinton,0.0
+City_Volo,0.0
+City_Volente,0.0
+City_Volcano,0.0
+City_Vivian,0.0
+City_Vista,0.0
+City_Virginia Beach,0.0
+City_Virginia,0.0
+City_Virgin,0.0
+City_Viola,0.0
+City_Turtle Creek,0.0
+City_Turrell,0.0
+City_Turlock,0.0
+City_The Villages,0.0
+City_The Dalles,0.0
+City_The Colony,0.0
+City_Texas City,0.0
+City_Texarkana,0.0
+City_Tewksbury,0.0
+City_Teterboro,0.0
+City_Terry,0.0
+City_Terrell,0.0
+City_Terrebonne,0.0
+City_Terre Haute,0.0
+City_Terra Ceia,0.0
+City_Terra Bella,0.0
+City_Termo,0.0
+City_Tenmile,0.0
+City_Tenino,0.0
+City_Tenafly,0.0
+City_Templeton,0.0
+City_Temple Hills,0.0
+City_Temple City,0.0
+City_Temple,0.0
+City_Tempe,0.0
+City_The Plains,0.0
+City_Theodore,0.0
+City_Turbotville,0.0
+City_Theresa,0.0
+City_Thurman,0.0
+City_Three Springs,0.0
+City_Three Rivers,0.0
+City_Three Forks,0.0
+City_Thousand Palms,0.0
+City_Thousand Oaks,0.0
+City_Thorp,0.0
+City_Thornville,0.0
+City_Thorntown,0.0
+City_Thornton,0.0
+City_Thorndale,0.0
+City_Thoreau,0.0
+City_Thonotosassa,0.0
+City_Thomson,0.0
+City_Thompsontown,0.0
+City_Thompsons Station,0.0
+City_Thompson's Station,0.0
+City_Thompson,0.0
+City_Thomasville,0.0
+City_Thomaston,0.0
+City_Thibodaux,0.0
+City_Temecula,0.0
+City_Tellico Plains,0.0
+City_Telford,0.0
+City_Tekonsha,0.0
+City_Tamassee,0.0
+City_Talmage,0.0
+City_Tallulah,0.0
+City_Tallmadge,0.0
+City_Tallassee,0.0
+City_Tallahassee,0.0
+City_Talking Rock,0.0
+City_Talent,0.0
+City_Takoma Park,0.0
+City_Tahoe Vista,0.0
+City_Tahoe City,0.0
+City_Taft,0.0
+City_Table Rock,0.0
+City_Tabiona,0.0
+City_Tabernacle,0.0
+City_Taberg,0.0
+City_Syosset,0.0
+City_Sylvania,0.0
+City_Sylva,0.0
+City_Sykesville,0.0
+City_Swords Creek,0.0
+City_Tangent,0.0
+City_Tanner,0.0
+City_Tannersville,0.0
+City_Tavernier,0.0
+City_Tekamah,0.0
+City_Tehachapi,0.0
+City_Teec Nos Pos,0.0
+City_Teaneck,0.0
+City_Taylorsville,0.0
+City_Taylors Falls,0.0
+City_Taylors,0.0
+City_Taylor Mill,0.0
+City_Taylor,0.0
+City_Tavares,0.0
+City_Tappahannock,0.0
+City_Taunton,0.0
+City_Tarzana,0.0
+City_Tarzan,0.0
+City_Tarrytown,0.0
+City_Tarrs,0.0
+City_Tarpon Springs,0.0
+City_Tarentum,0.0
+City_Tarboro,0.0
+City_Tappan,0.0
+City_Thurmont,0.0
+City_Tidewater,0.0
+City_Tiffin,0.0
+City_Towson,0.0
+City_Troutdale,0.0
+City_Trout Run,0.0
+City_Trona,0.0
+City_Trinity Center,0.0
+City_Trinity,0.0
+City_Trinidad,0.0
+City_Triangle,0.0
+City_Triadelphia,0.0
+City_Treynor,0.0
+City_Trenton,0.0
+City_Tremonton,0.0
+City_Tremont,0.0
+City_Traverse City,0.0
+City_Traver,0.0
+City_Travelers Rest,0.0
+City_Trappe,0.0
+City_Tranquillity,0.0
+City_Trail,0.0
+City_Trafford,0.0
+City_Traer,0.0
+City_Tracy,0.0
+City_Troutman,0.0
+City_Troutville,0.0
+City_Troy,0.0
+City_Tukwila,0.0
+City_Turbeville,0.0
+City_Tupper Lake,0.0
+City_Tupman,0.0
+City_Tupelo,0.0
+City_Tuolumne,0.0
+City_Tunnel Hill,0.0
+City_Tully,0.0
+City_Tulelake,0.0
+City_Tulare,0.0
+City_Tujunga,0.0
+City_Truckee,0.0
+City_Tucumcari,0.0
+City_Tucson,0.0
+City_Tuckerton,0.0
+City_Tucker,0.0
+City_Tuckahoe,0.0
+City_Tualatin,0.0
+City_Trussville,0.0
+City_Trumbull,0.0
+City_Truman,0.0
+City_Trabuco Canyon,0.0
+City_Township of Washington,0.0
+City_Tifton,0.0
+City_Township Of Washington,0.0
+City_Toluca Lake,0.0
+City_Tolleson,0.0
+City_Tolland,0.0
+City_Toledo,0.0
+City_Tobaccoville,0.0
+City_Toano,0.0
+City_Tivoli,0.0
+City_Titusville,0.0
+City_Tipton,0.0
+City_Tipp City,0.0
+City_Tioga,0.0
+City_Tinley Park,0.0
+City_Timmonsville,0.0
+City_Timberville,0.0
+City_Timber,0.0
+City_Tilton,0.0
+City_Tillson,0.0
+City_Tiller,0.0
+City_Tillamook,0.0
+City_Tilghman,0.0
+City_Tijeras,0.0
+City_Tomah,0.0
+City_Tomales,0.0
+City_Tomball,0.0
+City_Toquerville,0.0
+City_Townsend,0.0
+City_Tower City,0.0
+City_Towanda,0.0
+City_Towaco,0.0
+City_Toughkenamon,0.0
+City_Totowa,0.0
+City_Tortilla Flat,0.0
+City_Torrington,0.0
+City_Torrey,0.0
+City_Topsfield,0.0
+City_Toms Brook,0.0
+City_Topping,0.0
+City_Topeka,0.0
+City_Topaz,0.0
+City_Topanga,0.0
+City_Tooele,0.0
+City_Tonopah,0.0
+City_Toney,0.0
+City_Tonawanda,0.0
+City_Toms River,0.0
+City_Warrensburg,0.0
+City_Warrenville,0.0
+City_Swisshome,0.0
+City_Winnett,0.0
+City_Winnemucca,0.0
+City_Winnebago,0.0
+City_Winnabow,0.0
+City_Winlock,0.0
+City_Wingdale,0.0
+City_Winfield,0.0
+City_Windsor Mill,0.0
+City_Windsor Locks,0.0
+City_Windsor Heights,0.0
+City_Windsor,0.0
+City_Windom,0.0
+City_Windham,0.0
+City_Windermere,0.0
+City_Winder,0.0
+City_Windcrest,0.0
+City_Windber,0.0
+City_Wind Gap,0.0
+City_Winchester,0.0
+City_Winchendon,0.0
+City_Wimauma,0.0
+City_Wilton Manors,0.0
+City_Winnetka,0.0
+City_Winnsboro,0.0
+City_Wolf Creek,0.0
+City_Winona,0.0
+City_Woburn,0.0
+City_Wixom,0.0
+City_Wittmann,0.0
+City_Witter,0.0
+City_Wise River,0.0
+City_Wise,0.0
+City_Wisconsin Dells,0.0
+City_Winton,0.0
+City_Winthrop Harbor,0.0
+City_Winthrop,0.0
+City_Winterset,0.0
+City_Winters,0.0
+City_Winterhaven,0.0
+City_Winter Springs,0.0
+City_Winter Haven,0.0
+City_Winter Garden,0.0
+City_Winston-Salem,0.0
+City_Winston Salem,0.0
+City_Winston,0.0
+City_Winsted,0.0
+City_Winslow,0.0
+City_Wilton,0.0
+City_Wilsonville,0.0
+City_Wilson,0.0
+City_Wilmington,0.0
+City_Williams,0.0
+City_Willcox,0.0
+City_Willard,0.0
+City_Willamina,0.0
+City_Wilkesboro,0.0
+City_Wilkes-Barre,0.0
+City_Wilkes Barre,0.0
+City_Wildwood,0.0
+City_Wildomar,0.0
+City_Wilderville,0.0
+City_Wilcox,0.0
+City_Wilbraham,0.0
+City_Wiggins,0.0
+City_Widener,0.0
+City_Wickliffe,0.0
+City_Wickenburg,0.0
+City_Wichita Falls,0.0
+City_Wichita,0.0
+City_Wibaux,0.0
+City_Whitwell,0.0
+City_Whittington,0.0
+City_Williamsburg,0.0
+City_Williamsport,0.0
+City_Williamston,0.0
+City_Willow Hill,0.0
+City_Wilmette,0.0
+City_Wilmerding,0.0
+City_Wilmer,0.0
+City_Willows,0.0
+City_Willowbrook,0.0
+City_Willow Street,0.0
+City_Willow Springs,0.0
+City_Willow Spring,0.0
+City_Willow River,0.0
+City_Willow Grove,0.0
+City_Williamstown,0.0
+City_Willow Creek,0.0
+City_Willow Beach,0.0
+City_Willoughby,0.0
+City_Willmar,0.0
+City_Willits,0.0
+City_Williston,0.0
+City_Willis,0.0
+City_Willington,0.0
+City_Williamsville,0.0
+City_Wofford Heights,0.0
+City_Wolf Point,0.0
+City_Warrington,0.0
+City_Yreka,0.0
+City_Yountville,0.0
+City_Youngwood,0.0
+City_Youngtown,0.0
+City_Youngsville,0.0
+City_Youngstown,0.0
+City_Young Harris,0.0
+City_Yorktown Heights,0.0
+City_Yorktown,0.0
+City_York Springs,0.0
+City_York Haven,0.0
+City_York,0.0
+City_Yorba Linda,0.0
+City_Yonkers,0.0
+City_Yoncalla,0.0
+City_Yoder,0.0
+City_Yermo,0.0
+City_Yerington,0.0
+City_Yeagertown,0.0
+City_Yarrow Point,0.0
+City_Yarnell,0.0
+City_Yarmouth,0.0
+City_Ypsilanti,0.0
+City_Yuba City,0.0
+City_Wonder Lake,0.0
+City_Yucaipa,0.0
+Roundabout,0.0
+No_Exit,0.0
+City_Zuni,0.0
+City_Zumbrota,0.0
+City_Zumbro Falls,0.0
+City_Zolfo Springs,0.0
+City_Zirconia,0.0
+City_Zionsville,0.0
+City_Zion Crossroads,0.0
+City_Zion,0.0
+City_Zimmerman,0.0
+City_Zephyrhills,0.0
+City_Zellwood,0.0
+City_Zeeland,0.0
+City_Zebulon,0.0
+City_Zanesville,0.0
+City_Zamora,0.0
+City_Zachary,0.0
+City_Yuma,0.0
+City_Yulee,0.0
+City_Yukon,0.0
+City_Yamhill,0.0
+City_Yalaha,0.0
+City_Yakima,0.0
+City_Yadkinville,0.0
+City_Woodstock,0.0
+City_Woods Cross,0.0
+City_Woodruff,0.0
+City_Woodridge,0.0
+City_Woodmere,0.0
+City_Woodlyn,0.0
+City_Woodlawn,0.0
+City_Woodland Park,0.0
+City_Woodland Hills,0.0
+City_Woodland,0.0
+City_Woodlake,0.0
+City_Woodinville,0.0
+City_Woodhaven,0.0
+City_Woodford,0.0
+City_Woodcliff Lake,0.0
+City_Woodbury Heights,0.0
+City_Woodbury,0.0
+City_Woodbridge,0.0
+City_Woodbine,0.0
+City_Woodacre,0.0
+City_Wood Dale,0.0
+City_Woodstown,0.0
+City_Wooster,0.0
+City_Worcester,0.0
+City_Wyandanch,0.0
+City_Yachats,0.0
+City_Xenia,0.0
+City_Wytheville,0.0
+City_Wysox,0.0
+City_Wyoming,0.0
+City_Wynnewood,0.0
+City_Wyncote,0.0
+City_Wynantskill,0.0
+City_Wyckoff,0.0
+City_Wyalusing,0.0
+City_Worden,0.0
+City_Wrightwood,0.0
+City_Wrightsville,0.0
+City_Wright City,0.0
+City_Wright,0.0
+City_Wrentham,0.0
+City_Wrens,0.0
+City_Worthville,0.0
+City_Worthington,0.0
+City_Worth,0.0
+City_Whittier,0.0
+City_Whitsett,0.0
+City_Whitney Point,0.0
+City_Wenham,0.0
+City_Wendell,0.0
+City_Wellton,0.0
+City_Wellsville,0.0
+City_Wellsboro,0.0
+City_Wells,0.0
+City_Wellington,0.0
+City_Wellford,0.0
+City_Wellesley Hills,0.0
+City_Wellesley,0.0
+City_Wellborn,0.0
+City_Weldon,0.0
+City_Welcome,0.0
+City_Welch,0.0
+City_Welaka,0.0
+City_Weiser,0.0
+City_Weirsdale,0.0
+City_Weems,0.0
+City_Weehawken,0.0
+City_Weedville,0.0
+City_Weedsport,0.0
+City_Weed,0.0
+City_Wendover,0.0
+City_Wenona,0.0
+City_Whitmore Lake,0.0
+City_Wentzville,0.0
+City_West Glacier,0.0
+City_West Friendship,0.0
+City_West Frankfort,0.0
+City_West Fargo,0.0
+City_West Des Moines,0.0
+City_West Decatur,0.0
+City_West Coxsackie,0.0
+City_West Cornwall,0.0
+City_West Contra Costa,0.0
+City_West Collingswood,0.0
+City_West Chicago,0.0
+City_West Chester,0.0
+City_West Bridgewater,0.0
+City_West Branch,0.0
+City_West Berlin,0.0
+City_West Bend,0.0
+City_West Barnstable,0.0
+City_West Babylon,0.0
+City_West Alexander,0.0
+City_Wesley Chapel,0.0
+City_Weslaco,0.0
+City_Wedgefield,0.0
+City_Webster City,0.0
+City_Webster,0.0
+City_Webberville,0.0
+City_Watkins,0.0
+City_Watford City,0.0
+City_Watervliet,0.0
+City_Waterville,0.0
+City_Watertown,0.0
+City_Waterloo,0.0
+City_Waterford,0.0
+City_Waterbury,0.0
+City_Water Mill,0.0
+City_Wassaic,0.0
+City_Washougal,0.0
+City_Washoe Valley,0.0
+City_Washington Twp,0.0
+City_Washington Boro,0.0
+City_Washington,0.0
+City_Washburn,0.0
+City_Wasco,0.0
+City_Warwick,0.0
+City_Warsaw,0.0
+City_Warriors Mark,0.0
+City_Warrior,0.0
+City_Watkins Glen,0.0
+City_Watkinsville,0.0
+City_Watseka,0.0
+City_Waxhaw,0.0
+City_Weaverville,0.0
+City_Weatogue,0.0
+City_Weatherford,0.0
+City_Wayzata,0.0
+City_Waynesville,0.0
+City_Waynesburg,0.0
+City_Waynesboro,0.0
+City_Wayne,0.0
+City_Wayland,0.0
+City_Waxahachie,0.0
+City_Watsontown,0.0
+City_Waverly,0.0
+City_Wauseon,0.0
+City_Wausau,0.0
+City_Waukesha,0.0
+City_Waukegan,0.0
+City_Waukee,0.0
+City_Wauconda,0.0
+City_Wauchula,0.0
+City_Watsonville,0.0
+City_West Greenwich,0.0
+City_West Harrison,0.0
+City_West Hartford,0.0
+City_Westmoreland City,0.0
+City_White Hall,0.0
+City_White City,0.0
+City_White,0.0
+City_Whitakers,0.0
+City_Whippany,0.0
+City_Wheeling,0.0
+City_Wheaton,0.0
+City_Wheatley,0.0
+City_Wheatland,0.0
+City_Wheat Ridge,0.0
+City_Wharton,0.0
+City_Weymouth,0.0
+City_Weyers Cave,0.0
+City_Weyauwega,0.0
+City_Wexford,0.0
+City_Wetumpka,0.0
+City_Wetmore,0.0
+City_Wethersfield,0.0
+City_Westwood,0.0
+City_Westville,0.0
+City_Westport,0.0
+City_White Haven,0.0
+City_White Heath,0.0
+City_White House,0.0
+City_Whites Creek,0.0
+City_Whitmire,0.0
+City_Whitman,0.0
+City_Whitinsville,0.0
+City_Whitewater,0.0
+City_Whitethorn,0.0
+City_Whitestown,0.0
+City_Whitestone,0.0
+City_Whitesburg,0.0
+City_Whitesboro,0.0
+City_Whiteriver,0.0
+City_White Lake,0.0
+City_Whitelaw,0.0
+City_Whiteland,0.0
+City_Whitehall,0.0
+City_Whitefish,0.0
+City_White Stone,0.0
+City_White Springs,0.0
+City_White Plains,0.0
+City_White Pine,0.0
+City_White Marsh,0.0
+City_Weston,0.0
+City_Westmoreland,0.0
+City_West Haven,0.0
+City_Westmont,0.0
+City_West Roxbury,0.0
+City_West Point,0.0
+City_West Orange,0.0
+City_West Olive,0.0
+City_West Nyack,0.0
+City_West Newton,0.0
+City_West Monroe,0.0
+City_West Milford,0.0
+City_West Mifflin,0.0
+City_West Middlesex,0.0
+City_West Miami,0.0
+City_West Memphis,0.0
+City_West Linn,0.0
+City_West Lake Hills,0.0
+City_West Lafayette,0.0
+City_West Jordan,0.0
+City_West Jefferson,0.0
+City_West Islip,0.0
+City_West Hollywood,0.0
+City_West Henrietta,0.0
+City_West Hempstead,0.0
+City_West Sacramento,0.0
+City_West Salem,0.0
+City_West Sand Lake,0.0
+City_Westerville,0.0
+City_Westminster,0.0
+City_Westley,0.0
+City_Westland,0.0
+City_Westlake Village,0.0
+City_Westlake,0.0
+City_Westhampton Beach,0.0
+City_Westford,0.0
+City_Westfir,0.0
+City_Westfield,0.0
+City_Westchester,0.0
+City_West Union,0.0
+City_Westby,0.0
+City_Westbury,0.0
+City_Westbrook,0.0
+City_Westborough,0.0
+City_West des Moines,0.0
+City_West Yellowstone,0.0
+City_West Yarmouth,0.0
+City_West Warwick,0.0
+City_West Valley City,0.0
+City_Swoope,0.0
+City_Swisher,0.0
+City_Ridgway,0.0
+City_Sanford,0.0
+City_Sandy,0.0
+City_Sandwich,0.0
+City_Sandstone,0.0
+City_Sandston,0.0
+City_Sanderson,0.0
+City_Sanders,0.0
+City_Sand Springs,0.0
+City_Sanbornton,0.0
+City_Sanborn,0.0
+City_San Ysidro,0.0
+City_San Tan Valley,0.0
+City_San Simon,0.0
+City_San Simeon,0.0
+City_San Ramon,0.0
+City_San Rafael,0.0
+City_San Quentin,0.0
+City_San Pedro,0.0
+City_San Pablo,0.0
+City_San Miguel,0.0
+City_San Mateo,0.0
+City_San Martin,0.0
+City_Sandy Hook,0.0
+City_Sanger,0.0
+City_Satellite Beach,0.0
+City_Sanibel,0.0
+City_Sardis,0.0
+City_Saratoga Springs,0.0
+City_Saratoga,0.0
+City_Sarasota,0.0
+City_Saraland,0.0
+City_Sapulpa,0.0
+City_Santee,0.0
+City_Santaquin,0.0
+City_Santa Ynez,0.0
+City_Santa Rosa Beach,0.0
+City_Santa Rosa,0.0
+City_Santa Paula,0.0
+City_Santa Monica,0.0
+City_Santa Maria,0.0
+City_Santa Margarita,0.0
+City_Santa Fe,0.0
+City_Santa Cruz,0.0
+City_Santa Clarita,0.0
+City_Santa Clara,0.0
+City_Santa Barbara,0.0
+City_Santa Ana,0.0
+City_San Marino,0.0
+City_San Marcos,0.0
+City_San Manuel,0.0
+City_San Luis Obispo,0.0
+City_Saluda,0.0
+City_Saltsburg,0.0
+City_Saltese,0.0
+City_Salters,0.0
+City_Salt Point,0.0
+City_Salt Lake City,0.0
+City_Salt Flat,0.0
+City_Salome,0.0
+City_Salley,0.0
+City_Salix,0.0
+City_Salisbury,0.0
+City_Saline,0.0
+City_Salinas,0.0
+City_Salina,0.0
+City_Salida,0.0
+City_Salem,0.0
+City_Sale Creek,0.0
+City_Salamanca,0.0
+City_Sainte Genevieve,0.0
+City_Saint Thomas,0.0
+City_Saint Stephen,0.0
+City_Salyer,0.0
+City_Salyersville,0.0
+City_Samoa,0.0
+City_San Gabriel,0.0
+City_San Lorenzo,0.0
+City_San Leandro,0.0
+City_San Juan Capistrano,0.0
+City_San Juan Bautista,0.0
+City_San Juan,0.0
+City_San Jose,0.0
+City_San Joaquin,0.0
+City_San Jacinto,0.0
+City_San Gregorio,0.0
+City_San Fernando Valley,0.0
+City_San Andreas,0.0
+City_San Fernando,0.0
+City_San Elizario,0.0
+City_San Dimas,0.0
+City_San Clemente,0.0
+City_San Carlos,0.0
+City_San Bruno,0.0
+City_San Bernardino,0.0
+City_San Ardo,0.0
+City_San Anselmo,0.0
+City_Sarver,0.0
+City_Satsuma,0.0
+City_Shafer,0.0
+City_Selinsgrove,0.0
+City_Selbyville,0.0
+City_Selby,0.0
+City_Seiad Valley,0.0
+City_Seguin,0.0
+City_Seffner,0.0
+City_Seeley Lake,0.0
+City_Sedro Woolley,0.0
+City_Sedona,0.0
+City_Sedalia,0.0
+City_Secaucus,0.0
+City_Sebring,0.0
+City_Sebree,0.0
+City_Sebeka,0.0
+City_Sebastopol,0.0
+City_Sebastian,0.0
+City_Seattle,0.0
+City_Seatac,0.0
+City_Seaside,0.0
+City_Searcy,0.0
+City_Sealy,0.0
+City_Seal Beach,0.0
+City_Seligman,0.0
+City_Selkirk,0.0
+City_Saucier,0.0
+City_Sellersburg,0.0
+City_Sewickley,0.0
+City_Sewell,0.0
+City_Sewaren,0.0
+City_Seward,0.0
+City_Seville,0.0
+City_Sevier,0.0
+City_Severy,0.0
+City_Severn,0.0
+City_Seven Valleys,0.0
+City_Seven Springs,0.0
+City_Sequim,0.0
+City_Sentinel Butte,0.0
+City_Senoia,0.0
+City_Seneca Rocks,0.0
+City_Seneca Falls,0.0
+City_Seneca,0.0
+City_Senatobia,0.0
+City_Semmes,0.0
+City_Seminole,0.0
+City_Selma,0.0
+City_Sellersville,0.0
+City_Seagoville,0.0
+City_Seaford,0.0
+City_Seabrook,0.0
+City_Sea Cliff,0.0
+City_Scarsdale,0.0
+City_Scarbro,0.0
+City_Scarborough,0.0
+City_Scappoose,0.0
+City_Scandia,0.0
+City_Sayville,0.0
+City_Sayreville,0.0
+City_Saxton,0.0
+City_Saxonburg,0.0
+City_Sawyer,0.0
+City_Savona,0.0
+City_Savannah,0.0
+City_Savage,0.0
+City_Sausalito,0.0
+City_Sauquoit,0.0
+City_Sauk Rapids,0.0
+City_Sauk City,0.0
+City_Sauk Centre,0.0
+City_Saugus,0.0
+City_Saugerties,0.0
+City_Saugatuck,0.0
+City_Schaghticoke,0.0
+City_Schaumburg,0.0
+City_Schenectady,0.0
+City_Scott,0.0
+City_Scranton,0.0
+City_Scottsville,0.0
+City_Scottsdale,0.0
+City_Scottsburg,0.0
+City_Scottsboro,0.0
+City_Scottsbluff,0.0
+City_Scotts Valley,0.0
+City_Scott Depot,0.0
+City_Scott City,0.0
+City_Scotch Plains,0.0
+City_Schertz,0.0
+City_Sciota,0.0
+City_Scio,0.0
+City_Schwenksville,0.0
+City_Schuylerville,0.0
+City_Schurz,0.0
+City_Schriever,0.0
+City_Schoharie,0.0
+City_Schodack Landing,0.0
+City_Schiller Park,0.0
+City_Saint Regis,0.0
+City_Saint Peters,0.0
+City_Saint Peter,0.0
+City_Rogersville,0.0
+City_Roebuck,0.0
+City_Roebling,0.0
+City_Rodessa,0.0
+City_Lucama,0.0
+City_Rocky River,0.0
+City_Rocky Point,0.0
+City_Rocky Mount,0.0
+City_Rocky Hill,0.0
+City_Rocky Gap,0.0
+City_Rockwood,0.0
+City_Rockwell,0.0
+City_Rockwall,0.0
+City_Rockville Centre,0.0
+City_Rockville,0.0
+City_Rockton,0.0
+City_Rockport,0.0
+City_Rockmart,0.0
+City_Rocklin,0.0
+City_Rockledge,0.0
+City_Rockland,0.0
+City_Rockingham,0.0
+City_Rogers,0.0
+City_Rogue River,0.0
+City_Saint Pauls,0.0
+City_Rohnert Park,0.0
+City_Rosedale,0.0
+City_Rose Valley,0.0
+City_Rose Bud,0.0
+City_Roscommon,0.0
+City_Rosamond,0.0
+City_Rootstown,0.0
+City_Roosevelt,0.0
+City_Ronks,0.0
+City_Ronkonkoma,0.0
+City_Ronda,0.0
+City_Ronan,0.0
+City_Romulus,0.0
+City_Romeoville,0.0
+City_Rome,0.0
+City_Rolling Prairie,0.0
+City_Rolling Meadows,0.0
+City_Rolling Hills Estates,0.0
+City_Rolla,0.0
+City_Roll,0.0
+City_Rolesville,0.0
+City_Roland,0.0
+City_Rockford,0.0
+City_Rockfall,0.0
+City_Rockbridge,0.0
+City_Rockaway Park,0.0
+City_Riverton,0.0
+City_Riverside,0.0
+City_Riverhead,0.0
+City_Riverdale,0.0
+City_Ritzville,0.0
+City_Ripon,0.0
+City_Ripley,0.0
+City_Rio Vista,0.0
+City_Rio Rico,0.0
+City_Rio Oso,0.0
+City_Rio Linda,0.0
+City_Ringtown,0.0
+City_Ringgold,0.0
+City_Rindge,0.0
+City_Rimersburg,0.0
+City_Rileyville,0.0
+City_Riley,0.0
+City_Rifle,0.0
+City_Riegelwood,0.0
+City_Riegelsville,0.0
+City_Ridley Park,0.0
+City_Riverview,0.0
+City_Riverwoods,0.0
+City_Riviera,0.0
+City_Rochelle,0.0
+City_Rockaway Beach,0.0
+City_Rockaway,0.0
+City_Rock Springs,0.0
+City_Rock Spring,0.0
+City_Rock River,0.0
+City_Rock Port,0.0
+City_Rock Hill,0.0
+City_Rocheport,0.0
+City_Rochelle Park,0.0
+City_Robesonia,0.0
+City_Rixeyville,0.0
+City_Robertsdale,0.0
+City_Roberts,0.0
+City_Robersonville,0.0
+City_Robbinsville,0.0
+City_Robbins,0.0
+City_Roaring Spring,0.0
+City_Roaring Branch,0.0
+City_Roanoke Rapids,0.0
+City_Roanoke,0.0
+City_Roseland,0.0
+City_Roselle,0.0
+City_Rosemead,0.0
+City_Ruskin,0.0
+City_Saint Albans,0.0
+City_Sagle,0.0
+City_Saginaw,0.0
+City_Safford,0.0
+City_Safety Harbor,0.0
+City_Saegertown,0.0
+City_Saddle Brook,0.0
+City_Sacramento,0.0
+City_Saco,0.0
+City_Sacaton,0.0
+City_Sabina,0.0
+City_Sabillasville,0.0
+City_Sabattus,0.0
+City_Ryegate,0.0
+City_Rye,0.0
+City_Rutledge,0.0
+City_Ruthton,0.0
+City_Rutherford,0.0
+City_Ruther Glen,0.0
+City_Rustburg,0.0
+City_Russellville,0.0
+City_Saint Amant,0.0
+City_Saint Ann,0.0
+City_Saint Anthony,0.0
+City_Saint James,0.0
+City_Saint Michaels,0.0
+City_Saint Michael,0.0
+City_Saint Matthews,0.0
+City_Saint Marys,0.0
+City_Saint Maries,0.0
+City_Saint Landry,0.0
+City_Saint Joseph,0.0
+City_Saint Johnsville,0.0
+City_Saint Johns,0.0
+City_Saint Ignatius,0.0
+City_Saint Augusta,0.0
+City_Saint Helens,0.0
+City_Saint Helena Island,0.0
+City_Saint Helena,0.0
+City_Saint George,0.0
+City_Saint Francis,0.0
+City_Saint Cloud,0.0
+City_Saint Clair Shores,0.0
+City_Saint Clair,0.0
+City_Saint Charles,0.0
+City_Russell,0.0
+City_Rushmore,0.0
+City_Rosemont,0.0
+City_Rushford,0.0
+City_Rowesville,0.0
+City_Rouseville,0.0
+City_Round Rock,0.0
+City_Round O,0.0
+City_Round Lake Heights,0.0
+City_Round Lake,0.0
+City_Round Hill,0.0
+City_Roulette,0.0
+City_Rough and Ready,0.0
+City_Rotterdam Junction,0.0
+City_Roswell,0.0
+City_Rossville,0.0
+City_Rossford,0.0
+City_Rossburg,0.0
+City_Ross Valley,0.0
+City_Roslyn Heights,0.0
+City_Roslyn,0.0
+City_Roslindale,0.0
+City_Roseville,0.0
+City_Rosendale,0.0
+City_Rosemount,0.0
+City_Rowland,0.0
+City_Rowlett,0.0
+City_Roxboro,0.0
+City_Ruffin,0.0
+City_Rush City,0.0
+City_Rush,0.0
+City_Rural Retreat,0.0
+City_Rural Hall,0.0
+City_Running Springs,0.0
+City_Runnemede,0.0
+City_Runge,0.0
+City_Rumsey,0.0
+City_Ruffs Dale,0.0
+City_Ruckersville,0.0
+City_Roxbury,0.0
+City_Ruby,0.0
+City_Royse City,0.0
+City_Royersford,0.0
+City_Royalton,0.0
+City_Royal Oaks,0.0
+City_Royal Oak,0.0
+City_Royal City,0.0
+City_Roy,0.0
+City_Roxbury Crossing,0.0
+City_Seymour,0.0
+City_Shafter,0.0
+City_Sweetwater,0.0
+City_Steeles Tavern,0.0
+City_Stayton,0.0
+City_Staunton,0.0
+City_Statesville,0.0
+City_Staten Island,0.0
+City_Stateline,0.0
+City_State Road,0.0
+City_State College,0.0
+City_Starr,0.0
+City_Starke,0.0
+City_Stark,0.0
+City_Star Tannery,0.0
+City_Stapleton,0.0
+City_Staples,0.0
+City_Stanwood,0.0
+City_Stanton,0.0
+City_Stanley,0.0
+City_Stanford,0.0
+City_Stanfield,0.0
+City_Standish,0.0
+City_Stanardsville,0.0
+City_Stamford,0.0
+City_Steele,0.0
+City_Steinhatchee,0.0
+City_Stoneham,0.0
+City_Stephens City,0.0
+City_Stone Mountain,0.0
+City_Stockton,0.0
+City_Stockertown,0.0
+City_Stockbridge,0.0
+City_Stinson Beach,0.0
+City_Stilwell,0.0
+City_Stillwater,0.0
+City_Stewartville,0.0
+City_Stewartsville,0.0
+City_Stewart,0.0
+City_Stevinson,0.0
+City_Stevensville,0.0
+City_Stevenson Ranch,0.0
+City_Stevenson,0.0
+City_Stevens Point,0.0
+City_Stevens,0.0
+City_Steubenville,0.0
+City_Sterrett,0.0
+City_Sterling Heights,0.0
+City_Sterling,0.0
+City_Stephenson,0.0
+City_Stahlstown,0.0
+City_Stafford Springs,0.0
+City_Stafford,0.0
+City_Stacy,0.0
+City_Springdale,0.0
+City_Springboro,0.0
+City_Spring Valley,0.0
+City_Spring Mills,0.0
+City_Spring Lake,0.0
+City_Spring House,0.0
+City_Spring Hope,0.0
+City_Spring Hill,0.0
+City_Spring Grove,0.0
+City_Spring Creek,0.0
+City_Spring City,0.0
+City_Spray,0.0
+City_Sprague,0.0
+City_Spotsylvania,0.0
+City_Spokane Valley,0.0
+City_Spofford,0.0
+City_Splendora,0.0
+City_Spiritwood,0.0
+City_Spicewood,0.0
+City_Spicer,0.0
+City_Spiceland,0.0
+City_Springerville,0.0
+City_Springfield Gardens,0.0
+City_Springtown,0.0
+City_St Joseph,0.0
+City_Staatsburg,0.0
+City_St. Petersburg,0.0
+City_St Stephen,0.0
+City_St Petersburg,0.0
+City_St Peters,0.0
+City_St Pete Beach,0.0
+City_St Pauls,0.0
+City_St Matthews,0.0
+City_St Louis,0.0
+City_St Johns,0.0
+City_Springville,0.0
+City_St George,0.0
+City_St Cloud,0.0
+City_St Clair,0.0
+City_St Charles,0.0
+City_St Augustine,0.0
+City_Squaw Valley,0.0
+City_Spruce Creek,0.0
+City_Springville-Mapleton,0.0
+City_Springville-Johnsondale,0.0
+City_Stoneboro,0.0
+City_Stonington,0.0
+City_Shakopee,0.0
+City_Sunol,0.0
+City_Sunnyside,0.0
+City_Sunny Isles Beach,0.0
+City_Sunland,0.0
+City_Sunbury,0.0
+City_Sunburg,0.0
+City_Sun Valley,0.0
+City_Sun Prairie,0.0
+City_Sun Lakes,0.0
+City_Sun City West,0.0
+City_Sun City Center,0.0
+City_Sun City,0.0
+City_Sumter,0.0
+City_Sumpter,0.0
+City_Sumner,0.0
+City_Summit Argo,0.0
+City_Summit,0.0
+City_Summerville,0.0
+City_Summerton,0.0
+City_Summerland Key,0.0
+City_Summerland,0.0
+City_Summerfield,0.0
+City_Sunnyvale,0.0
+City_Sunrise,0.0
+City_Stony Brook,0.0
+City_Sunset,0.0
+City_Sweet Valley,0.0
+City_Sweet Home,0.0
+City_Sweet Grass,0.0
+City_Sweet,0.0
+City_Swedesboro,0.0
+City_Swartz Creek,0.0
+City_Swarthmore,0.0
+City_Swansea,0.0
+City_Swannanoa,0.0
+City_Suwanee,0.0
+City_Sutter Creek,0.0
+City_Sutter,0.0
+City_Sutherlin,0.0
+City_Sutherland,0.0
+City_Sussex,0.0
+City_Susquehanna,0.0
+City_Susanville,0.0
+City_Surry,0.0
+City_Surprise,0.0
+City_Surfside,0.0
+City_Superior,0.0
+City_Summerdale,0.0
+City_Summer Lake,0.0
+City_Sumerduck,0.0
+City_Sultana,0.0
+City_Strongstown,0.0
+City_Streetsboro,0.0
+City_Street,0.0
+City_Streamwood,0.0
+City_Strawberry Valley,0.0
+City_Strawberry Plains,0.0
+City_Straughn,0.0
+City_Strathmore,0.0
+City_Stratham,0.0
+City_Stratford,0.0
+City_Strasburg,0.0
+City_Stoystown,0.0
+City_Stow,0.0
+City_Stoughton,0.0
+City_Stotts City,0.0
+City_Story City,0.0
+City_Storrs Mansfield,0.0
+City_Storm Lake,0.0
+City_Stonyford,0.0
+City_Stony Point,0.0
+City_Stony Creek,0.0
+City_Strongsville,0.0
+City_Stroudsburg,0.0
+City_Stuart,0.0
+City_Suffolk,0.0
+City_Sultan,0.0
+City_Sulphur,0.0
+City_Sullivan,0.0
+City_Suitland,0.0
+City_Suisun City,0.0
+City_Sugarloaf,0.0
+City_Sugar Land,0.0
+City_Sugar Hill,0.0
+City_Sugar Grove,0.0
+City_Suffern,0.0
+City_Stuarts Draft,0.0
+City_Sudbury,0.0
+City_Succasunna,0.0
+City_Sublimity,0.0
+City_Suamico,0.0
+City_Stuyvesant,0.0
+City_Sturtevant,0.0
+City_Sturgeon Lake,0.0
+City_Sturbridge,0.0
+City_Studio City,0.0
+City_Spencerville,0.0
+City_Spencerport,0.0
+City_Spencer,0.0
+City_Sioux Center,0.0
+City_Sinclair,0.0
+City_Simpsonville,0.0
+City_Simla,0.0
+City_Simi Valley,0.0
+City_Silverton,0.0
+City_Silverstreet,0.0
+City_Silverdale,0.0
+City_Silverado,0.0
+City_Silver Springs,0.0
+City_Silver Spring,0.0
+City_Silver Plume,0.0
+City_Silver Lake,0.0
+City_Silver Creek,0.0
+City_Silver City,0.0
+City_Silt,0.0
+City_Siletz,0.0
+City_Siler City,0.0
+City_Sigurd,0.0
+City_Signal Mountain,0.0
+City_Signal Hill,0.0
+City_Sigel,0.0
+City_Sinclairville,0.0
+City_Sioux City,0.0
+City_Sparta,0.0
+City_Sioux Falls,0.0
+City_Smithfield,0.0
+City_Smith River,0.0
+City_Smethport,0.0
+City_Smartsville,0.0
+City_Sloughhouse,0.0
+City_Sloatsburg,0.0
+City_Slippery Rock,0.0
+City_Slingerlands,0.0
+City_Slinger,0.0
+City_Sligo,0.0
+City_Slidell,0.0
+City_Sleepy Eye,0.0
+City_Slayton,0.0
+City_Skykomish,0.0
+City_Skyforest,0.0
+City_Skull Valley,0.0
+City_Skokie,0.0
+City_Skippers,0.0
+City_Sixes,0.0
+City_Six Mile Run,0.0
+City_Sisters,0.0
+City_Sierraville,0.0
+City_Sierra City,0.0
+City_Sierra Blanca,0.0
+City_Sidney,0.0
+City_Sherman,0.0
+City_Sheridan,0.0
+City_Sherburn,0.0
+City_Sheppton,0.0
+City_Shepherdsville,0.0
+City_Shepherd,0.0
+City_Shelton,0.0
+City_Shelbyville,0.0
+City_Shelby,0.0
+City_Shelburne,0.0
+City_Sheboygan Falls,0.0
+City_Sheboygan,0.0
+City_Shawville,0.0
+City_Shaver Lake,0.0
+City_Shasta Lake,0.0
+City_Sharon Hill,0.0
+City_Sharon,0.0
+City_Shaniko,0.0
+City_Shandon,0.0
+City_Shamokin Dam,0.0
+City_Shamokin,0.0
+City_Sherman Oaks,0.0
+City_Shermans Dale,0.0
+City_Sherrills Ford,0.0
+City_Shoreham,0.0
+City_Sicklerville,0.0
+City_Shrub Oak,0.0
+City_Shrewsbury,0.0
+City_Show Low,0.0
+City_Shortsville,0.0
+City_Shorter,0.0
+City_Short Hills,0.0
+City_Shorewood,0.0
+City_Shoreline,0.0
+City_Shohola,0.0
+City_Sherwood,0.0
+City_Shoals,0.0
+City_Shirleysburg,0.0
+City_Shirley,0.0
+City_Shipshewana,0.0
+City_Shiprock,0.0
+City_Shippenville,0.0
+City_Shippensburg,0.0
+City_Shingletown,0.0
+City_Shingle Springs,0.0
+City_Smiths Creek,0.0
+City_Smiths Station,0.0
+City_Smithsburg,0.0
+City_South Glens Falls,0.0
+City_South Setauket,0.0
+City_South San Francisco,0.0
+City_South Salt Lake,0.0
+City_South Salem,0.0
+City_South Saint Paul,0.0
+City_South Rockwood,0.0
+City_South Richmond Hill,0.0
+City_South Point,0.0
+City_South Plainfield,0.0
+City_South Pittsburg,0.0
+City_South Pasadena,0.0
+City_South Park,0.0
+City_South Ozone Park,0.0
+City_South Orange,0.0
+City_South Newfane,0.0
+City_South Miami,0.0
+City_South Lebanon,0.0
+City_South Lake Tahoe,0.0
+City_South Jordan,0.0
+City_South Holland,0.0
+City_South Hill,0.0
+City_South Vienna,0.0
+City_South Windsor,0.0
+City_South Yakima,0.0
+City_Southlake,0.0
+City_Sparrows Point,0.0
+City_Sparks Glencoe,0.0
+City_Sparks,0.0
+City_Spanishburg,0.0
+City_Spanish Fort,0.0
+City_Spanish Fork,0.0
+City_Spangle,0.0
+City_Spanaway,0.0
+City_Southport,0.0
+City_Southington,0.0
+City_South Yarmouth,0.0
+City_Southgate,0.0
+City_Southfields,0.0
+City_Southfield,0.0
+City_Southeast Marin,0.0
+City_Southbury,0.0
+City_Southborough,0.0
+City_Southaven,0.0
+City_Southampton,0.0
+City_South and East Osceola,0.0
+City_South Haven,0.0
+City_South Gate,0.0
+City_Smithton,0.0
+City_South Fork,0.0
+City_Solon,0.0
+City_Solen,0.0
+City_Soledad,0.0
+City_Solana Beach,0.0
+City_Soddy-Daisy,0.0
+City_Soddy Daisy,0.0
+City_Soda Springs,0.0
+City_Socorro,0.0
+City_Snowville,0.0
+City_Snowmass,0.0
+City_Snowflake,0.0
+City_Snow Shoe,0.0
+City_Snow Hill,0.0
+City_Snoqualmie,0.0
+City_Snohomish,0.0
+City_Snellville,0.0
+City_Snelling,0.0
+City_Smyrna,0.0
+City_Smoaks,0.0
+City_Smithville,0.0
+City_Smithtown,0.0
+City_Solvang,0.0
+City_Somerdale,0.0
+City_Somers,0.0
+City_South Acworth,0.0
+City_South Elgin,0.0
+City_South El Monte,0.0
+City_South Chesterfield,0.0
+City_South Charleston,0.0
+City_South Boston,0.0
+City_South Bend,0.0
+City_South Beach,0.0
+City_South Amboy,0.0
+City_South Amana,0.0
+City_Souderton,0.0
+City_Somers Point,0.0
+City_Sorrento,0.0
+City_Soquel,0.0
+City_Soperton,0.0
+City_Sopchoppy,0.0
+City_Sonora,0.0
+City_Sonoma,0.0
+City_Somis,0.0
+City_Somes Bar,0.0
+City_Somerville,0.0
+City_Lucedale,0.0
+City_Lockeford,0.0
+City_Loxley,0.0
+City_Cliffwood,0.0
+City_Cleves,0.0
+City_Clermont,0.0
+City_Clemson,0.0
+City_Clemmons,0.0
+City_Clements,0.0
+City_Clementon,0.0
+City_Clearwater Beach,0.0
+City_Clearwater,0.0
+City_Clearlake Oaks,0.0
+City_Clearlake,0.0
+City_Clearfield,0.0
+City_Clear Spring,0.0
+City_Clear Lake,0.0
+City_Clear Brook,0.0
+City_Cle Elum,0.0
+City_Clayton,0.0
+City_Claysville,0.0
+City_Claysburg,0.0
+City_Claymont,0.0
+City_Clay,0.0
+City_Clatskanie,0.0
+City_Clewiston,0.0
+City_Clifton,0.0
+City_Cobb,0.0
+City_Clifton Forge,0.0
+City_Coarsegold,0.0
+City_Coalville,0.0
+City_Coalport,0.0
+City_Coalinga,0.0
+City_Coal Township,0.0
+City_Clymer,0.0
+City_Clyde,0.0
+City_Clute,0.0
+City_Clovis,0.0
+City_Cloverdale,0.0
+City_Clover,0.0
+City_Cloquet,0.0
+City_Clive,0.0
+City_Clitherall,0.0
+City_Clio,0.0
+City_Clinton Township,0.0
+City_Clinton Corners,0.0
+City_Clinton,0.0
+City_Climax,0.0
+City_Clifton Springs,0.0
+City_Clifton Park,0.0
+City_Clarksville,0.0
+City_Clarkston,0.0
+City_Clarksburg,0.0
+City_Clarks Summit,0.0
+City_Church View,0.0
+City_Church Hill,0.0
+City_Chula Vista,0.0
+City_Chula,0.0
+City_Chugwater,0.0
+City_Chuckey,0.0
+City_Christmas,0.0
+City_Christiansburg,0.0
+City_Christiana,0.0
+City_Chrisney,0.0
+City_Chowchilla,0.0
+City_Choctaw,0.0
+City_Chocorua,0.0
+City_Chisholm,0.0
+City_Chisago City,0.0
+City_Chippewa Falls,0.0
+City_Chipley,0.0
+City_Chinook,0.0
+City_Chino Hills,0.0
+City_Chino,0.0
+City_China Grove,0.0
+City_Churchville,0.0
+City_Churubusco,0.0
+City_Cibola,0.0
+City_Clara City,0.0
+City_Clarkesville,0.0
+City_Clarkdale,0.0
+City_Clark,0.0
+City_Clarion,0.0
+City_Clarington,0.0
+City_Clarendon Hills,0.0
+City_Clarendon,0.0
+City_Clarence,0.0
+City_Claremont,0.0
+City_Clanton,0.0
+City_Cicero,0.0
+City_Clancy,0.0
+City_Clairton,0.0
+City_Clackamas,0.0
+City_City Of Industry,0.0
+City_Citrus Heights,0.0
+City_Citra,0.0
+City_Circleville,0.0
+City_Circle Pines,0.0
+City_Cincinnati,0.0
+City_Coatesville,0.0
+City_Cochecton,0.0
+City_Corte Madera,0.0
+City_Copperopolis,0.0
+City_Copiague,0.0
+City_Cope,0.0
+City_Coosawhatchie,0.0
+City_Coos Bay,0.0
+City_Coopersville,0.0
+City_Coopersburg,0.0
+City_Coolidge,0.0
+City_Cool Ridge,0.0
+City_Cool,0.0
+City_Cooksville,0.0
+City_Cookeville,0.0
+City_Conyers,0.0
+City_Conway,0.0
+City_Converse,0.0
+City_Conshohocken,0.0
+City_Conservation,0.0
+City_Conroe,0.0
+City_Conrad,0.0
+City_Conover,0.0
+City_Connelly Springs,0.0
+City_Conley,0.0
+City_Coppell,0.0
+City_Coquille,0.0
+City_Cochranville,0.0
+City_Coral Gables,0.0
+City_Corryton,0.0
+City_Corpus Christi,0.0
+City_Coronado,0.0
+City_Corona,0.0
+City_Corolla,0.0
+City_Cornwall Bridge,0.0
+City_Corning,0.0
+City_Cornelius,0.0
+City_Cornelia,0.0
+City_Corfu,0.0
+City_Cordova,0.0
+City_Cordesville,0.0
+City_Cordell,0.0
+City_Cordele,0.0
+City_Corcoran,0.0
+City_Corbin,0.0
+City_Corbett,0.0
+City_Coraopolis,0.0
+City_Coram,0.0
+City_Coralville,0.0
+City_Coral Springs,0.0
+City_Conifer,0.0
+City_Congress,0.0
+City_Confluence,0.0
+City_Conestoga,0.0
+City_Collegeville,0.0
+City_College Point,0.0
+City_College Park,0.0
+City_College Grove,0.0
+City_College Corner,0.0
+City_Coleville,0.0
+City_Coleman,0.0
+City_Coldwater,0.0
+City_Cold Spring,0.0
+City_Colchester,0.0
+City_Colbert,0.0
+City_Coker,0.0
+City_Cohoes,0.0
+City_Cohasset,0.0
+City_Cogan Station,0.0
+City_Coeur D Alene,0.0
+City_Coeburn,0.0
+City_Cocolamus,0.0
+City_Cocoa-Rockledge,0.0
+City_Cocoa,0.0
+City_Cockeysville,0.0
+City_Collierville,0.0
+City_Collins,0.0
+City_Collinston,0.0
+City_Columbiaville,0.0
+City_Condon,0.0
+City_Concordia,0.0
+City_Concord,0.0
+City_Comstock Park,0.0
+City_Compton,0.0
+City_Commerce City,0.0
+City_Commerce,0.0
+City_Commack,0.0
+City_Colusa,0.0
+City_Columbia Station,0.0
+City_Collinsville,0.0
+City_Columbia Falls,0.0
+City_Colts Neck,0.0
+City_Colorado City,0.0
+City_Colonie,0.0
+City_Colonial Heights,0.0
+City_Colonial Beach,0.0
+City_Colonia,0.0
+City_Colona,0.0
+City_Colmar,0.0
+City_Chilton,0.0
+City_Chiloquin,0.0
+City_Chilhowie,0.0
+City_Castle Hayne,0.0
+City_Castle Creek,0.0
+City_Castella,0.0
+City_Castalia,0.0
+City_Casselberry,0.0
+City_Cassatt,0.0
+City_Cass Lake,0.0
+City_Casmalia,0.0
+City_Cashiers,0.0
+City_Caseyville,0.0
+City_Casey,0.0
+City_Casco,0.0
+City_Cascade Locks,0.0
+City_Cascade,0.0
+City_Casa Grande,0.0
+City_Casa Blanca,0.0
+City_Caryville,0.0
+City_Cary,0.0
+City_Caruthers,0.0
+City_Carthage,0.0
+City_Cartersville,0.0
+City_Carteret,0.0
+City_Castle Dale,0.0
+City_Castle Rock,0.0
+City_Chiefland,0.0
+City_Castleberry,0.0
+City_Cazadero,0.0
+City_Cayucos,0.0
+City_Cayce,0.0
+City_Cave Spring,0.0
+City_Cave Junction,0.0
+City_Cave Creek,0.0
+City_Cave City,0.0
+City_Catskill,0.0
+City_Catonsville,0.0
+City_Catlett,0.0
+City_Catheys Valley,0.0
+City_Cathedral City,0.0
+City_Catharpin,0.0
+City_Catawissa,0.0
+City_Catawba,0.0
+City_Cataula,0.0
+City_Cataldo,0.0
+City_Castroville,0.0
+City_Castro Valley,0.0
+City_Castleton on Hudson,0.0
+City_Castleton On Hudson,0.0
+City_Carson City,0.0
+City_Carson,0.0
+City_Carrsville,0.0
+City_Carrolltown,0.0
+City_Cardiff By the Sea,0.0
+City_Carbondale,0.0
+City_Carbon Hill,0.0
+City_Capitola,0.0
+City_Capitol Heights,0.0
+City_Capistrano Beach,0.0
+City_Cape May Court House,0.0
+City_Cape May,0.0
+City_Cape Coral,0.0
+City_Cape Charles,0.0
+City_Cape Canaveral,0.0
+City_Capay,0.0
+City_Capac,0.0
+City_Canyonville,0.0
+City_Canyon Country,0.0
+City_Canyon City,0.0
+City_Cantonment,0.0
+City_Canton,0.0
+City_Cantil,0.0
+City_Canterbury,0.0
+City_Canonsburg,0.0
+City_Cardwell,0.0
+City_Carencro,0.0
+City_Carle Place,0.0
+City_Carmichael,0.0
+City_Carrollton,0.0
+City_Carroll,0.0
+City_Carriere,0.0
+City_Carr,0.0
+City_Carpinteria,0.0
+City_Carol Stream,0.0
+City_Carnesville,0.0
+City_Carnelian Bay,0.0
+City_Carnegie,0.0
+City_Carmel-by-the-Sea,0.0
+City_Carleton,0.0
+City_Carmel Valley,0.0
+City_Carmel,0.0
+City_Carlton,0.0
+City_Carlstadt,0.0
+City_Carlsbad,0.0
+City_Carlotta,0.0
+City_Carlos,0.0
+City_Carlisle,0.0
+City_Carlin,0.0
+City_Cedar Bluff,0.0
+City_Cedar City,0.0
+City_Cedar Creek,0.0
+City_Chaptico,0.0
+City_Cheney,0.0
+City_Chemult,0.0
+City_Cheltenham,0.0
+City_Chelsea,0.0
+City_Chelmsford,0.0
+City_Chehalis,0.0
+City_Chattanooga,0.0
+City_Chattahoochee,0.0
+City_Chatsworth,0.0
+City_Chatham,0.0
+City_Chatfield,0.0
+City_Chaska,0.0
+City_Chase City,0.0
+City_Charlton,0.0
+City_Charlottesville,0.0
+City_Charlotte Court House,0.0
+City_Charlestown,0.0
+City_Charles Town,0.0
+City_Charles City,0.0
+City_Charleroi,0.0
+City_Chariton,0.0
+City_Cheraw,0.0
+City_Cherry Hill,0.0
+City_Cherry Tree,0.0
+City_Chestertown,0.0
+City_Chico,0.0
+City_Chickasha,0.0
+City_Chicago Ridge,0.0
+City_Chicago Heights,0.0
+City_Cheyenne,0.0
+City_Chevy Chase,0.0
+City_Cheverly,0.0
+City_Cheswick,0.0
+City_Chestnut Hill,0.0
+City_Chesterton,0.0
+City_Cherry Valley,0.0
+City_Chesterland,0.0
+City_Chesterfield,0.0
+City_Chester Springs,0.0
+City_Chester,0.0
+City_Chesnee,0.0
+City_Cheshire,0.0
+City_Chesapeake City,0.0
+City_Chesapeake,0.0
+City_Cherryville,0.0
+City_Chardon,0.0
+City_Chappaqua,0.0
+City_Cedar Grove,0.0
+City_Chapin,0.0
+City_Central Islip,0.0
+City_Central Falls,0.0
+City_Central City,0.0
+City_Central,0.0
+City_Centerville,0.0
+City_Centereach,0.0
+City_Centerburg,0.0
+City_Center Valley,0.0
+City_Center Point,0.0
+City_Center Moriches,0.0
+City_Center Line,0.0
+City_Celina,0.0
+City_Cedarville,0.0
+City_Cedartown,0.0
+City_Cedarpines Park,0.0
+City_Cedar Valley,0.0
+City_Cedar Springs,0.0
+City_Cedar Rapids,0.0
+City_Cedar Park,0.0
+City_Cedar Knolls,0.0
+City_Cedar Hill,0.0
+City_Central Point,0.0
+City_Central Valley,0.0
+City_Central Volusia,0.0
+City_Chambersburg,0.0
+City_Chapel Hill,0.0
+City_Chantilly,0.0
+City_Channelview,0.0
+City_Channahon,0.0
+City_Chanhassen,0.0
+City_Chandler,0.0
+City_Champlin,0.0
+City_Champlain,0.0
+City_Champaign,0.0
+City_Chambers,0.0
+City_Centralia,0.0
+City_Chalfont,0.0
+City_Chadds Ford,0.0
+City_Chadbourn,0.0
+City_Cerritos,0.0
+City_Ceres,0.0
+City_Century,0.0
+City_Centreville,0.0
+City_Centre Hall,0.0
+City_Centre,0.0
+City_Corsicana,0.0
+City_Cortez,0.0
+City_Cannon Falls,0.0
+City_Drakes Branch,0.0
+City_Dragoon,0.0
+City_Dracut,0.0
+City_Doylestown,0.0
+City_Doyle,0.0
+City_Downingtown,0.0
+City_Downers Grove,0.0
+City_Dowagiac,0.0
+City_Dover Plains,0.0
+City_Dover,0.0
+City_Dove Creek,0.0
+City_Douglasville,0.0
+City_Douglassville,0.0
+City_Douglas City,0.0
+City_Double Springs,0.0
+City_Dothan,0.0
+City_Doswell,0.0
+City_Dos Rios,0.0
+City_Dos Palos,0.0
+City_Dorris,0.0
+City_Dorchester Center,0.0
+City_Dorchester,0.0
+City_Drain,0.0
+City_Draper,0.0
+City_Duncan,0.0
+City_Dresher,0.0
+City_Dumont,0.0
+City_Dumfries,0.0
+City_Dumas,0.0
+City_Duluth,0.0
+City_Duke Center,0.0
+City_Dugway,0.0
+City_Dufur,0.0
+City_Due West,0.0
+City_Duchesne,0.0
+City_Dubois,0.0
+City_Dublin,0.0
+City_Duarte,0.0
+City_Duanesburg,0.0
+City_Du Bois,0.0
+City_Dryden,0.0
+City_Dry Branch,0.0
+City_Drums,0.0
+City_Drummond,0.0
+City_Drifting,0.0
+City_Drexel Hill,0.0
+City_Drewryville,0.0
+City_Doral,0.0
+City_Dora,0.0
+City_Donegal,0.0
+City_Donaldsonville,0.0
+City_Diamondhead,0.0
+City_Diamond Springs,0.0
+City_Dexter,0.0
+City_Devon,0.0
+City_Devils Lake,0.0
+City_Detroit Lakes,0.0
+City_Destrehan,0.0
+City_Destin,0.0
+City_Desoto,0.0
+City_Desert Hot Springs,0.0
+City_Desert Center,0.0
+City_Desdemona,0.0
+City_Descanso,0.0
+City_Des Plaines,0.0
+City_Des Moines,0.0
+City_Des Allemands,0.0
+City_Derwood,0.0
+City_Derry,0.0
+City_Derby,0.0
+City_Depoe Bay,0.0
+City_Depew,0.0
+City_Diberville,0.0
+City_Dickerson,0.0
+City_Dickinson,0.0
+City_District 5,0.0
+City_Donaldson,0.0
+City_Donalds,0.0
+City_Dolton,0.0
+City_Dobson,0.0
+City_Dobbs Ferry,0.0
+City_Dixon,0.0
+City_Dix Hills,0.0
+City_Divide,0.0
+City_District Heights,0.0
+City_District 4 Kent Island,0.0
+City_Dickson,0.0
+City_Disputanta,0.0
+City_Discovery Bay,0.0
+City_Dinwiddie,0.0
+City_Dinuba,0.0
+City_Dingmans Ferry,0.0
+City_Dimondale,0.0
+City_Dillwyn,0.0
+City_Dillsburg,0.0
+City_Dillon,0.0
+City_Dunbar,0.0
+City_Duncannon,0.0
+City_Cortland,0.0
+City_East Meadow,0.0
+City_East Lyme,0.0
+City_East Lansing,0.0
+City_East Kern,0.0
+City_East Jordan,0.0
+City_East Islip,0.0
+City_East Haven,0.0
+City_East Hartford,0.0
+City_East Hanover,0.0
+City_East Hampton,0.0
+City_East Greenwich,0.0
+City_East Greenville,0.0
+City_East Greenbush,0.0
+City_East Freedom,0.0
+City_East Flat Rock,0.0
+City_East Elmhurst,0.0
+City_East Earl,0.0
+City_East Durham,0.0
+City_East Dubuque,0.0
+City_East Chatham,0.0
+City_East Brunswick,0.0
+City_East Bridgewater,0.0
+City_East Mc Keesport,0.0
+City_East Norwich,0.0
+City_Duncansville,0.0
+City_East Orange,0.0
+City_Eastpoint,0.0
+City_Eastover,0.0
+City_Easton,0.0
+City_Eastlake,0.0
+City_Eastaboga,0.0
+City_East Windsor,0.0
+City_East Wareham,0.0
+City_East Tehama,0.0
+City_East Taunton,0.0
+City_East Syracuse,0.0
+City_East Stroudsburg,0.0
+City_East Saint Louis,0.0
+City_East Rutherford,0.0
+City_East Rochester,0.0
+City_East Rancho Dominguez,0.0
+City_East Quogue,0.0
+City_East Providence,0.0
+City_East Peoria,0.0
+City_East Patchogue,0.0
+City_East Palo Alto,0.0
+City_East Palatka,0.0
+City_East Bernstadt,0.0
+City_East Berlin,0.0
+City_East Aurora,0.0
+City_East Atlantic Beach,0.0
+City_Durham,0.0
+City_Durant,0.0
+City_Durango,0.0
+City_Duquesne,0.0
+City_Dupont,0.0
+City_Dupo,0.0
+City_Dunstable,0.0
+City_Dunsmuir,0.0
+City_Dunnsville,0.0
+City_Dunnigan,0.0
+City_Dunnellon,0.0
+City_Dunn Loring,0.0
+City_Dunn,0.0
+City_Dunlap,0.0
+City_Dunkirk,0.0
+City_Dunellen,0.0
+City_Dunedin,0.0
+City_Dundee,0.0
+City_Dundas,0.0
+City_Dundalk,0.0
+City_Duncanville,0.0
+City_Durhamville,0.0
+City_Durkee,0.0
+City_Dushore,0.0
+City_Eagle Point,0.0
+City_Easley,0.0
+City_Earth City,0.0
+City_Earlysville,0.0
+City_Early Branch,0.0
+City_Earlimart,0.0
+City_Earlham,0.0
+City_Earleville,0.0
+City_Eagle Springs,0.0
+City_Eagle Rock,0.0
+City_Eagle Mountain,0.0
+City_Duson,0.0
+City_Eagle Lake,0.0
+City_Eagle,0.0
+City_Eagar,0.0
+City_Dyersville,0.0
+City_Dyer,0.0
+City_Dwight,0.0
+City_Duxbury,0.0
+City_Dutch John,0.0
+City_Dutch Flat,0.0
+City_Denville,0.0
+City_Dennison,0.0
+City_Denmark,0.0
+City_Crowley,0.0
+City_Croton-on-Hudson,0.0
+City_Croton on Hudson,0.0
+City_Crothersville,0.0
+City_Crossville,0.0
+City_Crossett,0.0
+City_Cross River,0.0
+City_Cross Plains,0.0
+City_Cross Junction,0.0
+City_Cross Hill,0.0
+City_Cross City,0.0
+City_Cross,0.0
+City_Crosby,0.0
+City_Cromwell,0.0
+City_Crofton,0.0
+City_Crockett,0.0
+City_Crittenden,0.0
+City_Crewe,0.0
+City_Creve Coeur,0.0
+City_Crete,0.0
+City_Creswell,0.0
+City_Crestwood,0.0
+City_Crow Agency,0.0
+City_Crown Point,0.0
+City_Denham Springs,0.0
+City_Crownsville,0.0
+City_Cusseta,0.0
+City_Cusick,0.0
+City_Cushing,0.0
+City_Curwensville,0.0
+City_Curtis Bay,0.0
+City_Currie,0.0
+City_Cupertino,0.0
+City_Cumming,0.0
+City_Cumberland Center,0.0
+City_Cumberland,0.0
+City_Culver,0.0
+City_Culpeper,0.0
+City_Cullman,0.0
+City_Cubero,0.0
+City_Cuba City,0.0
+City_Crystal Spring,0.0
+City_Crystal River,0.0
+City_Crystal Lake,0.0
+City_Crum Lynne,0.0
+City_Crozet,0.0
+City_Crows Landing,0.0
+City_Crestview,0.0
+City_Creston,0.0
+City_Crestline,0.0
+City_Cresson,0.0
+City_Courtland,0.0
+City_Coupland,0.0
+City_Coupeville,0.0
+City_Countryside,0.0
+City_Country Club Hills,0.0
+City_Council Bluffs,0.0
+City_Council,0.0
+City_Coulterville,0.0
+City_Cotulla,0.0
+City_Cottonwood,0.0
+City_Cottondale,0.0
+City_Cottageville,0.0
+City_Cottage Grove,0.0
+City_Cotopaxi,0.0
+City_Cotati,0.0
+City_Costa Mesa,0.0
+City_Cosmos,0.0
+City_Cosby,0.0
+City_Corydon,0.0
+City_Corvallis,0.0
+City_Cortlandt Manor,0.0
+City_Cove,0.0
+City_Covelo,0.0
+City_Covert,0.0
+City_Craryville,0.0
+City_Crescent Valley,0.0
+City_Crescent Springs,0.0
+City_Crescent Lake,0.0
+City_Crescent City,0.0
+City_Crescent,0.0
+City_Creedmoor,0.0
+City_Cream Ridge,0.0
+City_Crawfordville,0.0
+City_Crawfordsville,0.0
+City_Cranston,0.0
+City_Covina,0.0
+City_Cranford,0.0
+City_Cranbury,0.0
+City_Cranberry Twp,0.0
+City_Crab Orchard,0.0
+City_Cozad,0.0
+City_Coyote,0.0
+City_Coxsackie,0.0
+City_Cowarts,0.0
+City_Coward,0.0
+City_Custer,0.0
+City_Cutler,0.0
+City_Cuyahoga Falls,0.0
+City_De Soto,0.0
+City_Dekalb,0.0
+City_Defuniak Springs,0.0
+City_Deforest,0.0
+City_Deeth,0.0
+City_Deerwood,0.0
+City_Deerfield Beach,0.0
+City_Deerfield,0.0
+City_Deer River,0.0
+City_Deer Park,0.0
+City_Deer Lodge,0.0
+City_Deer Island,0.0
+City_Deer Creek,0.0
+City_Deep River,0.0
+City_Dedham,0.0
+City_Declo,0.0
+City_Decatur,0.0
+City_Debary,0.0
+City_Deatsville,0.0
+City_Dearborn,0.0
+City_DeLand,0.0
+City_DeBary,0.0
+City_Del Mar,0.0
+City_Del Rey,0.0
+City_Del Valle,0.0
+City_Delmont,0.0
+City_Dendron,0.0
+City_Denair,0.0
+City_Demotte,0.0
+City_Deming,0.0
+City_Deltona,0.0
+City_Deltaville,0.0
+City_Delta,0.0
+City_Delray Beach,0.0
+City_Delran,0.0
+City_Delmar,0.0
+City_Delafield,0.0
+City_Dell,0.0
+City_Delhi,0.0
+City_Delco,0.0
+City_Delaware Water Gap,0.0
+City_Delaware,0.0
+City_Delavan,0.0
+City_Delaplane,0.0
+City_Delano,0.0
+City_Deland,0.0
+City_De Witt,0.0
+City_De Pere,0.0
+City_Cygnet,0.0
+City_De Mossville,0.0
+City_Dania Beach,0.0
+City_Dania,0.0
+City_Dandridge,0.0
+City_Danbury,0.0
+City_Dana Point,0.0
+City_Dammeron Valley,0.0
+City_Damascus,0.0
+City_Dalzell,0.0
+City_Daly City,0.0
+City_Dalton,0.0
+City_Dallastown,0.0
+City_Dallas Center,0.0
+City_Daleville,0.0
+City_Dale,0.0
+City_Dakota,0.0
+City_Dairy,0.0
+City_Dahlgren,0.0
+City_Dagsboro,0.0
+City_Dade City,0.0
+City_Dacula,0.0
+City_Cypress,0.0
+City_Danielson,0.0
+City_Danvers,0.0
+City_Danville,0.0
+City_Davidsville,0.0
+City_De Berry,0.0
+City_De Beque,0.0
+City_Dayville,0.0
+City_Daytona Beach,0.0
+City_Dawson,0.0
+City_Davison,0.0
+City_Davisburg,0.0
+City_Davis,0.0
+City_Davie,0.0
+City_Davidsonville,0.0
+City_Daphne,0.0
+City_Davidson,0.0
+City_Davenport,0.0
+City_Dauphin,0.0
+City_Dateland,0.0
+City_Darwin,0.0
+City_Darlington,0.0
+City_Darien,0.0
+City_Dardanelle,0.0
+City_Darby,0.0
+City_Canon City,0.0
+City_Cannon Beach,0.0
+City_Loxahatchee,0.0
+City_Balch Springs,0.0
+City_Bala Cynwyd,0.0
+City_Bal Harbour,0.0
+City_Bakersfield,0.0
+City_Baker City,0.0
+City_Baker,0.0
+City_Bainbridge,0.0
+City_Bailey,0.0
+City_Bagley,0.0
+City_Backus,0.0
+City_Babylon,0.0
+City_Azalea,0.0
+City_Aynor,0.0
+City_Aylett,0.0
+City_Ayer,0.0
+City_Ayden,0.0
+City_Axtell,0.0
+City_Awendaw,0.0
+City_Avondale Estates,0.0
+City_Avondale,0.0
+City_Avon Park,0.0
+City_Avon,0.0
+City_Balaton,0.0
+City_Bald Knob,0.0
+City_Barnwell,0.0
+City_Baldwin,0.0
+City_Barnhart,0.0
+City_Barney,0.0
+City_Barnesville,0.0
+City_Barnegat,0.0
+City_Barboursville,0.0
+City_Barberton,0.0
+City_Baraboo,0.0
+City_Bar Harbor,0.0
+City_Banks,0.0
+City_Bangor,0.0
+City_Bandon,0.0
+City_Bancroft,0.0
+City_Bamberg,0.0
+City_Baltimore,0.0
+City_Ballwin,0.0
+City_Ballston Spa,0.0
+City_Ballston Lake,0.0
+City_Ballico,0.0
+City_Ball Ground,0.0
+City_Baldwinsville,0.0
+City_Baldwin Place,0.0
+City_Avoca,0.0
+City_Avilla,0.0
+City_Avila Beach,0.0
+City_Avery,0.0
+City_Atkins,0.0
+City_Atherton,0.0
+City_Athens,0.0
+City_Atco,0.0
+City_Atascadero,0.0
+City_Astoria,0.0
+City_Astor,0.0
+City_Aston,0.0
+City_Assonet,0.0
+City_Aspers,0.0
+City_Aspen,0.0
+City_Ashville,0.0
+City_Ashtabula,0.0
+City_Ashland City,0.0
+City_Ashland,0.0
+City_Ashkum,0.0
+City_Ashford,0.0
+City_Ashfield,0.0
+City_Asheville,0.0
+City_Asheboro,0.0
+City_Ashby,0.0
+City_Atlantic,0.0
+City_Atlantic City,0.0
+City_Atmore,0.0
+City_Aurora,0.0
+City_Averill Park,0.0
+City_Aventura,0.0
+City_Avenal,0.0
+City_Avella,0.0
+City_Avalon-Mulat,0.0
+City_Autryville,0.0
+City_Austinville,0.0
+City_Austerlitz,0.0
+City_Austell,0.0
+City_Aumsville,0.0
+City_Attalla,0.0
+City_Aulander,0.0
+City_Auburndale,0.0
+City_Auburn Hills,0.0
+City_Auburn,0.0
+City_Auberry,0.0
+City_Atwood,0.0
+City_Atwater,0.0
+City_Attleboro Falls,0.0
+City_Attleboro,0.0
+City_Barnum,0.0
+City_Barrett,0.0
+City_Benson,0.0
+City_Bellefonte,0.0
+City_Belle Plaine,0.0
+City_Belle Glade,0.0
+City_Belle,0.0
+City_Bellbrook,0.0
+City_Bellaire,0.0
+City_Bella Vista,0.0
+City_Bell Gardens,0.0
+City_Belgrade,0.0
+City_Belfry,0.0
+City_Belfast,0.0
+City_Belfair,0.0
+City_Belden,0.0
+City_Bel Air,0.0
+City_Beechgrove,0.0
+City_Beech Island,0.0
+City_Beech Grove,0.0
+City_Beech Creek,0.0
+City_Bee Cave,0.0
+City_Bedminster,0.0
+City_Bedford,0.0
+City_Beckwourth,0.0
+City_Belle Vernon,0.0
+City_Bellerose,0.0
+City_Barrington,0.0
+City_Belleview,0.0
+City_Bensalem,0.0
+City_Bennettsville,0.0
+City_Bennett,0.0
+City_Benicia,0.0
+City_Bend,0.0
+City_Ben Lomond,0.0
+City_Bemidji,0.0
+City_Belvidere,0.0
+City_Beltsville,0.0
+City_Belton,0.0
+City_Belpre,0.0
+City_Beloit,0.0
+City_Belmont,0.0
+City_Belmar,0.0
+City_Bellwood,0.0
+City_Bellville,0.0
+City_Bellmore,0.0
+City_Bellingham,0.0
+City_Bellflower,0.0
+City_Bellevue,0.0
+City_Belleville,0.0
+City_Beckley,0.0
+City_Becker,0.0
+City_Beaverton,0.0
+City_Beavercreek Township,0.0
+City_Bay Minette,0.0
+City_Bay City,0.0
+City_Baxter,0.0
+City_Baxley,0.0
+City_Battleboro,0.0
+City_Battle Lake,0.0
+City_Battle Ground,0.0
+City_Battle Creek,0.0
+City_Bath,0.0
+City_Batesville,0.0
+City_Batesburg-Leesville,0.0
+City_Batesburg,0.0
+City_Batavia,0.0
+City_Bassett,0.0
+City_Basking Ridge,0.0
+City_Bascom,0.0
+City_Bartow,0.0
+City_Barton,0.0
+City_Barto,0.0
+City_Bartlett,0.0
+City_Barstow,0.0
+City_Bay Point,0.0
+City_Bay Saint Louis,0.0
+City_Bay Shore,0.0
+City_Bear,0.0
+City_Beavercreek,0.0
+City_Beaver Springs,0.0
+City_Beaver Falls,0.0
+City_Beaver Crossing,0.0
+City_Beaver,0.0
+City_Beaumont,0.0
+City_Beaufort,0.0
+City_Beasley,0.0
+City_Bearden,0.0
+City_Bealeton,0.0
+City_Bay St Louis,0.0
+City_Beacon Falls,0.0
+City_Beacon,0.0
+City_Beachwood,0.0
+City_Beach Park,0.0
+City_Bayville,0.0
+City_Baytown,0.0
+City_Bayside,0.0
+City_Bayport,0.0
+City_Bayonne,0.0
+City_Ashburn,0.0
+City_Ashaway,0.0
+City_Ash Grove,0.0
+City_Alden,0.0
+City_Alcolu,0.0
+City_Alcoa,0.0
+City_Albuquerque,0.0
+City_Albion,0.0
+City_Albia,0.0
+City_Albertville,0.0
+City_Albertson,0.0
+City_Alberton,0.0
+City_Alberta,0.0
+City_Albert Lea,0.0
+City_Albers,0.0
+City_Alapaha,0.0
+City_Alamo,0.0
+City_Alameda,0.0
+City_Alachua,0.0
+City_Alabaster,0.0
+City_Akron,0.0
+City_Akeley,0.0
+City_Ajo,0.0
+City_Aitkin,0.0
+City_Airway Heights,0.0
+City_Alda,0.0
+City_Aldie,0.0
+City_Ash Fork,0.0
+City_Aldrich,0.0
+City_Alta,0.0
+City_Alsip,0.0
+City_Alsea,0.0
+City_Alpine,0.0
+City_Alpha,0.0
+City_Almont,0.0
+City_Alma,0.0
+City_Allston,0.0
+City_Allison Park,0.0
+City_Allenwood,0.0
+City_Allentown,0.0
+City_Allendale,0.0
+City_Allen Park,0.0
+City_Allen,0.0
+City_Alleghany,0.0
+City_Aliso Viejo,0.0
+City_Alford,0.0
+City_Alexandria,0.0
+City_Alexander City,0.0
+City_Alexander,0.0
+City_Aledo,0.0
+City_Airville,0.0
+City_Ainsworth,0.0
+City_Ailey,0.0
+City_Aiken,0.0
+City_Abingdon,0.0
+City_Aberdeen,0.0
+City_Abbott,0.0
+City_Abbotsford,0.0
+City_Abbeville,0.0
+City_Aaronsburg,0.0
+State_WY,0.0
+State_VT,0.0
+State_TN,0.0
+State_SD,0.0
+State_ND,0.0
+State_MT,0.0
+State_MS,0.0
+State_ME,0.0
+State_KS,0.0
+State_ID,0.0
+State_FL,0.0
+State_DE,0.0
+State_DC,0.0
+State_CT,0.0
+State_AZ,0.0
+City_Abington,0.0
+City_Absecon,0.0
+City_Acampo,0.0
+City_Adena,0.0
+City_Ahwahnee,0.0
+City_Ahoskie,0.0
+City_Aguanga,0.0
+City_Agoura Hills,0.0
+City_Agency,0.0
+City_Agate,0.0
+City_Afton,0.0
+City_Advance,0.0
+City_Adrian,0.0
+City_Adelphi,0.0
+City_Accident,0.0
+City_Adelanto,0.0
+City_Adel,0.0
+City_Addison,0.0
+City_Adamstown,0.0
+City_Adairsville,0.0
+City_Adair,0.0
+City_Acworth,0.0
+City_Acton,0.0
+City_Accokeek,0.0
+City_Altadena,0.0
+City_Altamont,0.0
+City_Altha,0.0
+City_Anthem,0.0
+City_Archbald,0.0
+City_Arcata,0.0
+City_Arcadia,0.0
+City_Arbuckle,0.0
+City_Arabi,0.0
+City_Arab,0.0
+City_Aptos,0.0
+City_Appomattox,0.0
+City_Appling,0.0
+City_Appleton,0.0
+City_Applegate,0.0
+City_Apple Valley,0.0
+City_Apopka,0.0
+City_Apollo Beach,0.0
+City_Apollo,0.0
+City_Apison,0.0
+City_Apex,0.0
+City_Apalachin,0.0
+City_Apache Junction,0.0
+City_Anza,0.0
+City_Antioch,0.0
+City_Archbold,0.0
+City_Archer,0.0
+City_Arcola,0.0
+City_Arona,0.0
+City_Asbury Park,0.0
+City_Asbury,0.0
+City_Arvin,0.0
+City_Arvada,0.0
+City_Arundel,0.0
+City_Artois,0.0
+City_Artesia,0.0
+City_Arroyo Grande,0.0
+City_Arrington,0.0
+City_Aromas,0.0
+City_Arden,0.0
+City_Arnold,0.0
+City_Armonk,0.0
+City_Armona,0.0
+City_Arlington Heights,0.0
+City_Arlee,0.0
+City_Arkadelphia,0.0
+City_Argyle,0.0
+City_Ardsley,0.0
+City_Ardmore,0.0
+City_Anthony,0.0
+City_Antelope,0.0
+City_Alto,0.0
+City_Anson,0.0
+City_Amity,0.0
+City_Amissville,0.0
+City_Amherst,0.0
+City_Amesbury,0.0
+City_Ames,0.0
+City_American Fork,0.0
+City_American Canyon,0.0
+City_Amenia,0.0
+City_Amelia Court House,0.0
+City_Ambridge,0.0
+City_Ambler,0.0
+City_Amana,0.0
+City_Alviso,0.0
+City_Alvin,0.0
+City_Alvarado,0.0
+City_Alva,0.0
+City_Alum Bank,0.0
+City_Alturas,0.0
+City_Altura,0.0
+City_Altoona,0.0
+City_Alton,0.0
+City_Amityville,0.0
+City_Amma,0.0
+City_Amston,0.0
+City_Anita,0.0
+City_Anoka,0.0
+City_Annville,0.0
+City_Anniston,0.0
+City_Annapolis Junction,0.0
+City_Annapolis,0.0
+City_Annandale,0.0
+City_Anna,0.0
+City_Ann Arbor,0.0
+City_Ankeny,0.0
+City_Angola,0.0
+City_Anaconda,0.0
+City_Angier,0.0
+City_Angels Camp,0.0
+City_Andrews Air Force Base,0.0
+City_Andrews,0.0
+City_Andersonville,0.0
+City_Anderson,0.0
+City_Andalusia,0.0
+City_Ancram,0.0
+City_Anacortes,0.0
+City_Bensenville,0.0
+City_Bentleyville,0.0
+City_Canfield,0.0
+City_Brownsboro,0.0
+City_Browns Summit,0.0
+City_Browns Mills,0.0
+City_Broussard,0.0
+City_Brothers,0.0
+City_Broomfield,0.0
+City_Broomall,0.0
+City_Brookville,0.0
+City_Brooksville,0.0
+City_Brookston,0.0
+City_Brookshire,0.0
+City_Brooks,0.0
+City_Brookpark,0.0
+City_Brookline,0.0
+City_Brooklet,0.0
+City_Brookland,0.0
+City_Brookings,0.0
+City_Brookhaven,0.0
+City_Brookfield,0.0
+City_Brookeville,0.0
+City_Brooker,0.0
+City_Brookdale,0.0
+City_Browns Valley,0.0
+City_Brownsburg,0.0
+City_Buena Vista,0.0
+City_Brownsville,0.0
+City_Budd Lake,0.0
+City_Buda,0.0
+City_Bucyrus,0.0
+City_Bucklin,0.0
+City_Buckley,0.0
+City_Buckingham,0.0
+City_Buckhead,0.0
+City_Buckeye,0.0
+City_Buchanan,0.0
+City_Bryson City,0.0
+City_Bryn Mawr,0.0
+City_Bryn Athyn,0.0
+City_Bryceville,0.0
+City_Bryant,0.0
+City_Bryan,0.0
+City_Brush,0.0
+City_Brunswick,0.0
+City_Brundidge,0.0
+City_Bruceton Mills,0.0
+City_Bruceton,0.0
+City_Brownton,0.0
+City_Brook Park,0.0
+City_Bronxville,0.0
+City_Bronson,0.0
+City_Broken Arrow,0.0
+City_Bridgeton,0.0
+City_Bridgeport,0.0
+City_Bridgeboro,0.0
+City_Bridal Veil,0.0
+City_Brick,0.0
+City_Briarcliff Manor,0.0
+City_Brewton,0.0
+City_Brewster,0.0
+City_Brevard,0.0
+City_Brentwood,0.0
+City_Bremo Bluff,0.0
+City_Bremerton,0.0
+City_Bremen,0.0
+City_Breezewood,0.0
+City_Brecksville,0.0
+City_Breckenridge,0.0
+City_Breaux Bridge,0.0
+City_Brea,0.0
+City_Brazoria,0.0
+City_Brazil,0.0
+City_Brayton,0.0
+City_Bridgeview,0.0
+City_Bridgeville,0.0
+City_Bridgewater,0.0
+City_Broad Run,0.0
+City_Brogue,0.0
+City_Brodnax,0.0
+City_Brockway,0.0
+City_Brockton,0.0
+City_Brockport,0.0
+City_Broadway,0.0
+City_Broadview Heights,0.0
+City_Broadus,0.0
+City_Broadbent,0.0
+City_Britt,0.0
+City_Bridgman,0.0
+City_Bristow,0.0
+City_Bristol,0.0
+City_Brisbane,0.0
+City_Brinnon,0.0
+City_Brinkley,0.0
+City_Brimfield,0.0
+City_Brightwood,0.0
+City_Brighton,0.0
+City_Brigham City,0.0
+City_Buena Park,0.0
+City_Buffalo Grove,0.0
+City_Benton,0.0
+City_Cambridge City,0.0
+City_Cambria Heights,0.0
+City_Cambria,0.0
+City_Camas,0.0
+City_Camarillo,0.0
+City_Camano Island,0.0
+City_Calverton,0.0
+City_Calumet Park,0.0
+City_Calumet City,0.0
+City_Calpine,0.0
+City_Callaway,0.0
+City_Callahan,0.0
+City_Calistoga,0.0
+City_Calimesa,0.0
+City_California Hot Springs,0.0
+City_California,0.0
+City_Caliente,0.0
+City_Calhoun Falls,0.0
+City_Calhoun,0.0
+City_Calera,0.0
+City_Caledonia,0.0
+City_Caldwell,0.0
+City_Cambridge,0.0
+City_Cambridge Springs,0.0
+City_Buffalo Junction,0.0
+City_Camby,0.0
+City_Candler,0.0
+City_Candia,0.0
+City_Canastota,0.0
+City_Canal Winchester,0.0
+City_Canaan,0.0
+City_Cana,0.0
+City_Campobello,0.0
+City_Campbellsburg,0.0
+City_Campbell,0.0
+City_Camp Verde,0.0
+City_Camp Sherman,0.0
+City_Camp Pendleton Marine Corps Base,0.0
+City_Camp Pendleton,0.0
+City_Camp Hill,0.0
+City_Camp Douglas,0.0
+City_Camino,0.0
+City_Camillus,0.0
+City_Camilla,0.0
+City_Cameron Park,0.0
+City_Cameron,0.0
+City_Camden,0.0
+City_Calabash,0.0
+City_Calabasas,0.0
+City_Cairo,0.0
+City_Cadiz,0.0
+City_Burnt Hills,0.0
+City_Burnsville,0.0
+City_Burns,0.0
+City_Burney,0.0
+City_Burnet,0.0
+City_Burlington,0.0
+City_Burlingame,0.0
+City_Burleson,0.0
+City_Burkeville,0.0
+City_Burke,0.0
+City_Burgoon,0.0
+City_Burgettstown,0.0
+City_Burgaw,0.0
+City_Burbank,0.0
+City_Bunnlevel,0.0
+City_Bunker Hill,0.0
+City_Buncombe,0.0
+City_Bumpass,0.0
+City_Bulls Gap,0.0
+City_Bullhead City,0.0
+City_Buford,0.0
+City_Burnt Prairie,0.0
+City_Burnt Ranch,0.0
+City_Burr Ridge,0.0
+City_Byfield,0.0
+City_Cades,0.0
+City_Cabot,0.0
+City_Cable,0.0
+City_Cabin John,0.0
+City_Cabazon,0.0
+City_Byron Center,0.0
+City_Byron,0.0
+City_Byram Township,0.0
+City_Byram,0.0
+City_Byers,0.0
+City_Burton,0.0
+City_Buxton,0.0
+City_Buttonwillow,0.0
+City_Butterfield,0.0
+City_Butte,0.0
+City_Butner,0.0
+City_Butler,0.0
+City_Bushnell,0.0
+City_Bushkill,0.0
+City_Burtonsville,0.0
+City_Braselton,0.0
+City_Branford,0.0
+City_Brandywine,0.0
+City_Blackstock,0.0
+City_Blacklick,0.0
+City_Blackduck,0.0
+City_Black River Falls,0.0
+City_Black Mountain,0.0
+City_Black Hawk,0.0
+City_Black Eagle,0.0
+City_Black Diamond,0.0
+City_Black Canyon City,0.0
+City_Bixby,0.0
+City_Bismarck,0.0
+City_Bishopville,0.0
+City_Bishop,0.0
+City_Biscoe,0.0
+City_Biscayne Park,0.0
+City_Birdsboro,0.0
+City_Bird Island,0.0
+City_Bird In Hand,0.0
+City_Birchwood,0.0
+City_Birch Run,0.0
+City_Biola,0.0
+City_Binghamton,0.0
+City_Blacksburg,0.0
+City_Blackstone,0.0
+City_Brandy Station,0.0
+City_Blackville,0.0
+City_Bloomingburg,0.0
+City_Blooming Prairie,0.0
+City_Bloomfield Hills,0.0
+City_Bloomfield,0.0
+City_Blomkest,0.0
+City_Blodgett,0.0
+City_Bliss,0.0
+City_Blenheim,0.0
+City_Blanding,0.0
+City_Bland,0.0
+City_Blanchester,0.0
+City_Blakesburg,0.0
+City_Blairsville,0.0
+City_Blairstown,0.0
+City_Blairsden Graeagle,0.0
+City_Blairs Mills,0.0
+City_Blairs,0.0
+City_Blair,0.0
+City_Bladensburg,0.0
+City_Blackwood,0.0
+City_Blackwell,0.0
+City_Bingham Lake,0.0
+City_Biloxi,0.0
+City_Billings,0.0
+City_Billerica,0.0
+City_Bessemer City,0.0
+City_Bessemer,0.0
+City_Berwyn,0.0
+City_Berwick,0.0
+City_Berthoud,0.0
+City_Berryville,0.0
+City_Berry Creek,0.0
+City_Berry,0.0
+City_Bernville,0.0
+City_Bernardston,0.0
+City_Bernalillo,0.0
+City_Berlin Heights,0.0
+City_Berlin,0.0
+City_Berkeley Springs,0.0
+City_Berkeley Heights,0.0
+City_Berkeley,0.0
+City_Bergton,0.0
+City_Bergen,0.0
+City_Benwood,0.0
+City_Bentonville,0.0
+City_Benton Harbor,0.0
+City_Bethany,0.0
+City_Bethel,0.0
+City_Bethel Island,0.0
+City_Big Pine Key,0.0
+City_Biglerville,0.0
+City_Biggs,0.0
+City_Bigfork,0.0
+City_Big Timber,0.0
+City_Big Sur,0.0
+City_Big Springs,0.0
+City_Big Sky,0.0
+City_Big Sandy,0.0
+City_Big Pool,0.0
+City_Big Pine,0.0
+City_Bethesda,0.0
+City_Big Lake,0.0
+City_Big Falls,0.0
+City_Big Bear City,0.0
+City_Beverly Hills,0.0
+City_Beulah,0.0
+City_Bettendorf,0.0
+City_Bethune,0.0
+City_Bethpage,0.0
+City_Bethlehem,0.0
+City_Bloomingdale,0.0
+City_Bloomington,0.0
+City_Bloomsburg,0.0
+City_Bonsall,0.0
+City_Bowie,0.0
+City_Bowdoinham,0.0
+City_Bow,0.0
+City_Bouse,0.0
+City_Bourg,0.0
+City_Bourbonnais,0.0
+City_Bountiful,0.0
+City_Bound Brook,0.0
+City_Boulevard,0.0
+City_Boulder Creek,0.0
+City_Boulder,0.0
+City_Bothell,0.0
+City_Boswell,0.0
+City_Boron,0.0
+City_Boring,0.0
+City_Bordentown,0.0
+City_Boonville,0.0
+City_Boonton,0.0
+City_Boonsboro,0.0
+City_Booneville,0.0
+City_Boones Mill,0.0
+City_Bowling Green,0.0
+City_Boxborough,0.0
+City_Boyds,0.0
+City_Bradenton Beach,0.0
+City_Brandon,0.0
+City_Branchville,0.0
+City_Braman,0.0
+City_Braintree,0.0
+City_Brainerd,0.0
+City_Brady,0.0
+City_Bradner,0.0
+City_Bradley,0.0
+City_Bradford,0.0
+City_Bradenton,0.0
+City_Boydton,0.0
+City_Braddyville,0.0
+City_Brackettville,0.0
+City_Bracey,0.0
+City_Braceville,0.0
+City_Bozrah,0.0
+City_Bozeman,0.0
+City_Boys Town,0.0
+City_Boynton Beach,0.0
+City_Boyes,0.0
+City_Boone,0.0
+City_Bonney Lake,0.0
+City_Blountstown,0.0
+City_Bonner Springs,0.0
+City_Bodega Bay,0.0
+City_Bodega,0.0
+City_Boca Raton,0.0
+City_Boardman,0.0
+City_Boalsburg,0.0
+City_Blythewood,0.0
+City_Blytheville,0.0
+City_Blythe,0.0
+City_Bluford,0.0
+City_Bluffton,0.0
+City_Bluff,0.0
+City_Bluefield,0.0
+City_Blue Springs,0.0
+City_Blue River,0.0
+City_Blue Ridge,0.0
+City_Blue Mountain Lake,0.0
+City_Blue Lake,0.0
+City_Blue Earth,0.0
+City_Blue Bell,0.0
+City_Blountville,0.0
+City_Blountsville,0.0
+City_Bodfish,0.0
+City_Boerne,0.0
+City_Bogart,0.0
+City_Bolivia,0.0
+City_Bonner,0.0
+City_Bonneau,0.0
+City_Bonita Springs,0.0
+City_Bonita,0.0
+City_Bonifay,0.0
+City_Bondurant,0.0
+City_Bond,0.0
+City_Bonanza,0.0
+City_Bolton,0.0
+City_Bolivar,0.0
+City_Bogue Chitto,0.0
+City_Bolingbrook,0.0
+City_Bolinas,0.0
+City_Boligee,0.0
+City_Bokeelia,0.0
+City_Boise,0.0
+City_Bois D'Arc,0.0
+City_Bois D Arc,0.0
+City_Boiling Springs,0.0
+City_Bohemia,0.0
+City_Eaton,0.0
+City_Eaton Rapids,0.0
+City_Eatontown,0.0
+City_Jacobson,0.0
+City_Jackpot,0.0
+City_Ivor,0.0
+City_Ivanhoe,0.0
+City_Iva,0.0
+City_Ithaca,0.0
+City_Itasca,0.0
+City_Italy,0.0
+City_Issaquah,0.0
+City_Islip,0.0
+City_Isleton,0.0
+City_Isle,0.0
+City_Islandton,0.0
+City_Islandia,0.0
+City_Island Park,0.0
+City_Island Lake,0.0
+City_Island Falls,0.0
+City_Islamorada,0.0
+City_Ishpeming,0.0
+City_Iselin,0.0
+City_Isanti,0.0
+City_Irwindale,0.0
+City_Jacksonville Beach,0.0
+City_Jamaica,0.0
+City_Jenkintown,0.0
+City_Jamaica Plain,0.0
+City_Jenkinsburg,0.0
+City_Jenkins,0.0
+City_Jemison,0.0
+City_Jeffersonville,0.0
+City_Jefferson Valley,0.0
+City_Jefferson City,0.0
+City_Jefferson,0.0
+City_Jeffers,0.0
+City_Jeannette,0.0
+City_Jay,0.0
+City_Java,0.0
+City_Jasper,0.0
+City_Jarrettsville,0.0
+City_Jarrell,0.0
+City_Jarratt,0.0
+City_Janesville,0.0
+City_Jane Lew,0.0
+City_Jamul,0.0
+City_Jamesville,0.0
+City_Jamestown,0.0
+City_Jamesburg,0.0
+City_Irwin,0.0
+City_Irvington,0.0
+City_Irvine,0.0
+City_Irrigon,0.0
+City_Indian Rocks Beach,0.0
+City_Indian Orchard,0.0
+City_Indian Head,0.0
+City_Indialantic,0.0
+City_Independence,0.0
+City_Incline Village,0.0
+City_Imperial Beach,0.0
+City_Imperial,0.0
+City_Immokalee,0.0
+City_Imler,0.0
+City_Imlay,0.0
+City_Imboden,0.0
+City_Imbler,0.0
+City_Ijamsville,0.0
+City_Igo,0.0
+City_Idleyld Park,0.0
+City_Idledale,0.0
+City_Idanha,0.0
+City_Idaho Springs,0.0
+City_Idaho Falls,0.0
+City_Ida,0.0
+City_Indian Shores,0.0
+City_Indian Trail,0.0
+City_Indiantown,0.0
+City_Inverness,0.0
+City_Irondequoit,0.0
+City_Iowa Park,0.0
+City_Iowa Falls,0.0
+City_Iowa City,0.0
+City_Iowa,0.0
+City_Ionia,0.0
+City_Ione,0.0
+City_Inyokern,0.0
+City_Inwood,0.0
+City_Inver Grove Heights,0.0
+City_Ingalls,0.0
+City_Interlachen,0.0
+City_Intercession City,0.0
+City_Inman,0.0
+City_Inlet Beach,0.0
+City_Inkster,0.0
+City_Inkom,0.0
+City_Inglis,0.0
+City_Inglewood,0.0
+City_Ingleside,0.0
+City_Jenkinsville,0.0
+City_Jenks,0.0
+City_Kerby,0.0
+City_Keewatin,0.0
+City_Keene,0.0
+City_Keasbey,0.0
+City_Kearny,0.0
+City_Keams Canyon,0.0
+City_Kaysville,0.0
+City_Kaukauna,0.0
+City_Katy,0.0
+City_Katonah,0.0
+City_Kathleen,0.0
+City_Kasson,0.0
+City_Kasota,0.0
+City_Kansas City,0.0
+City_Kannapolis,0.0
+City_Kankakee,0.0
+City_Kane,0.0
+City_Kanarraville,0.0
+City_Kanab,0.0
+City_Kamas,0.0
+City_Kalkaska,0.0
+City_Kalispell,0.0
+City_Kalamazoo,0.0
+City_Keeseville,0.0
+City_Keithville,0.0
+City_Jenner,0.0
+City_Kelseyville,0.0
+City_Kentwood,0.0
+City_Kents Store,0.0
+City_Kentland,0.0
+City_Kent City,0.0
+City_Kent,0.0
+City_Kensington,0.0
+City_Kenosha,0.0
+City_Keno,0.0
+City_Kennett Square,0.0
+City_Kenneth City,0.0
+City_Kennesaw,0.0
+City_Kenner,0.0
+City_Kennedy,0.0
+City_Kennedale,0.0
+City_Kennebunkport,0.0
+City_Kennard,0.0
+City_Kenna,0.0
+City_Kenly,0.0
+City_Kenilworth,0.0
+City_Kenansville,0.0
+City_Kelso,0.0
+City_Kalama,0.0
+City_Kaibeto,0.0
+City_Justin,0.0
+City_Justiceburg,0.0
+City_Johnston,0.0
+City_Johnsonville,0.0
+City_Johnsonburg,0.0
+City_Johnson City,0.0
+City_Johnsburg,0.0
+City_John Day,0.0
+City_Johannesburg,0.0
+City_Joelton,0.0
+City_Jewett City,0.0
+City_Jetersville,0.0
+City_Jesup,0.0
+City_Jessup,0.0
+City_Jersey Village,0.0
+City_Jersey Shore,0.0
+City_Jersey City,0.0
+City_Jerome,0.0
+City_Jermyn,0.0
+City_Jericho,0.0
+City_Jensen Beach,0.0
+City_Jennings,0.0
+City_Jennerstown,0.0
+City_Johnstown,0.0
+City_Joliet,0.0
+City_Jones,0.0
+City_Judsonia,0.0
+City_Justice,0.0
+City_Jurupa Valley,0.0
+City_Jupiter,0.0
+City_Juntura,0.0
+City_June Lake,0.0
+City_Junction City,0.0
+City_Juliette,0.0
+City_Julian,0.0
+City_Julesburg,0.0
+City_Joseph City,0.0
+City_Jonesboro,0.0
+City_Joseph,0.0
+City_Jordan Valley,0.0
+City_Jordan,0.0
+City_Joppa,0.0
+City_Joplin,0.0
+City_Jonesville,0.0
+City_Jonestown,0.0
+City_Jonesburg,0.0
+City_Jonesborough,0.0
+City_Ickesburg,0.0
+City_Hydesville,0.0
+City_Hyde Park,0.0
+City_Hines,0.0
+City_Hilton Head Island,0.0
+City_Hilton,0.0
+City_Hilmar,0.0
+City_Hillsville,0.0
+City_Hillside,0.0
+City_Hillsdale,0.0
+City_Hillsborough,0.0
+City_Hillsboro,0.0
+City_Hillman,0.0
+City_Hilliard,0.0
+City_Hillburn,0.0
+City_Hill City,0.0
+City_Hightstown,0.0
+City_Highlandville,0.0
+City_Highlands,0.0
+City_Highland Park,0.0
+City_Highland Mills,0.0
+City_Highland Falls,0.0
+City_Highland,0.0
+City_High Springs,0.0
+City_High Ridge,0.0
+City_Hinckley,0.0
+City_Hingham,0.0
+City_Hyattsville,0.0
+City_Hinkley,0.0
+City_Holland,0.0
+City_Holladay,0.0
+City_Holiday,0.0
+City_Holden,0.0
+City_Holbrook,0.0
+City_Hokah,0.0
+City_Hogansville,0.0
+City_Hoffman Estates,0.0
+City_Hodges,0.0
+City_Hockley,0.0
+City_Hockessin,0.0
+City_Hobe Sound,0.0
+City_Hobart,0.0
+City_Hoagland,0.0
+City_Ho Ho Kus,0.0
+City_Hixton,0.0
+City_Hixson,0.0
+City_Hitchcock,0.0
+City_Hiram,0.0
+City_Hinton,0.0
+City_Hinsdale,0.0
+City_High Point,0.0
+City_High Hill,0.0
+City_Higganum,0.0
+City_Hiddenite,0.0
+City_Henryville,0.0
+City_Henrietta,0.0
+City_Henrico,0.0
+City_Henefer,0.0
+City_Hendersonville,0.0
+City_Henderson,0.0
+City_Hempstead,0.0
+City_Hemingway,0.0
+City_Hemet,0.0
+City_Helper,0.0
+City_Helotes,0.0
+City_Helmville,0.0
+City_Hellertown,0.0
+City_Helix,0.0
+City_Helendale,0.0
+City_Helena,0.0
+City_Heiskell,0.0
+City_Heflin,0.0
+City_Hebron,0.0
+City_Heber Springs,0.0
+City_Heber City,0.0
+City_Hephzibah,0.0
+City_Heppner,0.0
+City_Herald,0.0
+City_Herriman,0.0
+City_Hidden Valley Lake,0.0
+City_Hickory,0.0
+City_Hickman,0.0
+City_Hibbing,0.0
+City_Hewitt,0.0
+City_Heth,0.0
+City_Hesston,0.0
+City_Hesperia,0.0
+City_Hershey,0.0
+City_Heron Lake,0.0
+City_Herculaneum,0.0
+City_Herndon,0.0
+City_Hernando Beach,0.0
+City_Hernando,0.0
+City_Hermitage,0.0
+City_Hermiston,0.0
+City_Herminie,0.0
+City_Herlong,0.0
+City_Herkimer,0.0
+City_Hercules,0.0
+City_Holland Patent,0.0
+City_Hollidaysburg,0.0
+City_Hollis,0.0
+City_Horseheads,0.0
+City_Hummelstown,0.0
+City_Humble,0.0
+City_Hugo,0.0
+City_Hughson,0.0
+City_Hughesville,0.0
+City_Huger,0.0
+City_Hudsonville,0.0
+City_Hudson,0.0
+City_Hubbardston,0.0
+City_Hubbard,0.0
+City_Hoxie,0.0
+City_Howey in the Hills,0.0
+City_Howell,0.0
+City_Howard Beach,0.0
+City_Howard,0.0
+City_Houtzdale,0.0
+City_Houma,0.0
+City_Hot Springs National Park,0.0
+City_Hospers,0.0
+City_Hoschton,0.0
+City_Horsham,0.0
+City_Hunker,0.0
+City_Hunt Valley,0.0
+City_Hunter,0.0
+City_Hurlock,0.0
+City_Hutto,0.0
+City_Hutchinson,0.0
+City_Hutchins,0.0
+City_Hustontown,0.0
+City_Huson,0.0
+City_Hurt,0.0
+City_Hurst,0.0
+City_Hurricane,0.0
+City_Huron,0.0
+City_Huntsville,0.0
+City_Huntersville,0.0
+City_Huntley,0.0
+City_Huntingtown,0.0
+City_Huntington Woods,0.0
+City_Huntington Station,0.0
+City_Huntington Park,0.0
+City_Huntington Beach,0.0
+City_Huntington,0.0
+City_Huntingdon Valley,0.0
+City_Huntingdon,0.0
+City_Horseshoe Bend,0.0
+City_Hornbrook,0.0
+City_Hollister,0.0
+City_Hornbeak,0.0
+City_Honey Brook,0.0
+City_Honeoye Falls,0.0
+City_Honea Path,0.0
+City_Hondo,0.0
+City_Homosassa,0.0
+City_Homestead,0.0
+City_Homer Glen,0.0
+City_Homer City,0.0
+City_Homer,0.0
+City_Homeland,0.0
+City_Holyoke,0.0
+City_Holtwood,0.0
+City_Holtsville,0.0
+City_Holt,0.0
+City_Holmes,0.0
+City_Holmdel,0.0
+City_Holly Springs,0.0
+City_Holly Hill,0.0
+City_Holly,0.0
+City_Hollsopple,0.0
+City_Holliston,0.0
+City_Honey Grove,0.0
+City_Honeyville,0.0
+City_Hood River,0.0
+City_Hope Mills,0.0
+City_Horn Lake,0.0
+City_Hoquiam,0.0
+City_Hopland,0.0
+City_Hopkinton,0.0
+City_Hopkins,0.0
+City_Hopewell Junction,0.0
+City_Hopewell,0.0
+City_Hopedale,0.0
+City_Hope Valley,0.0
+City_Hope Hull,0.0
+City_Hoodsport,0.0
+City_Hope,0.0
+City_Hop Bottom,0.0
+City_Hooversville,0.0
+City_Hoosick Falls,0.0
+City_Hooper,0.0
+City_Hoopa,0.0
+City_Hooksett,0.0
+City_Hooks,0.0
+City_Hookerton,0.0
+City_Kenyon,0.0
+City_Kerman,0.0
+City_Eatonville,0.0
+City_Lewiston,0.0
+City_Lewisberry,0.0
+City_Lewis Run,0.0
+City_Lewis Center,0.0
+City_Levittown,0.0
+City_Letohatchee,0.0
+City_Leroy,0.0
+City_Leonia,0.0
+City_Leonardtown,0.0
+City_Leon,0.0
+City_Leominster,0.0
+City_Leola,0.0
+City_Leo,0.0
+City_Lenox,0.0
+City_Lenoir City,0.0
+City_Lenoir,0.0
+City_Lennon,0.0
+City_Lenhartsville,0.0
+City_Lenexa,0.0
+City_Lemoyne,0.0
+City_Lemoore,0.0
+City_Lemont Furnace,0.0
+City_Lewisburg,0.0
+City_Lewistown,0.0
+City_Lindon,0.0
+City_Lewisville,0.0
+City_Linden,0.0
+City_Lincroft,0.0
+City_Lincolnwood,0.0
+City_Lincolnton,0.0
+City_Lincolnshire,0.0
+City_Lincoln University,0.0
+City_Lincoln Park,0.0
+City_Lincoln City,0.0
+City_Lincoln,0.0
+City_Limon,0.0
+City_Lima,0.0
+City_Lilly,0.0
+City_Lilliwaup,0.0
+City_Lillington,0.0
+City_Lillie,0.0
+City_Lilburn,0.0
+City_Liberty Lake,0.0
+City_Liberty,0.0
+City_Libby,0.0
+City_Lexington Park,0.0
+City_Lexington,0.0
+City_Lemont,0.0
+City_Lemon Grove,0.0
+City_Lemon Cove,0.0
+City_Leland,0.0
+City_Leadville,0.0
+City_Le Sueur,0.0
+City_Le Roy,0.0
+City_Le Mars,0.0
+City_Le Grand,0.0
+City_Le Center,0.0
+City_Laytonville,0.0
+City_Layton,0.0
+City_Lawrenceburg,0.0
+City_Lawrence Twp,0.0
+City_Lawrence Township,0.0
+City_Lawrence,0.0
+City_Lawnside,0.0
+City_Lawndale,0.0
+City_Lavonia,0.0
+City_Lavina,0.0
+City_Laveen,0.0
+City_Lavaca,0.0
+City_Lava Hot Springs,0.0
+City_Laurens,0.0
+City_Laurel Hill,0.0
+City_League City,0.0
+City_Leander,0.0
+City_Leavenworth,0.0
+City_Leeper,0.0
+City_Leighton,0.0
+City_Leicester,0.0
+City_Lehighton,0.0
+City_Lehigh Acres,0.0
+City_Lehi,0.0
+City_Leggett,0.0
+City_Leesville,0.0
+City_Leesburg,0.0
+City_Lees Summit,0.0
+City_Leeds,0.0
+City_Leawood,0.0
+City_Leechburg,0.0
+City_Lee's Summit,0.0
+City_Lee Vining,0.0
+City_Lee,0.0
+City_Ledgewood,0.0
+City_Lecanto,0.0
+City_Lebec,0.0
+City_Lebanon Junction,0.0
+City_Lebanon,0.0
+City_Lindenhurst,0.0
+City_Lindsay,0.0
+City_Kernersville,0.0
+City_Loretto,0.0
+City_Lordsburg,0.0
+City_Lorain,0.0
+City_Loon Lake,0.0
+City_Loomis,0.0
+City_Lookout,0.0
+City_Loogootee,0.0
+City_Lonsdale,0.0
+City_Lonoke,0.0
+City_Longwood,0.0
+City_Longview,0.0
+City_Longs,0.0
+City_Longmont,0.0
+City_Long Prairie,0.0
+City_Long Pond,0.0
+City_Long Lake,0.0
+City_Long Island City,0.0
+City_Long Grove,0.0
+City_Long Creek,0.0
+City_Lone Tree,0.0
+City_Lone Pine,0.0
+City_Londonderry,0.0
+City_Lore City,0.0
+City_Lorida,0.0
+City_Lineville,0.0
+City_Loris,0.0
+City_Lowgap,0.0
+City_Lower Lake,0.0
+City_Lowell,0.0
+City_Lovingston,0.0
+City_Loving,0.0
+City_Lovettsville,0.0
+City_Loveland,0.0
+City_Louisburg,0.0
+City_Louisa,0.0
+City_Lotus,0.0
+City_Lothian,0.0
+City_Lostine,0.0
+City_Lost Hills,0.0
+City_Los Osos,0.0
+City_Los Olivos,0.0
+City_Los Molinos,0.0
+City_Los Gatos,0.0
+City_Los Banos,0.0
+City_Los Altos,0.0
+City_Los Alamitos,0.0
+City_Lorton,0.0
+City_London,0.0
+City_Lompoc,0.0
+City_Lomita,0.0
+City_Loma Linda,0.0
+City_Littlefield,0.0
+City_Little Sioux,0.0
+City_Little Rock,0.0
+City_Little River,0.0
+City_Little Neck,0.0
+City_Little Mountain,0.0
+City_Little Falls,0.0
+City_Little Egg Harbor Twp,0.0
+City_Lititz,0.0
+City_Lithopolis,0.0
+City_Lithonia,0.0
+City_Lithia Springs,0.0
+City_Lithia,0.0
+City_Litchfield Park,0.0
+City_Litchfield,0.0
+City_Lismore,0.0
+City_Lisle,0.0
+City_Lisbon,0.0
+City_Linwood,0.0
+City_Linville,0.0
+City_Linthicum Heights,0.0
+City_Littlerock,0.0
+City_Littlestown,0.0
+City_Littleton,0.0
+City_Lodge,0.0
+City_Loma,0.0
+City_Lolo,0.0
+City_Loleta,0.0
+City_Loganville,0.0
+City_Loganton,0.0
+City_Logan,0.0
+City_Log Lane Village,0.0
+City_Lodi,0.0
+City_Lodge Grass,0.0
+City_Locust Grove,0.0
+City_Live Oak,0.0
+City_Locust Fork,0.0
+City_Lockport,0.0
+City_Lockbourne,0.0
+City_Lock Haven,0.0
+City_Llano,0.0
+City_Lizton,0.0
+City_Livonia,0.0
+City_Livingston,0.0
+City_Liverpool,0.0
+City_Laurel,0.0
+City_Laughlintown,0.0
+City_Laughlin,0.0
+City_La Canada Flintridge,0.0
+City_Kyle,0.0
+City_Kyburz,0.0
+City_Kutztown,0.0
+City_Kuttawa,0.0
+City_Kulpsville,0.0
+City_Kokomo,0.0
+City_Kodak,0.0
+City_Knox,0.0
+City_Knob Noster,0.0
+City_Knightstown,0.0
+City_Knights Landing,0.0
+City_Knightdale,0.0
+City_Kneeland,0.0
+City_Knapp,0.0
+City_Klamath River,0.0
+City_Klamath Falls,0.0
+City_Klamath,0.0
+City_Kittery,0.0
+City_Kittanning,0.0
+City_Kit Carson,0.0
+City_Kissimmee,0.0
+City_LA Place,0.0
+City_La Crescent,0.0
+City_Lauderhill,0.0
+City_La Crescenta,0.0
+City_Labelle,0.0
+City_LaGrange,0.0
+City_La Vista,0.0
+City_La Verne,0.0
+City_La Vergne,0.0
+City_La Salle,0.0
+City_La Puente,0.0
+City_La Porte,0.0
+City_La Plata,0.0
+City_La Pine,0.0
+City_La Palma,0.0
+City_La Mirada,0.0
+City_La Mesa,0.0
+City_La Marque,0.0
+City_La Jolla,0.0
+City_La Honda,0.0
+City_La Habra,0.0
+City_La Grange,0.0
+City_La Grande,0.0
+City_La Fayette,0.0
+City_La Crosse,0.0
+City_Kirkwood,0.0
+City_Kirkville,0.0
+City_Kirkland,0.0
+City_Kinzers,0.0
+City_Kilmarnock,0.0
+City_Killen,0.0
+City_Killdeer,0.0
+City_Kildeer,0.0
+City_Kila,0.0
+City_Keysville,0.0
+City_Keyport,0.0
+City_Keymar,0.0
+City_Keyes,0.0
+City_Key West,0.0
+City_Key Largo,0.0
+City_Key Biscayne,0.0
+City_Kewadin,0.0
+City_Kew Gardens,0.0
+City_Kettleman City,0.0
+City_Kettle River,0.0
+City_Keswick,0.0
+City_Kershaw,0.0
+City_Kersey,0.0
+City_Kerrick,0.0
+City_Kernville,0.0
+City_Kim,0.0
+City_Kimball,0.0
+City_Kimberly,0.0
+City_Kingsburg,0.0
+City_Kinsale,0.0
+City_Kingwood,0.0
+City_Kingsville,0.0
+City_Kingstree,0.0
+City_Kingston Springs,0.0
+City_Kingston,0.0
+City_Kingsport,0.0
+City_Kingsley,0.0
+City_Kingsland,0.0
+City_Kings Park,0.0
+City_Kinards,0.0
+City_Kings Mountain,0.0
+City_Kings Beach,0.0
+City_Kingman,0.0
+City_Kingdom City,0.0
+City_King of Prussia,0.0
+City_King Of Prussia,0.0
+City_King George,0.0
+City_King City,0.0
+City_Kinderhook,0.0
+City_Lacey,0.0
+City_Laceys Spring,0.0
+City_Lacona,0.0
+City_Lake Worth Beach,0.0
+City_Langhorne,0.0
+City_Lanexa,0.0
+City_Lanett,0.0
+City_Landrum,0.0
+City_Landisville,0.0
+City_Landisburg,0.0
+City_Landing,0.0
+City_Landenberg,0.0
+City_Land O Lakes,0.0
+City_Lamont,0.0
+City_Lame Deer,0.0
+City_Lambsburg,0.0
+City_Lamar,0.0
+City_Lakewood,0.0
+City_Lakeville,0.0
+City_Lakeview,0.0
+City_Lakeside,0.0
+City_Lakeport,0.0
+City_Lakeland,0.0
+City_Lakehead,0.0
+City_Lakefield,0.0
+City_Langley,0.0
+City_Langlois,0.0
+City_Lanham,0.0
+City_Larkspur,0.0
+City_Lauderdale Lakes,0.0
+City_Latrobe,0.0
+City_Latonia,0.0
+City_Laton,0.0
+City_Latimer,0.0
+City_Lathrop,0.0
+City_Latham,0.0
+City_Las Vegas,0.0
+City_Las Cruces,0.0
+City_Largo,0.0
+City_Lansdale,0.0
+City_Laredo,0.0
+City_Larchmont,0.0
+City_Laramie,0.0
+City_Laporte,0.0
+City_Laplace,0.0
+City_Lapeer,0.0
+City_Lantana,0.0
+City_Lansing,0.0
+City_Lansdowne,0.0
+City_Lake Zurich,0.0
+City_Lake Wales,0.0
+City_Ladera Ranch,0.0
+City_Lake Waccamaw,0.0
+City_Lake Elsinore,0.0
+City_Lake Elmo,0.0
+City_Lake Dallas,0.0
+City_Lake Crystal,0.0
+City_Lake City,0.0
+City_Lake Butler,0.0
+City_Lake Bluff,0.0
+City_Lake Barrington,0.0
+City_Lake Arrowhead,0.0
+City_Lake Ariel,0.0
+City_Lake,0.0
+City_Laguna Niguel,0.0
+City_Laguna Hills,0.0
+City_Laguna Beach,0.0
+City_Laguna,0.0
+City_Lagrangeville,0.0
+City_Lagrange,0.0
+City_Lago Vista,0.0
+City_Lafayette Hill,0.0
+City_Lady Lake,0.0
+City_Ladson,0.0
+City_Lake Forest,0.0
+City_Lake Geneva,0.0
+City_Lake George,0.0
+City_Lake Panasoffkee,0.0
+City_Lake Village,0.0
+City_Lake Villa,0.0
+City_Lake View,0.0
+City_Lake Tapps,0.0
+City_Lake Stevens,0.0
+City_Lake Station,0.0
+City_Lake Saint Louis,0.0
+City_Lake Placid,0.0
+City_Lake Park,0.0
+City_Lake Oswego,0.0
+City_Lake Grove,0.0
+City_Lake Mary,0.0
+City_Lake Lillian,0.0
+City_Lake Leelanau,0.0
+City_Lake Katrine,0.0
+City_Lake Jackson,0.0
+City_Lake Isabella,0.0
+City_Lake Hughes,0.0
+City_Lake Helen,0.0
+City_Lake Havasu City,0.0
+City_Heber,0.0
+City_Heathsville,0.0
+City_Heath Springs,0.0
+City_Florham Park,0.0
+City_Floral City,0.0
+City_Flora,0.0
+City_Floodwood,0.0
+City_Flintstone,0.0
+City_Flinton,0.0
+City_Flint Hill,0.0
+City_Fletcher,0.0
+City_Flemington,0.0
+City_Fleming Island,0.0
+City_Fleetwood,0.0
+City_Flat Top,0.0
+City_Flat Rock,0.0
+City_Flanders,0.0
+City_Flagstaff,0.0
+City_Flagler Beach,0.0
+City_Fitzwilliam,0.0
+City_Fitchburg,0.0
+City_Fiskdale,0.0
+City_Fishkill,0.0
+City_Fishersville,0.0
+City_Fishers,0.0
+City_Floral Park,0.0
+City_Florida City,0.0
+City_Forest Park,0.0
+City_Florissant,0.0
+City_Forest Lake,0.0
+City_Forest Knolls,0.0
+City_Forest Hills,0.0
+City_Forest Hill,0.0
+City_Forest Grove,0.0
+City_Forest,0.0
+City_Fords,0.0
+City_Fontana,0.0
+City_Fond du Lac,0.0
+City_Fond Du Lac,0.0
+City_Folsom,0.0
+City_Folkston,0.0
+City_Foley,0.0
+City_Folcroft,0.0
+City_Floyds Knobs,0.0
+City_Floyd,0.0
+City_Flowood,0.0
+City_Flowery Branch,0.0
+City_Flovilla,0.0
+City_Flourtown,0.0
+City_Floriston,0.0
+City_Fish Camp,0.0
+City_Firth,0.0
+City_Firebaugh,0.0
+City_Finlayson,0.0
+City_Fayetteville,0.0
+City_Fayette City,0.0
+City_Fayette,0.0
+City_Faulkner,0.0
+City_Farwell,0.0
+City_Farragut,0.0
+City_Farnham,0.0
+City_Farmville,0.0
+City_Farmingville,0.0
+City_Farmington Hills,0.0
+City_Farmington,0.0
+City_Farmingdale,0.0
+City_Farmersville,0.0
+City_Faribault,0.0
+City_Fargo,0.0
+City_Far Hills,0.0
+City_Fancy Gap,0.0
+City_Falmouth,0.0
+City_Fallston,0.0
+City_Falls Church,0.0
+City_Fallon,0.0
+City_Feasterville Trevose,0.0
+City_Feasterville-Trevose,0.0
+City_Federal Way,0.0
+City_Ferrum,0.0
+City_Finksburg,0.0
+City_Findlay,0.0
+City_Fincastle,0.0
+City_Fillmore,0.0
+City_Filer,0.0
+City_Fife,0.0
+City_Fiddletown,0.0
+City_Feura Bush,0.0
+City_Festus,0.0
+City_Ferron,0.0
+City_Federalsburg,0.0
+City_Ferris,0.0
+City_Fernley,0.0
+City_Ferndale,0.0
+City_Fernandina Beach,0.0
+City_Fergus Falls,0.0
+City_Fenton,0.0
+City_Felton,0.0
+City_Fellsmere,0.0
+City_Fellows,0.0
+City_Forest Lakes,0.0
+City_Forest Ranch,0.0
+City_Heath,0.0
+City_Franksville,0.0
+City_Franklinton,0.0
+City_Franklin Square,0.0
+City_Franklin Park,0.0
+City_Franklin Lakes,0.0
+City_Franklin Grove,0.0
+City_Franklin,0.0
+City_Frankfort,0.0
+City_Framingham,0.0
+City_Frametown,0.0
+City_Fox Lake,0.0
+City_Fowlerville,0.0
+City_Fowler,0.0
+City_Four Oaks,0.0
+City_Fountain Valley,0.0
+City_Fountain Inn,0.0
+City_Fountain City,0.0
+City_Fountain,0.0
+City_Fosters,0.0
+City_Foster City,0.0
+City_Foster,0.0
+City_Fossil,0.0
+City_Franklinville,0.0
+City_Franktown,0.0
+City_Foresthill,0.0
+City_Frazee,0.0
+City_Frisco,0.0
+City_Frierson,0.0
+City_Friendswood,0.0
+City_Friedens,0.0
+City_Friant,0.0
+City_Fresno,0.0
+City_Fresh Meadows,0.0
+City_Frenchville,0.0
+City_Frenchtown,0.0
+City_French Settlement,0.0
+City_French Gulch,0.0
+City_French Camp,0.0
+City_Freeport,0.0
+City_Freehold,0.0
+City_Freedom,0.0
+City_Fredonia,0.0
+City_Fredericksburg,0.0
+City_Frederick,0.0
+City_Frederica,0.0
+City_Fraziers Bottom,0.0
+City_Frazier Park,0.0
+City_Fortuna,0.0
+City_Fortson,0.0
+City_Fort Wayne,0.0
+City_Fort Washington,0.0
+City_Fort George G Meade,0.0
+City_Fort Edward,0.0
+City_Fort Dodge,0.0
+City_Fort Collins,0.0
+City_Fort Bridger,0.0
+City_Fort Branch,0.0
+City_Fort Bragg,0.0
+City_Fort Bliss,0.0
+City_Fort Belvoir,0.0
+City_Fort Ann,0.0
+City_Forsyth,0.0
+City_Forrest City,0.0
+City_Forney,0.0
+City_Forksville,0.0
+City_Forks,0.0
+City_Forkland,0.0
+City_Forked River,0.0
+City_Fork Union,0.0
+City_Foristell,0.0
+City_Forestville,0.0
+City_Forestport,0.0
+City_Fort Gratiot,0.0
+City_Fort Jones,0.0
+City_Fort Lawn,0.0
+City_Fort Myers,0.0
+City_Fort Walton Beach,0.0
+City_Fort Valley,0.0
+City_Fort Thomas,0.0
+City_Fort Smith,0.0
+City_Fort Shaw,0.0
+City_Fort Rucker,0.0
+City_Fort Plain,0.0
+City_Fort Pierce,0.0
+City_Fort Myers Beach,0.0
+City_Fort Myer,0.0
+City_Fort Lee,0.0
+City_Fort Morgan,0.0
+City_Fort Montgomery,0.0
+City_Fort Monroe,0.0
+City_Fort Mitchell,0.0
+City_Fort Mill,0.0
+City_Fort Meade,0.0
+City_Fort McDowell,0.0
+City_Fort McCoy,0.0
+City_Fort Mc Coy,0.0
+City_Falling Waters,0.0
+City_Fallentimber,0.0
+City_Fallbrook,0.0
+City_Elkville,0.0
+City_Elkton,0.0
+City_Elkridge,0.0
+City_Elko New Market,0.0
+City_Elko,0.0
+City_Elkmont,0.0
+City_Elkins Park,0.0
+City_Elkhorn,0.0
+City_Elkhart,0.0
+City_Elk River,0.0
+City_Elk Grove Village,0.0
+City_Elk Grove,0.0
+City_Elk Creek,0.0
+City_Elk,0.0
+City_Elizabethtown,0.0
+City_Elizabethport,0.0
+City_Elizabeth,0.0
+City_Eldridge,0.0
+City_Eldred,0.0
+City_Elburn,0.0
+City_Elbridge,0.0
+City_Elbow Lake,0.0
+City_Elkview,0.0
+City_Elkwood,0.0
+City_Fall River Mills,0.0
+City_Ellaville,0.0
+City_Elon,0.0
+City_Elmwood Park,0.0
+City_Elmwood,0.0
+City_Elmsford,0.0
+City_Elmore,0.0
+City_Elmont,0.0
+City_Elmira,0.0
+City_Elmhurst,0.0
+City_Elm Creek,0.0
+City_Elm City,0.0
+City_Ellwood City,0.0
+City_Ellsworth,0.0
+City_Elloree,0.0
+City_Elliston,0.0
+City_Ellington,0.0
+City_Ellijay,0.0
+City_Ellicott City,0.0
+City_Ellenwood,0.0
+City_Ellenton,0.0
+City_Ellendale,0.0
+City_Ellenboro,0.0
+City_Elbe,0.0
+City_Elba,0.0
+City_El Sobrante,0.0
+City_El Segundo,0.0
+City_Edmond,0.0
+City_Edison,0.0
+City_Edinburgh,0.0
+City_Edinburg,0.0
+City_Edinboro,0.0
+City_Edgewood,0.0
+City_Edgewater,0.0
+City_Edgerton,0.0
+City_Edgemoor,0.0
+City_Edgefield,0.0
+City_Edenton,0.0
+City_Eden Prairie,0.0
+City_Eden,0.0
+City_Eddyville,0.0
+City_Eddy,0.0
+City_Eclectic,0.0
+City_Echo Lake,0.0
+City_Echo,0.0
+City_Ebro,0.0
+City_Ebensburg,0.0
+City_Eau Claire,0.0
+City_Edmonds,0.0
+City_Edna,0.0
+City_Edwards,0.0
+City_El Cajon,0.0
+City_El Portal,0.0
+City_El Paso,0.0
+City_El Nido,0.0
+City_El Monte,0.0
+City_El Mirage,0.0
+City_El Dorado Springs,0.0
+City_El Dorado Hills,0.0
+City_El Dorado,0.0
+City_El Cerrito,0.0
+City_Eighty Four,0.0
+City_Edwardsville,0.0
+City_Eight Mile,0.0
+City_Eglin Air Force Base,0.0
+City_Eglin AFB,0.0
+City_Egg Harbor Twp,0.0
+City_Egg Harbor Township,0.0
+City_Egg Harbor City,0.0
+City_Efland,0.0
+City_Effingham,0.0
+City_Effie,0.0
+City_Eloy,0.0
+City_Elrod,0.0
+City_Elsmere,0.0
+City_Ethel,0.0
+City_Exeter,0.0
+City_Exchange,0.0
+City_Excelsior,0.0
+City_Evergreen,0.0
+City_Eveleth,0.0
+City_Evart,0.0
+City_Evansville,0.0
+City_Evanston,0.0
+City_Evansdale,0.0
+City_Evans City,0.0
+City_Evans,0.0
+City_Eutawville,0.0
+City_Eutaw,0.0
+City_Eustis,0.0
+City_Eureka,0.0
+City_Euless,0.0
+City_Eugene,0.0
+City_Eufaula,0.0
+City_Euclid,0.0
+City_Etters,0.0
+City_Etna Green,0.0
+City_Exmore,0.0
+City_Exton,0.0
+City_Eyota,0.0
+City_Fairmount,0.0
+City_Fall River,0.0
+City_Fall Branch,0.0
+City_Falkville,0.0
+City_Faison,0.0
+City_Fairview,0.0
+City_Fairport,0.0
+City_Fairplay,0.0
+City_Fairmount Heights,0.0
+City_Fairmount City,0.0
+City_Fairmont,0.0
+City_Fabens,0.0
+City_Fairland,0.0
+City_Fairfax Station,0.0
+City_Fairfax,0.0
+City_Fairdale,0.0
+City_Fairburn,0.0
+City_Fairborn,0.0
+City_Fair Oaks,0.0
+City_Fair Lawn,0.0
+City_Fair Grove,0.0
+City_Etna,0.0
+City_Estill,0.0
+City_Elverson,0.0
+City_Estero,0.0
+City_Ennis,0.0
+City_Englishtown,0.0
+City_English,0.0
+City_Englewood Cliffs,0.0
+City_Englewood,0.0
+City_Enfield,0.0
+City_Endicott,0.0
+City_Encino,0.0
+City_Encinitas,0.0
+City_Emporia,0.0
+City_Empire,0.0
+City_Emmitsburg,0.0
+City_Emmaus,0.0
+City_Emlenton,0.0
+City_Emigrant Gap,0.0
+City_Emerson,0.0
+City_Emerado,0.0
+City_Elysian,0.0
+City_Elyria,0.0
+City_Ely,0.0
+City_Elverta,0.0
+City_Enola,0.0
+City_Enon,0.0
+City_Enoree,0.0
+City_Escalante,0.0
+City_Estacada,0.0
+City_Essington,0.0
+City_Essex,0.0
+City_Esperance,0.0
+City_Esparto,0.0
+City_Esko,0.0
+City_Eskdale,0.0
+City_Escondido,0.0
+City_Escalon,0.0
+City_Erwinna,0.0
+City_Enterprise,0.0
+City_Erskine,0.0
+City_Errol,0.0
+City_Erlanger,0.0
+City_Erin,0.0
+City_Erie,0.0
+City_Epping,0.0
+City_Ephrata,0.0
+City_Ephraim,0.0
+City_Enumclaw,0.0
+City_Front Royal,0.0
+City_Frostburg,0.0
+City_Fruitland,0.0
+City_Haddam,0.0
+City_Hackensack,0.0
+City_Gypsum,0.0
+City_Gwynn Oak,0.0
+City_Gwynedd,0.0
+City_Guysville,0.0
+City_Guttenberg,0.0
+City_Gustine,0.0
+City_Gurnee,0.0
+City_Gurley,0.0
+City_Gurdon,0.0
+City_Guntersville,0.0
+City_Gunnison,0.0
+City_Gum Spring,0.0
+City_Gulfport,0.0
+City_Gulf Shores,0.0
+City_Gulf Breeze,0.0
+City_Guilford,0.0
+City_Guild,0.0
+City_Guffey,0.0
+City_Guerneville,0.0
+City_Gualala,0.0
+City_Hackettstown,0.0
+City_Haddon Heights,0.0
+City_Gray Court,0.0
+City_Haddon Township,0.0
+City_Hamilton,0.0
+City_Hamer,0.0
+City_Hamden,0.0
+City_Hamburg,0.0
+City_Haltom City,0.0
+City_Halsey,0.0
+City_Hallwood,0.0
+City_Hallsville,0.0
+City_Hallstead,0.0
+City_Hallandale Beach,0.0
+City_Hallandale,0.0
+City_Halifax,0.0
+City_Halfmoon,0.0
+City_Half Moon Bay,0.0
+City_Halethorpe,0.0
+City_Hainesport,0.0
+City_Haines City,0.0
+City_Haines,0.0
+City_Hague,0.0
+City_Hagerstown,0.0
+City_Haddonfield,0.0
+City_Guadalupe,0.0
+City_Gruver,0.0
+City_Grover,0.0
+City_Groveport,0.0
+City_Greenfield,0.0
+City_Greeneville,0.0
+City_Greencastle,0.0
+City_Greenbrier,0.0
+City_Greenbrae,0.0
+City_Greenbelt,0.0
+City_Greenbank,0.0
+City_Greenacres,0.0
+City_Green Valley Lake,0.0
+City_Green Spring,0.0
+City_Green Sea,0.0
+City_Green River,0.0
+City_Green Pond,0.0
+City_Green Lane,0.0
+City_Green Cove Springs,0.0
+City_Green Brook,0.0
+City_Green Bay,0.0
+City_Greeleyville,0.0
+City_Great Neck,0.0
+City_Great Falls,0.0
+City_Graysville,0.0
+City_Greenlawn,0.0
+City_Greens Fork,0.0
+City_Greensboro,0.0
+City_Gridley,0.0
+City_Groveland,0.0
+City_Grove City,0.0
+City_Groton,0.0
+City_Grosse Tete,0.0
+City_Grinnell,0.0
+City_Grimesland,0.0
+City_Grimes,0.0
+City_Grifton,0.0
+City_Griffin,0.0
+City_Greycliff,0.0
+City_Greensburg,0.0
+City_Gretna,0.0
+City_Gresham,0.0
+City_Grenora,0.0
+City_Grenada,0.0
+City_Greenwood,0.0
+City_Greenwich,0.0
+City_Greenwell Springs,0.0
+City_Greenup,0.0
+City_Greentown,0.0
+City_Hamilton City,0.0
+City_Hamlet,0.0
+City_Hamlin,0.0
+City_Harwich,0.0
+City_Havre de Grace,0.0
+City_Havre De Grace,0.0
+City_Havre,0.0
+City_Havertown,0.0
+City_Haverhill,0.0
+City_Haverford,0.0
+City_Havana,0.0
+City_Hauppauge,0.0
+City_Haugan,0.0
+City_Hattiesburg,0.0
+City_Hatfield,0.0
+City_Hatch,0.0
+City_Hatboro,0.0
+City_Hat Creek,0.0
+City_Hastings-on-Hudson,0.0
+City_Hastings on Hudson,0.0
+City_Hastings,0.0
+City_Haslett,0.0
+City_Haslet,0.0
+City_Hasbrouck Heights,0.0
+City_Harwood,0.0
+City_Hawaiian Gardens,0.0
+City_Hawick,0.0
+City_Hawk Run,0.0
+City_Hazel Crest,0.0
+City_Healdsburg,0.0
+City_Headland,0.0
+City_Hazleton,0.0
+City_Hazlet,0.0
+City_Hazlehurst,0.0
+City_Hazen,0.0
+City_Hazelwood,0.0
+City_Hazel Park,0.0
+City_Hazel Green,0.0
+City_Hays,0.0
+City_Hawkinsville,0.0
+City_Hayneville,0.0
+City_Haymarket,0.0
+City_Hayfork,0.0
+City_Hayesville,0.0
+City_Hayes,0.0
+City_Hayden,0.0
+City_Hawthorne,0.0
+City_Hawthorn Woods,0.0
+City_Hawley,0.0
+City_Harwinton,0.0
+City_Harvey,0.0
+City_Hammett,0.0
+City_Harvest,0.0
+City_Harbor City,0.0
+City_Happy Valley,0.0
+City_Happy Camp,0.0
+City_Hanson,0.0
+City_Hanover Park,0.0
+City_Hanover,0.0
+City_Hannaford,0.0
+City_Hannacroix,0.0
+City_Hanna,0.0
+City_Hanford,0.0
+City_Hancock,0.0
+City_Hanceville,0.0
+City_Hamtramck,0.0
+City_Hamshire,0.0
+City_Hampton Bays,0.0
+City_Hampton,0.0
+City_Hampstead,0.0
+City_Hampshire,0.0
+City_Hampden,0.0
+City_Hammonton,0.0
+City_Hammond,0.0
+City_Harborcreek,0.0
+City_Hardeeville,0.0
+City_Hardin,0.0
+City_Harrisonburg,0.0
+City_Harvard,0.0
+City_Hartsville,0.0
+City_Hartselle,0.0
+City_Hartsdale,0.0
+City_Hartman,0.0
+City_Hartly,0.0
+City_Hartleton,0.0
+City_Harrisville,0.0
+City_Harrisonville,0.0
+City_Harrison Township,0.0
+City_Hardy,0.0
+City_Harrison,0.0
+City_Harris,0.0
+City_Harriman,0.0
+City_Harper Woods,0.0
+City_Harper,0.0
+City_Harmony,0.0
+City_Harleyville,0.0
+City_Harleysville,0.0
+City_Harlem,0.0
+City_Grayslake,0.0
+City_Gray,0.0
+City_Fruitland Park,0.0
+City_Gila Bend,0.0
+City_Gibsonton,0.0
+City_Gibsonia,0.0
+City_Gibson,0.0
+City_Gibsland,0.0
+City_Gibbstown,0.0
+City_Ghent,0.0
+City_Geyserville,0.0
+City_Gettysburg,0.0
+City_Gervais,0.0
+City_Germantown,0.0
+City_Gerber,0.0
+City_Georgiana,0.0
+City_Georgetown,0.0
+City_Geneva,0.0
+City_Genesee,0.0
+City_Geismar,0.0
+City_Gaylord,0.0
+City_Gautier,0.0
+City_Gates,0.0
+City_Gate City,0.0
+City_Gastonia,0.0
+City_Gig Harbor,0.0
+City_Gilbert,0.0
+City_Grassy Butte,0.0
+City_Gilberts,0.0
+City_Glen Ellen,0.0
+City_Glen Carbon,0.0
+City_Glen Burnie,0.0
+City_Glen Arm,0.0
+City_Glen Allen,0.0
+City_Glastonbury,0.0
+City_Glassboro,0.0
+City_Glasgow,0.0
+City_Gladys,0.0
+City_Gladwyne,0.0
+City_Gladstone,0.0
+City_Glade Valley,0.0
+City_Glade Spring,0.0
+City_Girard,0.0
+City_Gilroy,0.0
+City_Gilmore,0.0
+City_Gilman,0.0
+City_Gillham,0.0
+City_Gillett,0.0
+City_Gilchrist,0.0
+City_Gilbertsville,0.0
+City_Gaston,0.0
+City_Gasquet,0.0
+City_Garysburg,0.0
+City_Gary,0.0
+City_Gallatin Gateway,0.0
+City_Gallatin,0.0
+City_Gallagher,0.0
+City_Galivants Ferry,0.0
+City_Galion,0.0
+City_Galesburg,0.0
+City_Gales Creek,0.0
+City_Galena,0.0
+City_Gaithersburg,0.0
+City_Gainesville,0.0
+City_Gaines,0.0
+City_Gaffney,0.0
+City_Gadsden,0.0
+City_Gable,0.0
+City_Fuquay-Varina,0.0
+City_Fuquay Varina,0.0
+City_Fultonville,0.0
+City_Fultondale,0.0
+City_Fulton,0.0
+City_Fulda,0.0
+City_Ft Mitchell,0.0
+City_Gallitzin,0.0
+City_Gallup,0.0
+City_Galt,0.0
+City_Gardiner,0.0
+City_Garvin,0.0
+City_Garrison,0.0
+City_Garnet Valley,0.0
+City_Garner,0.0
+City_Garland,0.0
+City_Garibaldi,0.0
+City_Gardnerville,0.0
+City_Gardners,0.0
+City_Gardner,0.0
+City_Gardendale,0.0
+City_Galveston,0.0
+City_Gardena,0.0
+City_Garden Valley,0.0
+City_Garden Prairie,0.0
+City_Garden City,0.0
+City_Garberville,0.0
+City_Gap,0.0
+City_Gansevoort,0.0
+City_Ganado,0.0
+City_Gambrills,0.0
+City_Glen Ellyn,0.0
+City_Glen Head,0.0
+City_Glen Mills,0.0
+City_Goose Creek,0.0
+City_Grand Marais,0.0
+City_Grand Island,0.0
+City_Grand Haven,0.0
+City_Grand Blanc,0.0
+City_Grand Bay,0.0
+City_Granby,0.0
+City_Granbury,0.0
+City_Granada Hills,0.0
+City_Granada,0.0
+City_Grain Valley,0.0
+City_Graham,0.0
+City_Grady,0.0
+City_Graceville,0.0
+City_Government Camp,0.0
+City_Gouldsboro,0.0
+City_Gotha,0.0
+City_Goshen,0.0
+City_Gorham,0.0
+City_Goreville,0.0
+City_Gordonville,0.0
+City_Gordonsville,0.0
+City_Grand Meadow,0.0
+City_Grand Ridge,0.0
+City_Grand Ronde,0.0
+City_Grants,0.0
+City_Grassflat,0.0
+City_Grass Valley,0.0
+City_Grass Lake,0.0
+City_Grasonville,0.0
+City_Grapevine,0.0
+City_Granville,0.0
+City_Grantville,0.0
+City_Grantsville,0.0
+City_Grants Pass,0.0
+City_Grant,0.0
+City_Grand Terrace,0.0
+City_Graniteville,0.0
+City_Granite Falls,0.0
+City_Granite City,0.0
+City_Granite Canon,0.0
+City_Granite Bay,0.0
+City_Granger,0.0
+City_Grandville,0.0
+City_Grandview,0.0
+City_Grandin,0.0
+City_Gordo,0.0
+City_Goodyear,0.0
+City_Glen Rock,0.0
+City_Goodrich,0.0
+City_Glorieta,0.0
+City_Globe,0.0
+City_Glide,0.0
+City_Glenwood Springs,0.0
+City_Glenwood,0.0
+City_Glenville,0.0
+City_Glenview,0.0
+City_Glenside,0.0
+City_Glenshaw,0.0
+City_Glenns Ferry,0.0
+City_Glenmoore,0.0
+City_Glenmont,0.0
+City_Glenhaven,0.0
+City_Gleneden Beach,0.0
+City_Glendive,0.0
+City_Glendale Heights,0.0
+City_Glendale,0.0
+City_Glencoe,0.0
+City_Glenbrook,0.0
+City_Glen St Mary,0.0
+City_Glen Saint Mary,0.0
+City_Gloucester,0.0
+City_Gloucester City,0.0
+City_Gloversville,0.0
+City_Goldendale,0.0
+City_Goodlettsville,0.0
+City_Goodhue,0.0
+City_Goodfield,0.0
+City_Good Thunder,0.0
+City_Goochland,0.0
+City_Gonzales,0.0
+City_Goleta,0.0
+City_Goldsboro,0.0
+City_Goldens Bridge,0.0
+City_Golden Valley,0.0
+City_Gloverville,0.0
+City_Golden,0.0
+City_Gold Hill,0.0
+City_Gold Creek,0.0
+City_Gold Canyon,0.0
+City_Gold Beach,0.0
+City_Gold Bar,0.0
+City_Golconda,0.0
+City_Godwin,0.0
+City_Glyndon,0.0
+Turning_Loop,0.0

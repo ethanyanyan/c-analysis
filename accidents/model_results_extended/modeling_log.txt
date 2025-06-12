@@ -1,0 +1,64 @@
+2025-06-01 18:20:04,406 — INFO — Loading data from 'US_Accidents_sample.csv'...
+2025-06-01 18:20:08,458 — INFO — DataFrame shape: (500000, 46)
+2025-06-01 18:20:08,458 — INFO — Performing EDA charts...
+2025-06-01 18:20:09,089 — INFO — Saved Hour-of-Day chart: model_results_extended/figures/eda_hour_of_day.png
+2025-06-01 18:20:09,266 — INFO — Saved Day-of-Week chart: model_results_extended/figures/eda_day_of_week.png
+2025-06-01 18:20:09,437 — INFO — Saved Monthly Trends chart: model_results_extended/figures/eda_monthly_trend.png
+2025-06-01 18:20:09,437 — INFO — Starting feature engineering...
+2025-06-01 18:20:10,618 — INFO — Engineered features. Feature matrix shape: (500000, 30)
+2025-06-01 18:20:10,726 — INFO — Splitting data: test_size=0.2
+2025-06-01 18:20:11,014 — INFO —   X_train full: (400000, 30), y_train full: (400000,)
+2025-06-01 18:20:11,014 — INFO —   X_test:       (100000, 30), y_test:      (100000,)
+2025-06-01 18:20:11,081 — INFO —   Sampled X_train: (200000, 30), y_train_s: (200000,)
+2025-06-01 18:20:11,099 — INFO — Building design matrix for statsmodels (n=10000)...
+2025-06-01 18:20:11,111 — INFO — Fitting statsmodels Logit for p-values...
+2025-06-01 18:20:11,166 — INFO — Saved logistic regression coefficients and p-values to: model_results_extended/logit_coefficients_pvalues.csv
+2025-06-01 18:20:11,287 — INFO — Saved significant coefficients plot: model_results_extended/figures/stat_sig_coefficients.png
+2025-06-01 18:20:11,288 — INFO — Training scikit-learn Logistic Regression (C=1.0, balanced)...
+2025-06-01 18:20:49,511 — INFO — Logistic Regression training time: 0:00:38.222768
+2025-06-01 18:20:49,513 — INFO — Evaluating model: LogisticRegression
+2025-06-01 18:20:58,718 — INFO — LogisticRegression Test AUC-ROC: 0.7748
+2025-06-01 18:20:58,718 — INFO — LogisticRegression Test Precision: 0.3604
+2025-06-01 18:20:58,718 — INFO — LogisticRegression Test Recall: 0.7300
+2025-06-01 18:20:58,718 — INFO — LogisticRegression Test F1-score: 0.4826
+2025-06-01 18:20:58,718 — INFO — LogisticRegression Test Brier Score: 0.1934
+2025-06-01 18:20:58,744 — INFO — LogisticRegression Classification Report:
+              precision    recall  f1-score   support
+
+ LowSeverity       0.91      0.69      0.78     80483
+HighSeverity       0.36      0.73      0.48     19517
+
+    accuracy                           0.69    100000
+   macro avg       0.64      0.71      0.63    100000
+weighted avg       0.81      0.69      0.72    100000
+
+2025-06-01 18:20:58,888 — INFO — Saved LogisticRegression ROC curve: model_results_extended/figures/LogisticRegression_roc.png
+2025-06-01 18:20:59,006 — INFO — Saved LogisticRegression PR curve: model_results_extended/figures/LogisticRegression_prc.png
+2025-06-01 18:20:59,093 — INFO — Saved LogisticRegression Calibration curve: model_results_extended/figures/LogisticRegression_calibration.png
+2025-06-01 18:20:59,102 — INFO — Saved Logistic Regression pipeline.
+2025-06-01 18:20:59,102 — INFO — Training XGBoost (n_estimators=150, max_depth=6, learning_rate=0.1)...
+2025-06-01 18:26:33,446 — INFO — XGBoost training time: 0:05:34.341611
+2025-06-01 18:26:33,449 — INFO — Evaluating model: XGBoost
+2025-06-01 18:26:40,214 — INFO — XGBoost Test AUC-ROC: 0.8070
+2025-06-01 18:26:40,215 — INFO — XGBoost Test Precision: 0.6804
+2025-06-01 18:26:40,215 — INFO — XGBoost Test Recall: 0.1585
+2025-06-01 18:26:40,215 — INFO — XGBoost Test F1-score: 0.2571
+2025-06-01 18:26:40,215 — INFO — XGBoost Test Brier Score: 0.1255
+2025-06-01 18:26:40,238 — INFO — XGBoost Classification Report:
+              precision    recall  f1-score   support
+
+ LowSeverity       0.83      0.98      0.90     80483
+HighSeverity       0.68      0.16      0.26     19517
+
+    accuracy                           0.82    100000
+   macro avg       0.75      0.57      0.58    100000
+weighted avg       0.80      0.82      0.77    100000
+
+2025-06-01 18:26:40,430 — INFO — Saved XGBoost ROC curve: model_results_extended/figures/XGBoost_roc.png
+2025-06-01 18:26:40,549 — INFO — Saved XGBoost PR curve: model_results_extended/figures/XGBoost_prc.png
+2025-06-01 18:26:40,636 — INFO — Saved XGBoost Calibration curve: model_results_extended/figures/XGBoost_calibration.png
+2025-06-01 18:26:40,646 — INFO — Saved XGBoost pipeline.
+2025-06-01 18:26:40,646 — INFO — Extracting XGBoost feature importances...
+2025-06-01 18:26:40,677 — INFO — Saved XGBoost feature importances to: model_results_extended/xgb_feature_importances.csv
+2025-06-01 18:26:40,810 — INFO — Saved XGBoost top 20 importances: model_results_extended/figures/xgb_top20_importances.png
+2025-06-01 18:26:40,811 — INFO — Extended modeling pipeline complete. All artifacts saved.
